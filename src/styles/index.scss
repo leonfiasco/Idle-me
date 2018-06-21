@@ -1,0 +1,40 @@
+// @import 'custom_bootstrap';
+
+// @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+.navbar.navbar-expand-lg.navbar-light.bg-dark.sticky-top {
+  padding: 100px;
+  font-family: sans-serif;
+
+}
+
+.box-model {
+  background-color: #b92255;
+  width: 100%;
+  border:80px 25px 80px 25px solid #b92255;
+  padding: 25px 25px 160px 25px;
+  margin: 65px 0 65px 0;
+}
+
+.vl {
+  border-left: thick solid white;
+  height: 200px;
+}
+
+p {
+  padding-left: 129px;
+}
+
+.dots {
+  color: #b92255;
+}
+
+.circle {
+height: 150px;
+width: 150px;
+background-color: #fff;
+border-radius: 50%;
+display: inline-block;
+margin-left: 13px;
+}

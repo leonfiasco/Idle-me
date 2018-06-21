@@ -25,6 +25,7 @@ class App extends Component {
           <br></br>
           <p>A taster of what we get up to<span className="dots">...</span></p>
           <Main />
+          <p>See <u>more</u></p>
           <Company />
         </main>
       </Router>

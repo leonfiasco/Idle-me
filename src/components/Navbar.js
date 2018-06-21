@@ -10,8 +10,8 @@ class Navbar extends React.Component {
         <a className="navbar-brand text-white align-baseline" href="#"><span className="font-weight-bold">ON-</span>IDLE</a>
         <div className="vl">
           <p className="text-white">We are ar creative digital and print agency -
-          experts in branding, graphic design, print, website development & building powerful
-          web applications.
+          experts in <span className="line">branding</span>, <span className="line">graphic design</span>, <span className="line">print</span>, <span className="line">website development</span> & building powerful
+           <span className="line"> web applications</span>.
           </p>
         </div>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,6 +25,7 @@ class Navbar extends React.Component {
             <a className="nav-item nav-link text-white"  href="#">CONTACT</a>
           </div>
         </div>
+        <p className="text-white">Get in touch</p>
       </nav>
 
     );

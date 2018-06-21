@@ -35,6 +35,9 @@ u {
   text-decoration: none;
   border-bottom: 5px solid #b92255; }
 
+.line {
+  text-decoration: underline; }
+
 .circle {
   height: 150px;
   width: 150px;

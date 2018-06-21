@@ -23,10 +23,11 @@ class App extends Component {
         <main>
           {/* <Navbar /> */}
           <br></br>
-          <p>A taster of what we get up to<span className="dots">...</span></p>
+          <p className="taster">A taster of what we get up to<span className="dots">...</span></p>
           <Main />
-          <p>See <u>more</u></p>
+          <p className="more">See <u>more</u></p>
           <Company />
+          <p className="shout">What we shout about<span className="dots">...</span></p>
         </main>
       </Router>
     );

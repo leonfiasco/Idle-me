@@ -10,7 +10,7 @@ class Navbar extends React.Component {
         <a className="navbar-brand text-white align-baseline" href="#"><span className="font-weight-bold">ON-</span>IDLE</a>
         <div className="vl">
           <p className="text-white">We are ar creative digital and print agency -
-          perts in branding, graphic design, print, website development & building powerful
+          experts in branding, graphic design, print, website development & building powerful
           web applications.
           </p>
         </div>

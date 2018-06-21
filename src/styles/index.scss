@@ -4,7 +4,7 @@
 
 
 .navbar.navbar-expand-lg.navbar-light.bg-dark.sticky-top {
-  padding: 100px;
+  padding: 19px 100px 35px 100px;
   font-family: sans-serif;
 
 }
@@ -22,15 +22,27 @@
   height: 200px;
 }
 
-p {
+.more {
   padding-right: 181px;
   margin-top: 28px;
   text-align: right;
+}
 
+.taster {
+  margin-left: 130px;
 }
 
 .dots {
   color: #b92255;
+}
+
+.txt {
+ margin-right: 823px;
+}
+
+.col-9 {
+  margin: 85px 0 0 85px;
+  position: absolute;
 }
 
 u {

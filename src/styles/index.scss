@@ -1,12 +1,16 @@
 // @import 'custom_bootstrap';
 
-// @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 
 .navbar.navbar-expand-lg.navbar-light.bg-dark.sticky-top {
-  padding: 19px 100px 35px 100px;
+  padding: 19px 25px 35px 100px;
   font-family: sans-serif;
 
+}
+
+.icon-box {
+  padding-left: 718px;
 }
 
 .box-model {
@@ -19,7 +23,7 @@
 
 .vl {
   border-left: thick solid white;
-  height: 200px;
+  height: 35px;
 }
 
 .more {

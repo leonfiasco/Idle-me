@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'font-awesome/css/font-awesome.min.css';
+// import 'font-awesome/css/font-awesome.min.css';
 
 
 
@@ -14,7 +14,10 @@ import Navbar from './components/Navbar';
 import Main from './components/Main';
 import Company from './components/Company';
 
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+// library.add(facebook)
 
 class App extends Component {
   render() {
@@ -28,6 +31,7 @@ class App extends Component {
           <p className="more">See <u>more</u></p>
           <Company />
           <p className="shout">What we shout about<span className="dots">...</span></p>
+          <FontAwesomeIcon icon="stroopwafel" />
         </main>
       </Router>
     );

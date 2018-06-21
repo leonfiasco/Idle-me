@@ -7,8 +7,8 @@ class Company extends React.Component {
         <div class="container">
           <div class="row align-items-center">
             <div class="col">
+              <p className="txt text-white">Some businesses we've switched on<span className="dots1">...</span></p>
             </div>
-            <p className="txt text-white">Some businesses we've switched on<span className="dots1">...</span></p>
               <div class="col-9">
                 <span className="circle"></span>
                 <span className="circle"></span>

@@ -6338,6 +6338,17 @@ u {
   margin-bottom: 24px;
   margin-left: 128px; }
 
+.comp-logo {
+  height: 100px;
+  width: 100px;
+  margin: 25px;
+  filter: gray;
+  -webkit-filter: grayscale(100%); }
+
+.comp-logo:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%); }
+
 .footer.navbar-inverse.navbar-bottom.bg-dark {
   position: fixed; }
 

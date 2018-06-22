@@ -1,22 +1,23 @@
-<div className="container">
-  <div className="row">
-    <div className="d-flex justify-content-center" id="img1">
-      <img src="https://photos-6.dropbox.com/t/2/AACoW9_1WD6wtJKk2BCusH5SLkjz2S31H1TAMQVqzo_mtA/12/95049/jpeg/32x32/3/1529514000/0/2/migros-placeholder.jpg/EJnTJhiO_bfOBCACKAI/SQ8xwpfDLhurRi_BUxHF6C7N0Vll5eOl2TI29ihRzuc?dl=0&size=1280x960&size_mode=3"></img>
-    </div>
-    <div className="d-flex justify-content-center">
-      <div className="col">
-        <img src="https://photos-6.dropbox.com/t/2/AAB3RYspU8DLqDpiKpBbb0g-12c7wPvwti-B1t48mbpmdA/12/95049/jpeg/32x32/3/1529514000/0/2/four-corners-cover-image-3.jpg/EJnTJhiO_bfOBCACKAI/vgnCR43ek_HMjrE3Xy6nozeIXOnGFP5eC7ZHumqMK2s?dl=0&size=1280x960&size_mode=3"></img>
-      </div>
-      <div className="col">
-        <img src="https://photos-3.dropbox.com/t/2/AABf5VTDStts-iljhm3iVAwrHWj8n_a5YfS3IizrSxZnFw/12/95049/jpeg/32x32/3/1529514000/0/2/park-grove-placeholder.jpg/EJnTJhiO_bfOBCACKAI/Myn4SRccv3461u2etwRZ4aJHW4AS4-yh9wr_izsev5Q?dl=0&size=1280x960&size_mode=3"></img>
-      </div>
-      <div className="col">
-        <img src="https://photos-4.dropbox.com/t/2/AABUxcyshvMkrZfznAhf8zfco49HQzsfg0nGNp6M4bbr2Q/12/95049/jpeg/32x32/3/1529514000/0/2/harry-fisher-cover-image-5.jpg/EJnTJhiO_bfOBCACKAI/vKXdA0LCGzImwS5YbRIVLZhCa6dzF79HwnvXiF_JEls?dl=0&size=1280x960&size_mode=3"></img>
-      </div>
-    </div>
-  </div>
+<nav className="footer navbar-inverse navbar-bottom bg-dark">
+<div className="container-fluid">
+<div className="navbar-header">
+  <p className="logo-txt text-white text-center">
+    Not swithced on yet?
+  </p>
+  <p className="text-white text-center">
+    Get in touch with on-IDLE HQ
+  </p>
+  <img className="on-logo .img-responsive mx-auto d-block" alt=""  src="https://dl.dropboxusercontent.com/content_link/Uodk5baWZUsqXsy3EzqqcxD68mfTBG9PxN67Bd6umhp7nKJo3eNdtVe73AF5qRkc/file?dl=0&duc_id=fnMv2aziFCc2TXKGo7YsaD1vueOjQc0B7zKCtt18GN87iIBmKoHsJPhkU23Gw6XF&raw=1&size=800x600&size_mode=3"></img>
+  {/* <a className="navbar-brand" href=""></a> */}
 </div>
-
+<ul className="nav navbar-nav">
+</ul>
+<hr className="hr-line bg-white"></hr>
+<div className="copyright-txt">
+<footer className="footer-txt text-white">© 2018 on-IDLE Ltd.</footer>
+</div>
+</div>
+</nav>
 
 
 /* background colour fro the navbar

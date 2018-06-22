@@ -10,11 +10,11 @@ class Company extends React.Component {
               <p className="txt text-white">Some businesses we've switched on<span className="dots1">...</span></p>
             </div>
               <div class="col-9">
-                <span className="circle"></span>
-                <span className="circle"></span>
-                <span className="circle"></span>
-                <span className="circle"></span>
-                <span className="circle"></span>
+                <div className="circle"></div>
+                <div className="circle"></div>
+                <div className="circle"></div>
+                <div className="circle"></div>
+                <div className="circle"></div>
               </div>
 
               <div class="col">

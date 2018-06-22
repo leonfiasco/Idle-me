@@ -6311,8 +6311,10 @@ a.text-dark:hover, a.text-dark:focus {
 .dots {
   color: #b92255; }
 
-.txt {
-  margin-right: 823px; }
+@media (min-width: 576px) {
+  .txt {
+    margin-right: 823px;
+    font-size: 1.4rem; } }
 
 .col-9 {
   margin: 85px 0 0 85px;
@@ -6337,4 +6339,19 @@ u {
   margin-bottom: 213px; }
 
 .footer.navbar-inverse.navbar-bottom.bg-dark {
-  padding-bottom: 200px; }
+  background-color: red; }
+
+.logo-txt {
+  padding-top: 45px; }
+
+.on-logo {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 90px; }
+
+.footer-txt {
+  font-size: 8px;
+  margin-bottom: 10px; }
+
+.hr-line {
+  margin-bottom: 5px; }

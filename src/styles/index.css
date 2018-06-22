@@ -6287,13 +6287,13 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: sans-serif; }
 
 .icon-box {
-  padding-left: 718px; }
+  padding-left: 809px; }
 
 .box-model {
   background-color: #b92255;
   width: 100%;
   border: 80px 25px 80px 25px solid #b92255;
-  padding: 25px 25px 160px 25px;
+  padding: 65px 25px 215px 25px;
   margin: 135px 0 65px 0; }
 
 .vl {
@@ -6311,14 +6311,13 @@ a.text-dark:hover, a.text-dark:focus {
 .dots {
   color: #b92255; }
 
-@media (min-width: 576px) {
-  .txt {
-    margin-right: 823px;
-    font-size: 1.4rem; } }
+.txt {
+  margin-right: 823px; }
 
-.col-9 {
-  margin: 85px 0 0 85px;
-  position: absolute; }
+.row-9 {
+  margin: 85px 140px 0 140px;
+  position: absolute;
+  display: flex; }
 
 u {
   text-decoration: none;
@@ -6336,10 +6335,11 @@ u {
   margin-left: 13px; }
 
 .shout {
-  margin-bottom: 213px; }
+  margin-bottom: 24px;
+  margin-left: 128px; }
 
 .footer.navbar-inverse.navbar-bottom.bg-dark {
-  background-color: red; }
+  position: fixed; }
 
 .logo-txt {
   padding-top: 45px; }
@@ -6349,9 +6349,12 @@ u {
   width: 100px;
   margin-bottom: 90px; }
 
+.copyright-txt {
+  padding-bottom: 40px; }
+
 .footer-txt {
   font-size: 8px;
-  margin-bottom: 10px; }
+  padding-bottom: 40px; }
 
 .hr-line {
   margin-bottom: 5px; }

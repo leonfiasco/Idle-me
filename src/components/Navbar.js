@@ -9,7 +9,7 @@ class Navbar extends React.Component {
     return (
 
       <nav className="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
-      <img className="idle-logo .img-responsive mx-auto d-block" alt="" src="https://dl.dropboxusercontent.com/content_link/9BvL6QfLi2HbK7KKAr9d70QBtOyc6b6wRZVIrIVLW1h5ePKSjmCL3dmCKNKr5Tn6/file?dl=0&duc_id=yORe94gXx1rWRSzXBQYDvArUUqmH9WKewCG1IbH3S2enTNih2pPW1r28OzLOJND1&raw=1&size=1280x960&size_mode=3"></img>
+        <a className="navbar-brand text-white align-baseline" href="">ON-IDLE</a>
         <div className="icon d-flex flex-row bd-higlight mb-3 text-right">
           <div className="icon-box d-flex flex-row bd-highlight">
         <a className="nav-item nav-link text-white p-2 bd-highlight" href="">ABOUT</a>

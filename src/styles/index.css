@@ -6287,7 +6287,11 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: sans-serif; }
 
 .icon-box {
-  padding-left: 809px; }
+  padding-left: 520px; }
+
+.idle-logo {
+  height: 67px;
+  width: 283px; }
 
 .box-model {
   background-color: #b92255;
@@ -6359,6 +6363,10 @@ u {
   height: 100px;
   width: 100px;
   margin-bottom: 90px; }
+
+.img-fluid1 {
+  height: 188px;
+  width: 255px; }
 
 .copyright-txt {
   padding-bottom: 40px; }

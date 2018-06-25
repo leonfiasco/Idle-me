@@ -4,30 +4,30 @@ class Company extends React.Component {
   render() {
     return (
       <div className="box-model">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="row">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="row">
               <p className="txt text-white">Some businesses we've switched on<span className="dots1">...</span></p>
             </div>
-              <div class="row-9">
+              <div className="row-9">
                 <div className="circle">
-                  <img className="comp-logo" src="https://dl.dropboxusercontent.com/content_link/2pAoeTySOlTtK9Jv0e1ahfMzFTENdTXMjyu1VxBw7WN9Tf0ofZwIAhgOkaezZFyW/file?dl=0&duc_id=P4vcQWBEyWstxBKytY5BQKvGpLCjI96pYeto07DOjW97JfqzNk4F8owe6uzyX7M9&raw=1&size=1280x960&size_mode=3"></img>
+                  <img className="comp-logo" alt="virgin-media" href="" src="https://www.dropbox.com/pri/get/virgin-media.svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AAAZOuXEzAVKRx0Anvk1pWO7_KnEmXFf_O14OswbyYP4xg"></img>
                 </div>
                 <div className="circle">
-                  <img className="comp-logo" src="https://dl.dropboxusercontent.com/content_link/W6aC0636OZTbkjYqOT14zHEi6weZmV4hwC4yEfvNyvAVLiRoiI0A266CfQ3K4G7H/file?dl=0&duc_id=DdEnUCQWe1Vf3iRXXyl3UoZ3k8qRSUuuY1iY7D7KEhAwo4fUp0H6nihDkT3le89d&raw=1&size=1280x960&size_mode=3"></img>
+                  <img className="comp-logo" alt="four-corners" href="" src="https://www.dropbox.com/pri/get/four-corners-logo.svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AADk1nuaQxvr4LvJXxHZFH1JJ3X88eW5BK0fm6jdjs5Ogw"></img>
                 </div>
                 <div className="circle">
-                  <img className="comp-logo" src="https://dl.dropboxusercontent.com/content_link/oXDzk2599ITkBLUUrSkq7GnbCjG17Iq9JAKU8IO9t3PybpVM0LnReRxtCKrSAEHg/file?dl=0&duc_id=HSa3o4p6tz3kjIBjCUJnpcVI4WCm99dVHfABLTXx5vaOZgxzMKi2xE9u7wQGj5dF&raw=1&size=1280x960&size_mode=3"></img>
+                  <img className="comp-logo" alt="american-express" href="" src="https://www.dropbox.com/pri/get/American_Express_logo_(2018).svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AAA-BchksIKEGcviu2NjUMhVuS5Gi0vD4ve0IhsGLYL60Q"></img>
                 </div>
                 <div className="circle">
-                  <img className="comp-logo" src="https://dl.dropboxusercontent.com/content_link/BSosbinDaMc9A1GWptkZxx2X92pweYzK0DUeTVVWoSBXBeNUg7YzlwdAPJOMP87w/file?dl=0&duc_id=rCaX3VuXqrXOXX4Q6i683z0nCvikx0iFxbxoqVnSmkQNhAwuib5VyKKtmXQnQhnk&raw=1&size=1280x960&size_mode=3"></img>
+                  <img className="comp-logo" alt="foundry" href="" src="https://www.dropbox.com/pri/get/the-foundry-logo.svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AACi_0toDykxkKSMNrEf4GbG-X-jBXThICvcwX8e5LqbCQ"></img>
                 </div>
                 <div className="circle">
-                  <img className="comp-logo" src="https://dl.dropboxusercontent.com/content_link/17SFSELFZqFaLXDsfWLzc4T4NSAbCHvPNBBcPv2G9IBnqhTbvdFUUgayWlL1QMzv/file?dl=0&duc_id=gS4h7hGxTghx1FuzJI7nrXsp6mHe8bH07GiLxn4TMBkQHRQ1WQ5S2beRawJefVZn&raw=1&size=1280x960&size_mode=3"></img>
+                  <img className="comp-logo" alt="twin-smile" href="" src="https://www.dropbox.com/pri/get/TwinSmile-Logo-B2B.svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AABk2AJ_2x8-A4HaFaubkR_QzfKLVcl908TOnFoU3ufLPg"></img>
                 </div>
               </div>
 
-              <div class="row">
+              <div className="row">
               </div>
           </div>
           </div>

@@ -3,9 +3,15 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 
-.navbar.navbar-expand-lg.navbar-light.bg-dark.sticky-top {
-  padding: 19px 25px 35px 100px;
+.navbar.navbar-expand-lg.navbar-light.bg-dark {
+  padding: 19px 25px 30px 100px;
   font-family: sans-serif;
+  width: 100%;
+//
+// .navbar.navbar-expand-lg.navbar-light.bg-dark.sticky-top {
+//   padding: 19px 25px 30px 100px;
+//   font-family: sans-serif;
+//   width: 100%;
 
 }
 
@@ -15,7 +21,7 @@
 
 .idle-logo {
       height: 67px;
-      width: 283px;
+      width: 157px;
 
 }
 
@@ -29,7 +35,12 @@
 
 .vl {
   border-left: thick solid white;
-  height: 35px;
+  height: 250px;
+  margin-left: 90px;
+}
+
+.nav-text {
+  padding-left: 50px;
 }
 
 .more {
@@ -169,4 +180,5 @@ padding-bottom: 40px;
 
 .hr-line {
 margin-top: 150px;
+
 }

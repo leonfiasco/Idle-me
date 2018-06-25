@@ -6282,16 +6282,17 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-.navbar.navbar-expand-lg.navbar-light.bg-dark.sticky-top {
-  padding: 19px 25px 35px 100px;
-  font-family: sans-serif; }
+.navbar.navbar-expand-lg.navbar-light.bg-dark {
+  padding: 19px 25px 30px 100px;
+  font-family: sans-serif;
+  width: 100%; }
 
 .icon-box {
   padding-left: 520px; }
 
 .idle-logo {
   height: 67px;
-  width: 283px; }
+  width: 157px; }
 
 .box-model {
   background-color: #b92255;
@@ -6302,7 +6303,11 @@ a.text-dark:hover, a.text-dark:focus {
 
 .vl {
   border-left: thick solid white;
-  height: 35px; }
+  height: 250px;
+  margin-left: 90px; }
+
+.nav-text {
+  padding-left: 50px; }
 
 .more {
   padding-right: 125px;

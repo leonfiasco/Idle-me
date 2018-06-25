@@ -6305,12 +6305,18 @@ a.text-dark:hover, a.text-dark:focus {
   height: 35px; }
 
 .more {
+  padding-right: 125px;
+  margin-top: 28px;
+  text-align: right; }
+
+.more2 {
   margin-top: 28px;
   text-align: right;
   padding-top: 12px; }
 
 .more1 {
-  padding-top: 75px;
+  padding-top: 74px;
+  margin-bottom: 150px;
   text-align: right; }
 
 .taster {
@@ -6389,12 +6395,16 @@ u {
   height: 35px;
   width: 35px; }
 
+.footer-logo {
+  padding-top: 30px;
+  height: 150px;
+  width: 150px; }
+
 .copyright-txt {
   padding-bottom: 40px; }
 
 .footer-txt {
-  font-size: 8px;
-  padding-bottom: 40px; }
+  font-size: 8px; }
 
 .hr-line {
-  margin-bottom: 5px; }
+  margin-top: 150px; }

@@ -32,7 +32,7 @@ class Social extends React.Component {
 #WorldCheeseAwards @loveswisscheese
 won 2 x Gold & 2 X Bronze... Congrats...</h6>
             <p>19. November 2017</p>
-              <p className="more">Foll<u>ow</u><u> </u><u>us</u></p>
+              <p className="more2">Foll<u>ow</u><u> </u><u>us</u></p>
           </div>
         </div>
       </div>

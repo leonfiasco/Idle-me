@@ -34,7 +34,7 @@ class App extends Component {
           <Company />
           <p className="shout">What we shout about<span className="dots">...</span></p>
           <Social />
-          <Footer />
+          {/* <Footer /> */}
           {/* <FontAwesomeIcon icon="stroopwafel" /> */}
         </main>
       </Router>

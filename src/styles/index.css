@@ -6305,8 +6305,12 @@ a.text-dark:hover, a.text-dark:focus {
   height: 35px; }
 
 .more {
-  padding-right: 181px;
   margin-top: 28px;
+  text-align: right;
+  padding-top: 12px; }
+
+.more1 {
+  padding-top: 75px;
   text-align: right; }
 
 .taster {
@@ -6366,7 +6370,24 @@ u {
 
 .img-fluid1 {
   height: 188px;
-  width: 255px; }
+  width: 255px;
+  z-index: 1; }
+
+.fb-icon {
+  z-index: 3;
+  position: absolute;
+  margin-top: 145px;
+  right: 25px;
+  height: 35px;
+  width: 35px; }
+
+.on-logo {
+  z-index: 3;
+  position: absolute;
+  margin-top: 145px;
+  right: 25px;
+  height: 35px;
+  width: 35px; }
 
 .copyright-txt {
   padding-bottom: 40px; }

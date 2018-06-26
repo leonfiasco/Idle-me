@@ -1,11 +1,14 @@
 // @import 'custom_bootstrap';
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import url("https://use.typekit.net/ksf1uxh.css");
 
 
 .navbar.navbar-expand-lg.navbar-light.bg-dark {
   padding: 19px 25px 30px 100px;
-  font-family: sans-serif;
+  font-family: aktiv-grotesk-extended, sans-serif;
+font-style: normal;
+font-weight: lighter;
   width: 100%;
 //
 // .navbar.navbar-expand-lg.navbar-light.bg-dark.sticky-top {
@@ -16,7 +19,10 @@
 }
 
 .icon-box {
-  padding-left: 520px;
+  padding-bottom: 225px;
+  box-sizing: border-box;
+  width: 50%;
+  display: inline-block;
 }
 
 .idle-logo {
@@ -40,13 +46,28 @@
 }
 
 .nav-text {
+  padding-top: 36px;
   padding-left: 50px;
+  font-size: 20px;
+}
+
+.nav-item {
+  height: 100px;
+  font-size: 8px;
+}
+
+.get-in-touch {
+  margin: 0px auto;
+  width: 100%;
 }
 
 .more {
   padding-right: 125px;
   margin-top: 28px;
   text-align: right;
+  font-family: aktiv-grotesk-extended, sans-serif;
+font-style: normal;
+font-weight: 100;
 }
 
 
@@ -54,17 +75,26 @@
   margin-top: 28px;
   text-align: right;
   padding-top: 12px;
+  font-family: aktiv-grotesk-extended, sans-serif;
+font-style: normal;
+font-weight: 100;
 }
 
 .more1 {
   padding-top: 74px;
   margin-bottom: 150px;
   text-align: right;
+  font-family: aktiv-grotesk-extended, sans-serif;
+font-style: normal;
+font-weight: 100;
 
 }
 
 .taster {
   margin-left: 130px;
+  font-family: aktiv-grotesk-extended, sans-serif;
+font-style: normal;
+font-weight: 100;
 }
 
 .dots {
@@ -72,9 +102,11 @@
 }
 
 
-
 .txt {
  margin-right: 823px;
+ font-family: aktiv-grotesk-extended, sans-serif;
+font-style: normal;
+font-weight: 100;
  // font-size: 5vw;
   }
 
@@ -88,7 +120,11 @@
 u {
   text-decoration: none;
     border-bottom: 5px solid #b92255;
+}
 
+.u-line {
+  text-decoration: none;
+    border-bottom: 5px solid #fff;
 }
 
 .line {
@@ -107,6 +143,9 @@ margin-left: 13px;
 .shout {
   margin-bottom: 24px;
   margin-left: 128px;
+  font-family: aktiv-grotesk-extended, sans-serif;
+font-style: normal;
+font-weight: 100;
 }
 
 
@@ -121,6 +160,12 @@ margin-left: 13px;
 .comp-logo:hover {
   filter: none;
   -webkit-filter: grayscale(0%);
+}
+
+h6 {
+  font-family: aktiv-grotesk-extended, sans-serif;
+font-style: normal;
+font-weight: 100;
 }
 
 .footer.navbar-inverse.navbar-bottom.bg-dark {
@@ -171,10 +216,16 @@ margin-left: 13px;
 
 .copyright-txt {
 padding-bottom: 40px;
+font-family: aktiv-grotesk-extended, sans-serif;
+font-style: normal;
+font-weight: 100;
 }
 
 .footer-txt {
   font-size: 8px;
+  font-family: aktiv-grotesk-extended, sans-serif;
+font-style: normal;
+font-weight: 100;
 
 }
 

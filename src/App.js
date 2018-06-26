@@ -5,7 +5,9 @@ import {
   // Route
 } from 'react-router-dom';
 
+
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 
 
 
@@ -15,10 +17,7 @@ import Company from './components/Company';
 import Social from './components/Social';
 import Footer from './components/Footer';
 
-// import { library } from '@fortawesome/fontawesome-svg-core';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-// library.add(facebook)
 
 class App extends Component {
   render() {

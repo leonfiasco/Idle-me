@@ -11,7 +11,7 @@ class Navbar extends React.Component {
         <div className="group1 d-flex justify-content-start">
         {/* <a className="navbar-brand text-white align-baseline" href="">ON-IDLE</a> */}
         <span className="logo-icon d-block p-2">
-        <img className="idle-logo" alt="idle-logo" src="https://www.dropbox.com/pri/get/on-idle_logo_white.svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AADC8u_eV_7JhmcIlS4UheiKYz17jUi2B2HeqBMScqUCXQ"></img>
+        <img className="idle-logo" alt="idle-logo" src="https://www.dropbox.com/s/vf5fadmphs0hp4k/on-idle_logo_white.svg?dl=0"></img>
         <div className="vl">
         <div className="nav-text text-white ">We are a creative digital and print agency -
         experts in <span className="line">branding</span>, <span className="line" href="">graphic design</span>, <span className="line" href="">print</span>, <span className="line" href="">website development</span> & building powerful
@@ -39,19 +39,20 @@ class Navbar extends React.Component {
           <div className="icon-box d-flex flex-row bd-highlight d-inline">
 
           <a className="nav-item nav-link text-white m-2" href="">ABOUT</a>
-          <br></br>
-          <a className="nav-item nav-link text-white m-2"  href="">OUR WORK</a>
-          <br></br>
+
+          <a className="nav-item nav-link text-white m-2"  href="">OUR<span className="work">WORK</span></a>
+
           <a className="nav-item nav-link text-white m-2"  href="">BLOG</a>
-          <br></br>
+
             <a className="nav-item nav-link text-white m-2"  href="">CONTACT</a>
-            <br></br>
+
             <i className="nav-item nav-link text-muted m-2 fa fa-facebook" href=""></i>
-            <br></br>
-            <i className="nav-item nav-link text-muted m-2 fa fa-instagram" href=""></i>
-            <br></br>
+
             <i className="nav-item nav-link text-muted m-2 fa fa-twitter" href=""></i>
-            <br></br>
+
+            <i className="nav-item nav-link text-muted m-2 fa fa-instagram" href=""></i>
+
+
 
           </div>
 
@@ -69,7 +70,9 @@ class Navbar extends React.Component {
         </button>
         <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
         </div> */}
-        <p className="get-in-touch text-white d-flex justify-content-end">Get{' '}in <u className="u-line">touch</u></p>
+        <div className="get-box">
+        <p className="get-in-touch text-white d-flex justify-content-end">Get in <span className="u-line"> touch</span></p>
+      </div>
       </nav>
 
     );

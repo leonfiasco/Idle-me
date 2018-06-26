@@ -6,10 +6,15 @@
 
 .navbar.navbar-expand-lg.navbar-light.bg-dark {
   padding: 19px 25px 30px 100px;
-  font-family: aktiv-grotesk-extended, sans-serif;
+  font-family: aktiv-grotesk-condensed, sans-serif;
 font-style: normal;
-font-weight: lighter;
-  width: 100%;
+font-weight: 10;
+width: 100%;
+overflow-x: hidden;
+//   font-family: aktiv-grotesk-extended, sans-serif;
+// font-style: normal;
+// font-weight: lighter;
+//   width: 100%;
 //
 // .navbar.navbar-expand-lg.navbar-light.bg-dark.sticky-top {
 //   padding: 19px 25px 30px 100px;
@@ -20,6 +25,7 @@ font-weight: lighter;
 
 .icon-box {
   padding-bottom: 225px;
+  padding-left: 60px;
   box-sizing: border-box;
   width: 50%;
   display: inline-block;
@@ -49,16 +55,31 @@ font-weight: lighter;
   padding-top: 36px;
   padding-left: 50px;
   font-size: 20px;
+  width: 494px;
+  letter-spacing: 3px;
+  font-family: aktiv-grotesk-extended, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.u-line {
+  padding-left: 4px;
 }
 
 .nav-item {
   height: 100px;
-  font-size: 8px;
+  font-size: 10px;
+}
+
+.work {
+  padding-left: 4px;
 }
 
 .get-in-touch {
   margin: 0px auto;
   width: 100%;
+  padding-top: 290px;
+  padding-right: 250px;
 }
 
 .more {
@@ -68,6 +89,10 @@ font-weight: lighter;
   font-family: aktiv-grotesk-extended, sans-serif;
 font-style: normal;
 font-weight: 100;
+}
+
+.img-fluid {
+  padding-top: 80px;
 }
 
 
@@ -95,6 +120,7 @@ font-weight: 100;
   font-family: aktiv-grotesk-extended, sans-serif;
 font-style: normal;
 font-weight: 100;
+margin-bottom: 0;
 }
 
 .dots {
@@ -219,6 +245,7 @@ padding-bottom: 40px;
 font-family: aktiv-grotesk-extended, sans-serif;
 font-style: normal;
 font-weight: 100;
+font-size: 6px;
 }
 
 .footer-txt {

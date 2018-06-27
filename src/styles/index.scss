@@ -403,7 +403,14 @@ font-size: 10px;
   height: 150px;
   width: 150px;
   background: url("./../public/images/on_white.svg");
+  cursor: pointer;
+  border: none;
 }
+
+.footer-logo:active {
+  background-color: #fff;
+  box-shadow: 0 5px #fff;
+  transform: translateY(4px);
 
 .copyright-txt {
 padding-bottom: 40px;

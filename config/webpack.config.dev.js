@@ -121,6 +121,30 @@ module.exports = {
           },
         ],
         include: paths.appSrc,
+      },{
+        test: /\.(gif|png|jpe?g|svg)/i,
+        use: [
+          "file-loader",
+          {
+            loader: "image-webpack-loader",
+            options: {
+              gifsicle: {
+                interlanced: false
+              },
+              optipng: {
+                optimizationalLevel: 7
+              },
+              pngquant: {
+                quality: "65-90",
+                speed: 4
+              },
+              mozjpeg: {
+                progressive: true,
+                quality: 65
+              }
+            }
+          }
+        ]
       },
       {
         // "oneOf" will traverse all following loaders until one will
@@ -188,11 +212,6 @@ module.exports = {
               },
             ],
           },{
-            module: {
-            loaders: [
-              { test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192' }
-    ],
-  },
             test: /\.scss$/,
             use: [
               require.resolve('style-loader'),

@@ -14,7 +14,7 @@ class Footer extends React.Component {
            <p className="logo-txt text-white text-center">
              Get in touch with on-IDLE HQ
            </p>
-           <div className="footer-logo .img-responsive mx-auto d-block" alt="on-logo" href=""></div>
+           <button className="footer-logo .img-responsive mx-auto d-block" alt="on-logo" href=""></button>
             <hr className="hr-line bg-white"></hr>
             <div className="copyright-txt">
             <footer className="footer-txt text-white">© 2018 on-IDLE Ltd.</footer>

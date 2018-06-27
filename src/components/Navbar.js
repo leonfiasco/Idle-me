@@ -7,7 +7,7 @@ class Navbar extends React.Component {
   render() {
     return (
 
-      <nav className="navbar navbar-expand-lg navbar-light toggle">
+      <nav className="navbar navbar-expand-lg navbar-light">
         <div className="group1 d-flex justify-content-start">
         {/* <a className="navbar-brand text-white align-baseline" href="">ON-IDLE</a> */}
         <span className="logo-icon d-block p-2">

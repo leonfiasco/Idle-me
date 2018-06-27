@@ -27,7 +27,11 @@ class App extends Component {
         <main>
           <Navbar />
           <br></br>
-          <p className="taster">A taster of what we get up to<span className="dots">...</span></p>
+          <div className="d-flex flex-column bd-highlight mb-3">
+            <div className="p-2 bd-highlight"></div>
+            <div className="p-2 bd-highlight"><p className="taster">A taster of what we get up to<span className="dots">...</span></p></div>
+            <div className="p-2 bd-highlight"></div>
+          </div>
           <Main />
           <p className="more">See <u>more</u></p>
           <Company />

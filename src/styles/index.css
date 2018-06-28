@@ -6283,23 +6283,6 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-/* Tablet Landscape */
-@media screen and (max-width: 1060px) {
-  #primary {
-    width: 67%; }
-  #secondary {
-    width: 30%;
-    margin-left: 3%; } }
-
-/* Tabled Portrait */
-@media screen and (max-width: 768px) {
-  #primary {
-    width: 100%; }
-  #secondary {
-    width: 100%;
-    margin: 0;
-    border: none; } }
-
 .navbar.navbar-expand-lg.navbar-light.bg-dark {
   padding: 19px 25px 30px 100px;
   font-family: aktiv-grotesk-condensed, sans-serif;
@@ -6324,7 +6307,51 @@ a.text-dark:hover, a.text-dark:focus {
   height: 67px;
   width: 157px;
   background: url("./../public/images/on-idle_logo_white.svg");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  z-index: 1; }
+
+.col.container {
+  position: relative;
+  width: 50%; }
+
+.img-fluid.first-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden; }
+
+.middle-circle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center; }
+
+.col.container:hover .img-fluid.first-img {
+  -webkit-filter: grayscale(80%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(80%); }
+
+.col.container:hover .middle-circle {
+  opacity: 1; }
+
+.text {
+  height: 200px;
+  width: 200px;
+  background-color: #fff;
+  border-radius: 50%;
+  font-family: aktiv-grotesk-condensed, sans-serif;
+  font-style: normal;
+  font-weight: 10; }
+
+.migros {
+  font-weight: bold;
+  color: #43535b;
+  justify-content: center; }
 
 .box-model {
   background-color: #b92255;
@@ -6376,7 +6403,7 @@ a.text-dark:hover, a.text-dark:focus {
   padding-right: 250px; }
 
 .more {
-  padding-right: 125px;
+  padding-right: 200px;
   margin-top: 28px;
   text-align: right;
   font-family: aktiv-grotesk-extended, sans-serif;
@@ -6620,7 +6647,12 @@ u {
   height: 150px;
   width: 150px;
   background: url("./../public/images/on_white.svg");
-  cursor: pointer; }
+  background-repeat: no-repeat; }
+
+.footer-logo:active {
+  background-color: #fff;
+  box-shadow: 0 5px #fff;
+  transform: translateY(4px); }
 
 .copyright-txt {
   padding-bottom: 40px;

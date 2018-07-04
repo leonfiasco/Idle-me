@@ -46,11 +46,11 @@ class Navbar extends React.Component {
 
             <a className="nav-item nav-link m-2"  href="">CONTACT</a>
 
-            <i className="nav-item nav-link text-muted m-2 fa fa-facebook" href=""></i>
+            <a href="https://www.facebook.com/onanything/"><i className="icons nav-item nav-link text-muted m-2 fa fa-facebook" ></i></a>
 
-            <i className="nav-item nav-link text-muted m-2 fa fa-twitter" href=""></i>
+            <a href="https://twitter.com/aneon"><i className="icons nav-item nav-link text-muted m-2 fa fa-twitter"></i></a>
 
-            <i className="nav-item nav-link text-muted m-2 fa fa-instagram" href=""></i>
+            <a href="https://www.instagram.com/onidledesign/?hl=en"><i className="icons nav-item nav-link text-muted m-2 fa fa-instagram"></i></a>
 
             </div>
 

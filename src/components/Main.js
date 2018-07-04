@@ -12,11 +12,11 @@ class Main extends React.Component {
               <div className="middle-circle">
                 <div>
                 </div>
-                <div class="overlay-circle"> <div class="circle-txt">Migros aareMAGAZIN
+                <div class="overlay-circle"> <div class="circle-txt"><span className="migros">Migros aareMAGAZIN</span>
                   <br></br>
                   <span class="mid-txt">Dezember 2017</span>
                    <br></br>
-                     Print Design • Typography
+                     <span className="print">Print Design <span className="dot">•</span> Typography</span>
                    </div>
                  </div>
                   <div>

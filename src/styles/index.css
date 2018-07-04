@@ -6295,6 +6295,9 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #43535b !important;
   overflow-x: hidden; }
 
+.icons {
+  cursor: pointer; }
+
 .icon-box {
   padding-bottom: 225px;
   padding-left: 60px;
@@ -6354,7 +6357,14 @@ a.text-dark:hover, a.text-dark:focus {
   transform: translate(-50%, -50%); }
 
 .mid-txt {
-  padding-left: 25px; }
+  padding-left: 25px;
+  font-weight: normal; }
+
+.print {
+  font-weight: 100; }
+
+.dot {
+  color: #b92255; }
 
 .box-model {
   background-color: #b92255;
@@ -6482,7 +6492,7 @@ u {
   text-decoration: underline; }
 
 .line:hover {
-  color: #ed2c6ci;
+  color: #ed2c6c;
   background-color: #43535b;
   text-decoration: underline; }
 

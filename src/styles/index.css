@@ -6307,8 +6307,7 @@ a.text-dark:hover, a.text-dark:focus {
   height: 67px;
   width: 157px;
   background: url("./../public/images/on-idle_logo_white.svg");
-  background-repeat: no-repeat;
-  z-index: 1; }
+  background-repeat: no-repeat; }
 
 .col.container {
   position: relative;
@@ -6351,7 +6350,8 @@ a.text-dark:hover, a.text-dark:focus {
 .migros {
   font-weight: bold;
   color: #43535b;
-  justify-content: center; }
+  justify-content: center;
+  padding-top: 50px; }
 
 .box-model {
   background-color: #b92255;
@@ -6363,7 +6363,7 @@ a.text-dark:hover, a.text-dark:focus {
 .vl {
   border-left: thick solid white;
   height: 250px;
-  margin-left: 90px; }
+  margin-left: 200px; }
 
 .nav-text {
   padding-top: 36px;
@@ -6430,7 +6430,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 100; }
 
 .taster {
-  margin-left: 130px;
+  margin-left: 200px;
   font-family: aktiv-grotesk-thin, sans-serif;
   font-style: normal;
   font-weight: 100;
@@ -6479,7 +6479,7 @@ u {
   text-decoration: underline; }
 
 .line:hover {
-  color: #b92255;
+  color: #ed2c6c;
   background-color: #43535b;
   text-decoration: underline; }
 

@@ -46,7 +46,6 @@
   width: 157px;
   background: url("./../public/images/on-idle_logo_white.svg");
   background-repeat: no-repeat;
-  z-index: 1;
 }
 
 .col.container {
@@ -97,6 +96,7 @@ text-align: center;
   font-weight: bold;
   color: #43535b;
   justify-content: center;
+  padding-top: 50px;
 }
 
 .box-model {
@@ -110,7 +110,7 @@ text-align: center;
 .vl {
   border-left: thick solid white;
   height: 250px;
-  margin-left: 90px;
+  margin-left: 200px;
 }
 
 .nav-text {
@@ -144,7 +144,7 @@ text-align: center;
 
 .nav-item:hover {
   color: #43535b;
-  background-color: #b92255;
+  background-color:  #b92255;
 }
 
 .work {
@@ -193,7 +193,7 @@ text-align: center;
 }
 
 .taster {
-  margin-left: 130px;
+  margin-left: 200px;
   font-family: aktiv-grotesk-thin, sans-serif;
   font-style: normal;
   font-weight: 100;
@@ -251,7 +251,7 @@ u {
 }
 
 .line:hover {
-  color: #b92255;
+  color:  #ed2c6c;
   background-color: #43535b;
   text-decoration: underline;
 }

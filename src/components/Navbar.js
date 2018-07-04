@@ -36,13 +36,13 @@ class Navbar extends React.Component {
 
 
 
-          <div className="icon-box d-flex flex-row bd-highlight d-inline">
+            <div className="icon-box d-flex flex-row bd-highlight d-inline">
 
-          <a className="nav-item nav-link m-2" href="">ABOUT</a>
+            <a className="nav-item nav-link m-2" href="">ABOUT</a>
 
-          <a className="nav-item nav-link m-2"  href="">OUR<span className="work">WORK</span></a>
+            <a className="nav-item nav-link m-2"  href="">OUR<span className="work">WORK</span></a>
 
-          <a className="nav-item nav-link m-2"  href="">BLOG</a>
+            <a className="nav-item nav-link m-2"  href="">BLOG</a>
 
             <a className="nav-item nav-link m-2"  href="">CONTACT</a>
 
@@ -52,18 +52,16 @@ class Navbar extends React.Component {
 
             <i className="nav-item nav-link text-muted m-2 fa fa-instagram" href=""></i>
 
+            </div>
 
 
-          </div>
+
+
 
 
         {/* <img className="facebook" alt="fb-icon" src="https://dl.dropboxusercontent.com/content_link/lAPVwA51gWHx4FPOwFqk7h0ax9ZAbC9joWsWaSm672xUqzOgjQLv9chV5rCsptTF/file?dl=0&duc_id=WPXK7rtQywlvfRRZsrjcXUupV3uoob7XdCh0NxChrlkjTqAXgIVJpzJwHTAkoXsq&raw=1&size=1280x960&size_mode=3"></img> */}
       {/* </div> */}
         {/* </div> */}
-
-
-
-
         {/* </div>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>

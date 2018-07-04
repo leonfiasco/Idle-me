@@ -10,9 +10,17 @@ class Main extends React.Component {
             <div className="col container">
               <img className="img-fluid first-img" alt="lady-smiling" href="" src="https://photos-5.dropbox.com/t/2/AACfIKyTUFRf_pHVVJIwJeV8n55TzpI-OhEViE9F-05FhA/12/95049/jpeg/32x32/3/1530108000/0/2/migros-placeholder.jpg/EJnTJhiAjLjOBCACKAI/SQ8xwpfDLhurRi_BUxHF6C7N0Vll5eOl2TI29ihRzuc?dl=0&size=1280x960&size_mode=3"></img>
               <div className="middle-circle">
-                <div className="text"><span className="migros">Migros aareMAGAZIN
-                  Dezember 2017</span>
-                  Print Design • Typography</div>
+                <div>
+                </div>
+                <div class="overlay-circle"> <div class="circle-txt">Migros aareMAGAZIN
+                  <br></br>
+                  <span class="mid-txt">Dezember 2017</span>
+                   <br></br>
+                     Print Design • Typography
+                   </div>
+                 </div>
+                  <div>
+                  </div>
               </div>
             </div>
           </div>

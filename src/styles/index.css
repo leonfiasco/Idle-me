@@ -6338,20 +6338,23 @@ a.text-dark:hover, a.text-dark:focus {
 .col.container:hover .middle-circle {
   opacity: 1; }
 
-.text {
-  height: 200px;
-  width: 200px;
-  background-color: #fff;
-  border-radius: 50%;
-  font-family: aktiv-grotesk-condensed, sans-serif;
-  font-style: normal;
-  font-weight: 10; }
+.overlay-circle {
+  height: 250px;
+  width: 250px;
+  background-color: #ffff;
+  border-radius: 50%; }
 
-.migros {
-  font-weight: bold;
+.circle-txt {
   color: #43535b;
-  justify-content: center;
-  padding-top: 50px; }
+  font-size: 15px;
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.mid-txt {
+  padding-left: 25px; }
 
 .box-model {
   background-color: #b92255;
@@ -6479,7 +6482,7 @@ u {
   text-decoration: underline; }
 
 .line:hover {
-  color: #ed2c6c;
+  color: #ed2c6ci;
   background-color: #43535b;
   text-decoration: underline; }
 

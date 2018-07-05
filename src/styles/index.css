@@ -6299,7 +6299,7 @@ a.text-dark:hover, a.text-dark:focus {
   cursor: pointer; }
 
 .icon-box {
-  padding-bottom: 225px;
+  padding-bottom: 275px;
   padding-left: 60px;
   margin-left: 5px;
   box-sizing: border-box;
@@ -6309,7 +6309,7 @@ a.text-dark:hover, a.text-dark:focus {
 .idle-logo {
   height: 67px;
   width: 157px;
-  background: url("./../public/images/on-idle_logo_white.svg");
+  margin-left: 120px;
   background-repeat: no-repeat; }
 
 .col.container {
@@ -6376,7 +6376,9 @@ a.text-dark:hover, a.text-dark:focus {
 .vl {
   border-left: thick solid white;
   height: 250px;
-  margin-left: 200px; }
+  margin-left: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 .nav-text {
   padding-top: 36px;
@@ -6421,7 +6423,8 @@ a.text-dark:hover, a.text-dark:focus {
   text-align: right;
   font-family: aktiv-grotesk-extended, sans-serif;
   font-style: normal;
-  font-weight: 100; }
+  font-weight: 100;
+  cursor: pointer; }
 
 .img-fluid {
   padding-top: 20px; }
@@ -6432,7 +6435,8 @@ a.text-dark:hover, a.text-dark:focus {
   padding-top: 12px;
   font-family: aktiv-grotesk-extended, sans-serif;
   font-style: normal;
-  font-weight: 100; }
+  font-weight: 100;
+  cursor: pointer; }
 
 .more1 {
   padding-top: 76px;
@@ -6440,7 +6444,8 @@ a.text-dark:hover, a.text-dark:focus {
   text-align: right;
   font-family: aktiv-grotesk-extended, sans-serif;
   font-style: normal;
-  font-weight: 100; }
+  font-weight: 100;
+  cursor: pointer; }
 
 .taster {
   margin-left: 200px;
@@ -6469,11 +6474,12 @@ a.text-dark:hover, a.text-dark:focus {
 .txt {
   padding-left: 125px;
   padding-bottom: 60px;
-  margin-right: 720px;
+  margin-right: 590px;
   font-family: aktiv-grotesk-condensed, sans-serif;
   font-style: normal;
   font-weight: lighter;
-  font-size: 20px; }
+  font-size: 20px;
+  letter-spacing: 3px; }
 
 .row-9 {
   margin: 85px 140px 0 140px;
@@ -6489,7 +6495,8 @@ u {
   border-bottom: 5px solid #fff; }
 
 .line {
-  text-decoration: underline; }
+  text-decoration: underline;
+  cursor: pointer; }
 
 .line:hover {
   color: #ed2c6c;
@@ -6517,22 +6524,25 @@ u {
   letter-spacing: 3px; }
 
 .comp-logo1 {
-  height: 100px;
-  width: 100px;
-  margin: 45px 25px 25px 25px;
-  background: url("./../public/images/virgin-media.svg");
+  height: 120px;
+  width: 124px;
+  margin: 0px 0px 0px 14px;
+  padding-top: 30px;
+  padding-bottom: 0px;
   background-repeat: no-repeat;
   filter: gray;
-  -webkit-filter: grayscale(100%); }
+  -webkit-filter: grayscale(100%);
+  cursor: pointer; }
 
 .comp-logo2 {
-  height: 100px;
-  width: 100px;
-  margin: 55px 25px 25px 25px;
+  height: 120px;
+  width: 122px;
+  margin: 12px 0px 0px 12px;
   background: url("./../public/images/four-corners-logo-2.svg");
   background-repeat: no-repeat;
   filter: gray;
-  -webkit-filter: grayscale(100%); }
+  -webkit-filter: grayscale(100%);
+  cursor: pointer; }
 
 .comp-logo3 {
   height: 100px;
@@ -6541,22 +6551,28 @@ u {
   background: url("./../public/images/American-Express-logo.svg");
   background-repeat: no-repeat;
   filter: gray;
-  -webkit-filter: grayscale(100%); }
+  -webkit-filter: grayscale(100%);
+  cursor: pointer; }
 
 .comp-logo4 {
   height: 100px;
   width: 100px;
   margin: 67px 25px 25px 25px;
+  padding-bottom: 70px;
   background: url("./../public/images/the-foundry-logo.svg");
   background-repeat: no-repeat;
   filter: gray;
-  -webkit-filter: grayscale(100%); }
-  .comp-logo4 .comp-logo5 {
-    height: 100px;
-    width: 100px;
-    margin: 67px 25px 25px 25px;
-    background: url("./../public/images/the-foundry-logo.svg");
-    background-repeat: no-repeat; }
+  -webkit-filter: grayscale(100%);
+  cursor: pointer; }
+
+.comp-logo5 {
+  width: 130px;
+  margin-top: 58px;
+  margin-left: 10px;
+  background-repeat: no-repeat;
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  cursor: pointer; }
 
 .comp-logo1:hover {
   filter: none;
@@ -6593,6 +6609,51 @@ u {
   color: #43535b;
   font-size: 10px; }
 
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s; }
+
+.over-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px; }
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  /* Display block instead of inline */
+  transition: 0.3s; }
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1; }
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px; }
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px; }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px; } }
+
 .footer.navbar-inverse.navbar-bottom.bg-dark {
   position: fixed; }
 
@@ -6624,7 +6685,7 @@ u {
   right: 25px;
   height: 35px;
   width: 35px;
-  background: url("./../public/images/facebook_white.svg"); }
+  background: url("https://www.dropbox.com/pri/get/on-ilde/facebook_white.svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AACJwAVokRduxRCtGrhUT_lKMfInI0WaCsAPHLb944DUlA"); }
 
 .fb-icon2 {
   z-index: 3;
@@ -6633,7 +6694,7 @@ u {
   right: 25px;
   height: 35px;
   width: 35px;
-  background: url("./../public/images/facebook_white.svg"); }
+  background: url("https://www.dropbox.com/pri/get/on-ilde/facebook_white.svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AACJwAVokRduxRCtGrhUT_lKMfInI0WaCsAPHLb944DUlA"); }
 
 .on-logo1 {
   margin-bottom: 90px;
@@ -6642,7 +6703,7 @@ u {
   right: 25px;
   height: 35px;
   width: 35px;
-  background: url("./../public/images/on_white.svg");
+  background: url("https://www.dropbox.com/pri/get/on-ilde/on_white.svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AABrLDyFOf-R5hVNVcgZUNfBUv8T4_Md_L8J1sA4N_c9yQ");
   background-repeat: no-repeat; }
 
 .on-logo2 {
@@ -6652,15 +6713,20 @@ u {
   right: 25px;
   height: 35px;
   width: 35px;
-  background: url("./../public/images/on_white.svg");
+  background: url("https://www.dropbox.com/pri/get/on-ilde/on_white.svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AABrLDyFOf-R5hVNVcgZUNfBUv8T4_Md_L8J1sA4N_c9yQ");
   background-repeat: no-repeat; }
 
 .footer-logo {
   padding-top: 30px;
   height: 150px;
   width: 150px;
-  background: url("./../public/images/on_white.svg");
-  background-repeat: no-repeat; }
+  background: url("https://www.dropbox.com/pri/get/on-ilde/on_white.svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AABrLDyFOf-R5hVNVcgZUNfBUv8T4_Md_L8J1sA4N_c9yQ");
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  cursor: pointer; }
+
+button {
+  outline: none; }
 
 .footer-logo:active {
   background-color: #fff;

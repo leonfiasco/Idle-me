@@ -37,7 +37,7 @@
 
 
 .icon-box {
-  padding-bottom: 225px;
+  padding-bottom: 275px;
   padding-left: 60px;
   margin-left: 5px;
   box-sizing: border-box;
@@ -48,7 +48,8 @@
 .idle-logo {
   height: 67px;
   width: 157px;
-  background: url("./../public/images/on-idle_logo_white.svg");
+  margin-left: 120px;
+  // background: url("./../public/images/on-idle_logo_white.svg");
   background-repeat: no-repeat;
 }
 
@@ -128,6 +129,8 @@ text-align: center;
   border-left: thick solid white;
   height: 250px;
   margin-left: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .nav-text {
@@ -182,6 +185,7 @@ text-align: center;
   font-family: aktiv-grotesk-extended, sans-serif;
   font-style: normal;
   font-weight: 100;
+  cursor: pointer;
 }
 
 .img-fluid {
@@ -197,6 +201,7 @@ text-align: center;
   font-family: aktiv-grotesk-extended, sans-serif;
   font-style: normal;
   font-weight: 100;
+  cursor: pointer;
 }
 
 .more1 {
@@ -206,6 +211,7 @@ text-align: center;
   font-family: aktiv-grotesk-extended, sans-serif;
   font-style: normal;
   font-weight: 100;
+  cursor: pointer;
 
 }
 
@@ -240,11 +246,12 @@ text-align: center;
 .txt {
   padding-left: 125px;
   padding-bottom: 60px;
-  margin-right: 720px;
+  margin-right: 590px;
   font-family: aktiv-grotesk-condensed, sans-serif;
   font-style: normal;
   font-weight: lighter;
   font-size: 20px;
+  letter-spacing: 3px;
 }
 
 
@@ -265,6 +272,7 @@ u {
 }
 .line {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .line:hover {
@@ -296,22 +304,26 @@ u {
 }
 
 .comp-logo1 {
-  height: 100px;
-  width: 100px;
-  margin: 45px 25px 25px 25px;
-  background: url("./../public/images/virgin-media.svg");
+  height: 120px;
+  width: 124px;
+  margin: 0px 0px 0px 14px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  // background: url("https://www.dropbox.com/pri/get/virgin-media.svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AAAZOuXEzAVKRx0Anvk1pWO7_KnEmXFf_O14OswbyYP4xg");
   background-repeat: no-repeat;
   filter: gray;
   -webkit-filter: grayscale(100%);
+  cursor: pointer;
 }
 .comp-logo2 {
-  height: 100px;
-  width: 100px;
-  margin: 55px 25px 25px 25px;
+  height: 120px;
+  width: 122px;
+  margin: 12px 0px 0px 12px;
   background: url("./../public/images/four-corners-logo-2.svg");
   background-repeat: no-repeat;
   filter: gray;
   -webkit-filter: grayscale(100%);
+  cursor: pointer;
 }
 .comp-logo3 {
   height: 100px;
@@ -321,25 +333,33 @@ u {
   background-repeat: no-repeat;
   filter: gray;
   -webkit-filter: grayscale(100%);
+  cursor: pointer;
 }
 .comp-logo4 {
   height: 100px;
   width: 100px;
   margin: 67px 25px 25px 25px;
+  padding-bottom: 70px;
   background: url("./../public/images/the-foundry-logo.svg");
   background-repeat: no-repeat;
-
-.comp-logo5 {
-  height: 100px;
-  width: 100px;
-  margin: 67px 25px 25px 25px;
-  background: url("./../public/images/the-foundry-logo.svg");
-  background-repeat: no-repeat;
-}
-
   filter: gray;
   -webkit-filter: grayscale(100%);
+  cursor: pointer;
 }
+
+.comp-logo5 {
+  // height: 100px;
+  width: 130px;
+  margin-top: 58px;
+  margin-left: 10px;
+  // background: url("./../public/images/the-foundry-logo.svg");
+  background-repeat: no-repeat;
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  cursor: pointer;
+}
+
+
 
 .comp-logo1:hover {
   filter: none;
@@ -378,6 +398,56 @@ u {
   font-weight: 100;
   color: #43535b;
   font-size: 10px;
+}
+
+.overlay {
+  height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.over-content {
+  position:relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
 }
 
 
@@ -424,7 +494,7 @@ u {
   right: 25px;
   height: 35px;
   width: 35px;
-  background: url("./../public/images/facebook_white.svg");
+  background: url("https://www.dropbox.com/pri/get/on-ilde/facebook_white.svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AACJwAVokRduxRCtGrhUT_lKMfInI0WaCsAPHLb944DUlA");
 }
 .fb-icon2 {
   z-index: 3;
@@ -433,7 +503,7 @@ u {
   right: 25px;
   height: 35px;
   width: 35px;
-  background: url("./../public/images/facebook_white.svg");
+  background: url("https://www.dropbox.com/pri/get/on-ilde/facebook_white.svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AACJwAVokRduxRCtGrhUT_lKMfInI0WaCsAPHLb944DUlA");
 }
 
 .on-logo1 {
@@ -443,7 +513,7 @@ u {
   right: 25px;
   height: 35px;
   width: 35px;
-  background: url("./../public/images/on_white.svg");
+  background: url("https://www.dropbox.com/pri/get/on-ilde/on_white.svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AABrLDyFOf-R5hVNVcgZUNfBUv8T4_Md_L8J1sA4N_c9yQ");
   background-repeat: no-repeat;
 }
 .on-logo2 {
@@ -453,7 +523,7 @@ u {
   right: 25px;
   height: 35px;
   width: 35px;
-  background: url("./../public/images/on_white.svg");
+  background: url("https://www.dropbox.com/pri/get/on-ilde/on_white.svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AABrLDyFOf-R5hVNVcgZUNfBUv8T4_Md_L8J1sA4N_c9yQ");
   background-repeat: no-repeat;
 
 }
@@ -462,9 +532,14 @@ u {
   padding-top: 30px;
   height: 150px;
   width: 150px;
-  background: url("./../public/images/on_white.svg");
+  background: url("https://www.dropbox.com/pri/get/on-ilde/on_white.svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AABrLDyFOf-R5hVNVcgZUNfBUv8T4_Md_L8J1sA4N_c9yQ");
   background-repeat: no-repeat;
-  // cursor: pointer;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
 }
 
 .footer-logo:active {

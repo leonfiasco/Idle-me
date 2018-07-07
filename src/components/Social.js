@@ -3,17 +3,10 @@ import React from 'react';
 
 class Social extends React.Component {
 
-  // function openNav() {
-  //     document.getElementById("myNav").style.display = "block";
-  // }
-
-  /* Close */
-  // function closeNav() {
-  //     document.getElementById("myNav").style.display = "none";
-  // }
-
   render() {
     return (
+
+
       <div className="container">
         <div className="row">
           <div className="col">
@@ -43,17 +36,8 @@ class Social extends React.Component {
             <a href="https://www.facebook.com/onanything/photos/a.449589151746663.95770.137316622973919/1583097095062524/?type=3&theater"><div className="fb-icon1"></div></a>
             <h6 className="social-h6">Taking @onidledesign to the #tabaccodock #WorldCheeseAwards @loveswisscheese won 2 x Gold & 2 X Bronze... Congrats...</h6>
             <p className="social-p">19. November 2017</p>
-            <span className="more2" onclick="openNav()">Foll<u>ow</u><u> </u><u>us</u></span>
-            <div id="myNav" className="overlay">
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-              <div class="overlay-content">
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Clients</a>
-                <a href="#">Contact</a>
-              </div>
-            </div>
-          </div>
+            <span className="more2" onClick={this.openNav}>Foll<u>ow</u><u> </u><u>us</u></span>
+      </div>
       </div>
     </div>
     );

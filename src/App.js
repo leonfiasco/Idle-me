@@ -9,8 +9,8 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 
-import Home from './components/routes/Home';
-import About from './components/routes/About';
+import Home from './components/pages/Home';
+import About from './components/pages/About';
 
 
 

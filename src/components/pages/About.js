@@ -34,9 +34,9 @@ class About extends React.Component {
       <p className="hover we3">Our Story</p>
     </div>
   </div>
-  <div class="container">
-  <div class="row">
-    <div class="col">
+  <div className="container">
+  <div className="row">
+    <div className="col">
       <ul>
         <li>Branding</li>
         <li>Print Design</li>
@@ -53,7 +53,7 @@ class About extends React.Component {
         <li>Tutoring & Induction Training</li>
       </ul>
     </div>
-    <div class="col">
+    <div className="col">
       <p className="about-txt">There are lots of companies out there that are
         talented at design and bring in specialists to do
         technical work, while others are good technicians
@@ -67,7 +67,6 @@ class About extends React.Component {
     </div>
   </div>
 </div>
-<hr classNAme="hr-dot"></hr>
 <Company />
 
 <Footer />

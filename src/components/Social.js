@@ -36,7 +36,24 @@ class Social extends React.Component {
             <a href="https://www.facebook.com/onanything/photos/a.449589151746663.95770.137316622973919/1583097095062524/?type=3&theater"><div className="fb-icon1"></div></a>
             <h6 className="social-h6">Taking @onidledesign to the #tabaccodock #WorldCheeseAwards @loveswisscheese won 2 x Gold & 2 X Bronze... Congrats...</h6>
             <p className="social-p">19. November 2017</p>
-            <span className="more2" onClick={this.openNav}>Foll<u>ow</u><u> </u><u>us</u></span>
+            <input type="checkbox" id="op"></input>
+<div className="lower">
+  <label for="op"><span className="more2">Foll<u>ow</u><u> </u><u>us</u></span></label>
+</div>
+<div className="overlay overlay-hugeinc">
+  			<label for="op"></label>
+  			<nav>
+  				<ul>
+              <div className="o-circle1">
+                <i className="fa fa-facebook"></i>
+              </div>
+              <div className="o-circle1"><i className="fa fa-twitter"></i></div>
+              <div className="o-circle1"><i className="fa fa-instagram"></i></div>
+              <div className="o-circle1"><i className="fa fa-behance"></i></div>
+
+  				</ul>
+  			</nav>
+  </div>
       </div>
       </div>
     </div>

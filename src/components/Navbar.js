@@ -31,7 +31,7 @@ class Navbar extends React.Component {
                 <a href="https://www.instagram.com/onidledesign/?hl=en"><i className="icons nav-item nav-link text-muted m-2 fa fa-instagram"></i></a>
             </div>
             <div className="get-box">
-                <p className="get-in-touch text-white d-flex justify-content-end">Get in <span className="u-line"> touch</span></p>
+                <p className="get-in-touch text-white">Get in <span className="u-line"> touch</span></p>
             </div>
         </nav>
       </div>

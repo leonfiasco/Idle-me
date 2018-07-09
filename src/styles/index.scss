@@ -1,20 +1,11 @@
-// @import 'custom_bootstrap';
-
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 @import url("https://use.typekit.net/ksf1uxh.css");
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
-// /* Tablet Landscape */
-// @media screen and (max-width: 1060px) {
-//     #primary { width:67%; }
-//     #secondary { width:30%; margin-left:3%;}
-// }
-//
-// /* Tabled Portrait */
-// @media screen and (max-width: 768px) {
-//     #primary { width:100%; }
-//     #secondary { width:100%; margin:0; border:none; }
-// }
 
 .navbar.navbar-expand-lg.navbar-light.bg-dark {
   padding: 19px 25px 30px 100px;
@@ -572,6 +563,159 @@ u {
   justify-content: flex-end;
 }
 
+// .lower{
+//   width:340px;
+//   margin:10% auto;
+//   padding:50px;
+//   background: white;
+//   opacity:0.8;
+//   color:black;
+//   box-shadow:inset 0 0 0 1px black;
+//   border:30px solid white;
+// }
+
+
+// input{
+//   display:none;
+// }
+
+// .lower label{
+//   font-family: 'NotCourierSans';
+//   text-transform:uppercase;
+//   font-size:40px;
+//   text-align:center;
+// }
+
+.o-circle1 {
+  height: 250px;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #fff;
+  display: inline-block;
+  margin-left: 13px;
+}
+.o-circle1:hover {
+  height: 250px;
+  width: 250px;
+  background-color: #b92255;
+  color: #fff;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #b92255;
+  display: inline-block;
+  margin-left: 13px;
+}
+
+// .nav-item:hover {
+//   color: #43535b;
+//   background-color:  #b92255;
+// }
+
+.fab {
+color: #ed2c6c;
+height: 100px;
+width: 100px;
+position: relative;
+
+}
+
+.overlay{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.9);
+}
+
+.overlay label{
+	width: 58px;
+	height:58px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	background: url('https://tympanus.net/Development/FullscreenOverlayStyles/img/cross.png');
+	z-index: 100;
+  cursor:pointer;
+}
+
+.overlay nav {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	height: 60%;
+	font-size: 54px;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.overlay ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	display: inline-block;
+	height: 100%;
+	position: relative;
+}
+
+.overlay ul li {
+	display: block;
+	height: 20%;
+	height: calc(100% / 5);
+	min-height: 54px;
+}
+
+.overlay ul li a {
+	font-weight: 300;
+	display: block;
+	color: white;
+  text-decoration:none;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+  font-family: 'NotCourierSans';
+  text-transform:uppercase;
+}
+
+
+.lower~.overlay-hugeinc{
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+}
+
+#op:checked~.overlay-hugeinc{
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+.overlay-hugeinc nav {
+	-moz-perspective: 300px;
+}
+
+.overlay-hugeinc nav ul {
+	opacity: 0.4;
+	-webkit-transform: translateY(-25%) rotateX(35deg);
+	transform: translateY(-25%) rotateX(35deg);
+	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+	transition: transform 0.5s, opacity 0.5s;
+}
+
+#op:checked~.overlay-hugeinc nav ul {
+	opacity: 1;
+	-webkit-transform: rotateX(0deg);
+	transform: rotateX(0deg);
+}
+
+#op {
+  display: none;
+}
+
+
 
 .footer.navbar-inverse.navbar-bottom.bg-dark {
   // padding-bottom: 200px;
@@ -580,6 +724,7 @@ u {
 
 .nav {
   background-color: #43535b !important;
+  margin-left: 0px;
 }
 
 
@@ -610,7 +755,7 @@ u {
 }
 
 .fb-icon1 {
-  z-index: 3;
+  // z-index: 3;
   position: absolute;
   margin-top: -40px;
   right: 25px;
@@ -619,7 +764,7 @@ u {
   background: url("https://www.dropbox.com/pri/get/on-ilde/facebook_white.svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AACJwAVokRduxRCtGrhUT_lKMfInI0WaCsAPHLb944DUlA");
 }
 .fb-icon2 {
-  z-index: 3;
+  // z-index: 3;
   position: absolute;
   margin-top: -40px;
   right: 25px;
@@ -858,5 +1003,5 @@ li:hover {
 }
 
 .hr-dot {
-  
+ border-top: 2px dotted #000000;
 }

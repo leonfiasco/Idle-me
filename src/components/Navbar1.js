@@ -19,7 +19,7 @@ class Navbar extends React.Component {
                 </div>
             </span>
           </div>
-            <div className="icon-box d-flex flex-row bd-highlight d-inline">
+            <div className="icon-box1 d-flex flex-row bd-highlight d-inline">
                 <a className="nav-item nav-link m-2" href="localhost:3000/about">ABOUT</a>
                 <a className="nav-item nav-link m-2"  href="">OUR<span className="work">WORK</span></a>
                 <a className="nav-item nav-link m-2"  href="">BLOG</a>
@@ -29,7 +29,7 @@ class Navbar extends React.Component {
                 <a href="https://www.instagram.com/onidledesign/?hl=en"><i className="icons nav-item nav-link text-muted m-2 fa fa-instagram"></i></a>
             </div>
             <div className="get-box">
-                <p className="get-in-touch text-white d-flex justify-content-end">Get in <span className="u-line"> touch</span></p>
+                <p className="get-in-touch1 text-white d-flex justify-content-end">Get in <span className="u-line"> touch</span></p>
             </div>
         </nav>
       </div>

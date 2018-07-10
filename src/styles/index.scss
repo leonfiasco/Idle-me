@@ -35,6 +35,14 @@ html, body {
   width: 50%;
   display: inline-block;
 }
+.icon-box1 {
+  padding-bottom: 140px;
+  padding-left: 60px;
+  margin-left: 5px;
+  box-sizing: border-box;
+  width: 50%;
+  display: inline-block;
+}
 
 .idle-logo {
   height: 67px;
@@ -272,7 +280,7 @@ text-align: center;
   width: 100%;
   border:80px 25px 80px 25px solid #b92255;
   padding: 65px 25px 215px 25px;
-  margin: 135px 0 95px 0;
+  margin: 40px 0 95px 0;
 }
 
 .vl {
@@ -323,9 +331,15 @@ text-align: center;
 
 .get-in-touch {
   margin: 0px auto;
-  width: 100%;
-  padding-top: 290px;
-  padding-right: 250px;
+  width: 183px;
+  padding-top: 297px;
+  padding-right: 0px;
+}
+.get-in-touch1 {
+  margin: 0px auto;
+  width: 183px;
+  padding-top: 297px;
+  padding-right: 90px;
 }
 
 .more {
@@ -348,6 +362,7 @@ text-align: center;
   margin-top: 28px;
   text-align: right;
   padding-top: 12px;
+  padding-left: 188px;
   font-family: aktiv-grotesk-extended, sans-serif;
   font-style: normal;
   font-weight: 100;
@@ -378,8 +393,8 @@ text-align: center;
 }
 
 .dots {
-  color: #b92255;
-  font-weight: 400;
+    color:  #ed2c6c;
+  font-weight: 500;
 }
 
 .taster {
@@ -449,6 +464,23 @@ u {
   border-color: #b92255;
   display: inline-block;
   margin-left: 13px;
+}
+
+.social.fa.fa-facebook {
+  font-size: 100px;
+  line-height: 2.5;
+}
+.social.fa.fa-twitter {
+  font-size: 100px;
+  line-height: 2.5;
+}
+.social.fa.fa-instagram {
+  font-size: 100px;
+  line-height: 2.5;
+}
+.social.fa.fa-behance {
+  font-size: 100px;
+  line-height: 2.5;
 }
 
 .shout {
@@ -563,29 +595,6 @@ u {
   justify-content: flex-end;
 }
 
-// .lower{
-//   width:340px;
-//   margin:10% auto;
-//   padding:50px;
-//   background: white;
-//   opacity:0.8;
-//   color:black;
-//   box-shadow:inset 0 0 0 1px black;
-//   border:30px solid white;
-// }
-
-
-// input{
-//   display:none;
-// }
-
-// .lower label{
-//   font-family: 'NotCourierSans';
-//   text-transform:uppercase;
-//   font-size:40px;
-//   text-align:center;
-// }
-
 .o-circle1 {
   height: 250px;
   width: 250px;
@@ -608,10 +617,6 @@ u {
   margin-left: 13px;
 }
 
-// .nav-item:hover {
-//   color: #43535b;
-//   background-color:  #b92255;
-// }
 
 .fab {
 color: #ed2c6c;
@@ -837,6 +842,7 @@ button {
 // About Section
 // ----------------------------------------------------------------------------------------------
 
+
 .vl1 {
   border-left: thick solid white;
   height: 100px;
@@ -994,6 +1000,332 @@ ul {
 li:hover {
   color: #43535b;
   text-decoration: none;
+}
+
+.one:hover::after {
+    content: "There are lots of companies out there that are
+      talented at design and bring in specialists to do
+      technical work, while others are good technicians
+      but need assistance with the arty bits.
+      \A \A
+      From the start, our vision was to cultivate an agency
+      that mixed quality design and leading technology
+      across all media platforms. We bring both together
+      under one roof, along with some communications,
+      publishing and strategic clout";
+    position:absolute;
+    white-space: pre-line;
+    display: block;
+    left: 500px;
+    bottom: 50px;
+    top: 10px;
+    width: 450px;
+    height: 300px;
+    border: 25px solid white;
+    padding: 25px;
+    margin: 25px;
+    color:  #43535b;
+
+}
+.two:hover::after {
+    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    It has survived not only five centuries,
+    \A \A
+    but also the leap into electronic typesetting,
+    remaining essentially unchanged.
+    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+    position:absolute;
+    white-space: pre-line;
+    display: block;
+    left: 500px;
+    bottom: 50px;
+    top: 10px;
+    width: 450px;
+    height: 300px;
+    border: 25px solid white;
+    padding: 25px;
+    margin: 25px;
+    color:  #43535b;
+
+}
+.three:hover::after {
+    content: "There are lots of companies out there that are
+      talented at design and bring in specialists to do
+      technical work, while others are good technicians
+      but need assistance with the arty bits.
+      \A \A
+      From the start, our vision was to cultivate an agency
+      that mixed quality design and leading technology
+      across all media platforms. We bring both together
+      under one roof, along with some communications,
+      publishing and strategic clout";
+    position:absolute;
+    white-space: pre-line;
+    display: block;
+    left: 500px;
+    bottom: 50px;
+    top: 10px;
+    width: 450px;
+    height: 300px;
+    border: 25px solid white;
+    padding: 25px;
+    margin: 25px;
+    color:  #43535b;
+
+}
+.four:hover::after {
+  content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+  when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+  It has survived not only five centuries,
+  \A \A
+  but also the leap into electronic typesetting,
+  remaining essentially unchanged.
+  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+    position:absolute;
+    white-space: pre-line;
+    display: block;
+    left: 500px;
+    bottom: 50px;
+    top: 10px;
+    width: 450px;
+    height: 300px;
+    border: 25px solid white;
+    padding: 25px;
+    margin: 25px;
+    color:  #43535b;
+
+}
+.five:hover::after {
+    content: "There are lots of companies out there that are
+      talented at design and bring in specialists to do
+      technical work, while others are good technicians
+      but need assistance with the arty bits.
+      \A \A
+      From the start, our vision was to cultivate an agency
+      that mixed quality design and leading technology
+      across all media platforms. We bring both together
+      under one roof, along with some communications,
+      publishing and strategic clout";
+    position:absolute;
+    white-space: pre-line;
+    display: block;
+    left: 500px;
+    bottom: 50px;
+    top: 10px;
+    width: 450px;
+    height: 300px;
+    border: 25px solid white;
+    padding: 25px;
+    margin: 25px;
+    color:  #43535b;
+
+}
+.six:hover::after {
+  content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+  when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+  It has survived not only five centuries,
+  \A \A
+  but also the leap into electronic typesetting,
+  remaining essentially unchanged.
+  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+    position:absolute;
+    white-space: pre-line;
+    display: block;
+    left: 500px;
+    bottom: 50px;
+    top: 10px;
+    width: 450px;
+    height: 300px;
+    border: 25px solid white;
+    padding: 25px;
+    margin: 25px;
+    color:  #43535b;
+
+}
+.seven:hover::after {
+    content: "There are lots of companies out there that are
+      talented at design and bring in specialists to do
+      technical work, while others are good technicians
+      but need assistance with the arty bits.
+      \A \A
+      From the start, our vision was to cultivate an agency
+      that mixed quality design and leading technology
+      across all media platforms. We bring both together
+      under one roof, along with some communications,
+      publishing and strategic clout";
+    position:absolute;
+    white-space: pre-line;
+    display: block;
+    left: 500px;
+    bottom: 50px;
+    top: 10px;
+    width: 450px;
+    height: 300px;
+    border: 25px solid white;
+    padding: 25px;
+    margin: 25px;
+    color:  #43535b;
+
+}
+.eight:hover::after {
+  content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+  when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+  It has survived not only five centuries,
+  \A \A
+  but also the leap into electronic typesetting,
+  remaining essentially unchanged.
+  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+    position:absolute;
+    white-space: pre-line;
+    display: block;
+    left: 500px;
+    bottom: 50px;
+    top: 10px;
+    width: 450px;
+    height: 300px;
+    border: 25px solid white;
+    padding: 25px;
+    margin: 25px;
+    color:  #43535b;
+
+}
+.nine:hover::after {
+    content: "There are lots of companies out there that are
+      talented at design and bring in specialists to do
+      technical work, while others are good technicians
+      but need assistance with the arty bits.
+      \A \A
+      From the start, our vision was to cultivate an agency
+      that mixed quality design and leading technology
+      across all media platforms. We bring both together
+      under one roof, along with some communications,
+      publishing and strategic clout";
+    position:absolute;
+    white-space: pre-line;
+    display: block;
+    left: 500px;
+    bottom: 50px;
+    top: 10px;
+    width: 450px;
+    height: 300px;
+    border: 25px solid white;
+    padding: 25px;
+    margin: 25px;
+    color:  #43535b;
+
+}
+.ten:hover::after {
+  content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+  when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+  It has survived not only five centuries,
+  \A \A
+  but also the leap into electronic typesetting,
+  remaining essentially unchanged.
+  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+    position:absolute;
+    white-space: pre-line;
+    display: block;
+    left: 500px;
+    bottom: 50px;
+    top: 10px;
+    width: 450px;
+    height: 300px;
+    border: 25px solid white;
+    padding: 25px;
+    margin: 25px;
+    color:  #43535b;
+
+}
+.eleven:hover::after {
+    content: "There are lots of companies out there that are
+      talented at design and bring in specialists to do
+      technical work, while others are good technicians
+      but need assistance with the arty bits.
+      \A \A
+      From the start, our vision was to cultivate an agency
+      that mixed quality design and leading technology
+      across all media platforms. We bring both together
+      under one roof, along with some communications,
+      publishing and strategic clout";
+    position:absolute;
+    white-space: pre-line;
+    display: block;
+    left: 500px;
+    bottom: 50px;
+    top: 10px;
+    width: 450px;
+    height: 300px;
+    border: 25px solid white;
+    padding: 25px;
+    margin: 25px;
+    color:  #43535b;
+
+}
+.twelve:hover::after {
+  content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+  when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+  It has survived not only five centuries,
+  \A \A
+  but also the leap into electronic typesetting,
+  remaining essentially unchanged.
+  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+    position:absolute;
+    white-space: pre-line;
+    display: block;
+    left: 500px;
+    bottom: 50px;
+    top: 10px;
+    width: 450px;
+    height: 300px;
+    border: 25px solid white;
+    padding: 25px;
+    margin: 25px;
+    color:  #43535b;
+
+}
+.thirteen:hover::after {
+    content: "There are lots of companies out there that are
+      talented at design and bring in specialists to do
+      technical work, while others are good technicians
+      but need assistance with the arty bits.
+      \A \A
+      From the start, our vision was to cultivate an agency
+      that mixed quality design and leading technology
+      across all media platforms. We bring both together
+      under one roof, along with some communications,
+      publishing and strategic clout";
+    position:absolute;
+    white-space: pre-line;
+    display: block;
+    left: 500px;
+    bottom: 50px;
+    top: 10px;
+    width: 450px;
+    height: 300px;
+    border: 25px solid white;
+    padding: 25px;
+    margin: 25px;
+    color:  #43535b;
+
+}
+
+.dot-line {
+  margin-top: 100px;
+  border-top: dotted 3px black;
+  width: 90%;
 }
 
 .about-txt {

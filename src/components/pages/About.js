@@ -6,6 +6,16 @@ import Company from './../Company1';
 
 
 class About extends React.Component {
+
+//   function myFunction() {
+//   var x = document.getElementById('myDIV');
+//   if (x.style.display === 'none') {
+//     x.style.display = 'block';
+//   } else {
+//     x.style.display = 'none';
+//   }
+// }
+
   render() {
     return (
       <main>
@@ -19,7 +29,7 @@ class About extends React.Component {
         <div className="row no-gutters">
           <div className="col no-gutters">
             <hr className="dotted"/>
-              <p className="hover we">What we do</p>
+              <p className="hover we" onclick="myFunction()">What we do</p>
           </div>
           <div className="col no-gutters">
             <hr className="dotted1"/>
@@ -36,37 +46,54 @@ class About extends React.Component {
   </div>
   <div className="container">
   <div className="row">
+    <div id="myDiv">
     <div className="col">
       <ul>
+        <div className="one">
         <li>Branding</li>
+      </div>
+        <div className="two">
         <li>Print Design</li>
-        <li>Print Buying</li>
+      </div>
+        <div className="three">
+      <li>Print Buying</li>
+      </div>
+        <div className="four">
         <li>UX and UI Design</li>
+      </div>
+        <div className="five">
         <li>Website Design & Build</li>
+      </div>
+        <div className="six">
         <li>Content Management Systems</li>
+      </div>
+        <div className="seven">
         <li>Search Engine Optimisation</li>
+      </div>
+        <div className="eight">
         <li>Mobile App Design</li>
+      </div>
+        <div className="nine">
         <li>Web Apps Design & Programming</li>
+      </div>
+        <div className="ten">
         <li>Responsive Design</li>
-        <li>Mobile Website Versions<br></br>(smartphones & tablets)</li>
+      </div>
+        <div className="eleven">
+          <li>Mobile Website Versions<br></br>(smartphones & tablets)</li>
+      </div>
+        <div className="twelve">
         <li>Consultancy</li>
-        <li>Tutoring & Induction Training</li>
+      </div>
+        <div className="thirteen">
+          <li>Tutoring & Induction Training</li>
+      </div>
       </ul>
     </div>
-    <div className="col">
-      <p className="about-txt">There are lots of companies out there that are
-        talented at design and bring in specialists to do
-        technical work, while others are good technicians
-        but need assistance with the arty bits.<br></br>
-        <br></br>
-        From the start, our vision was to cultivate an agency
-        that mixed quality design and leading technology
-        across all media platforms. We bring both together
-        under one roof, along with some communications,
-        publishing and strategic clout</p>
+  </div>
     </div>
   </div>
-</div>
+<hr className="dot-line" />
 <Company />
 
 <Footer />

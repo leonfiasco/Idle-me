@@ -44,12 +44,10 @@ class Social extends React.Component {
   			<label for="op"></label>
   			<nav>
   				<ul>
-              <div className="o-circle1">
-                <i className="fa fa-facebook"></i>
-              </div>
-              <div className="o-circle1"><i className="fa fa-twitter"></i></div>
-              <div className="o-circle1"><i className="fa fa-instagram"></i></div>
-              <div className="o-circle1"><i className="fa fa-behance"></i></div>
+              <div className="o-circle1"><i className="social fa fa-facebook"></i></div>
+              <div className="o-circle1"><i className="social fa fa-twitter"></i></div>
+              <div className="o-circle1"><i className="social fa fa-instagram"></i></div>
+              <div className="o-circle1"><i className="social fa fa-behance"></i></div>
 
   				</ul>
   			</nav>

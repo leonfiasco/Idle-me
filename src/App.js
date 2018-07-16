@@ -11,7 +11,7 @@ import 'font-awesome/css/font-awesome.min.css';
 
 import Home from './components/pages/Home';
 import About from './components/pages/About';
-
+import OurWork from './components/pages/OurWork';
 
 
 
@@ -20,7 +20,7 @@ class App extends React.Component {
     return (
       <Router>
         <main>
-
+        <Route exact path="/ourwork" component={OurWork} />
         <Route exact path="/about" component={About} />
         <Route exact path="/" component={Home} />
         </main>

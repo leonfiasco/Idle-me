@@ -889,8 +889,8 @@ button {
   height: 1px;
   border: 0;
   border-top: 2px dotted #000000;
-  margin-left: -215px;
   margin-bottom: 40px;
+  margin-left: 0px;
   padding: 0;
   width: 90px;
  }
@@ -900,7 +900,8 @@ button {
   height: 1px;
   border: 0;
   border-top: 2px dotted #000000;
-  margin-left: -150px;
+  margin-top: 15px;
+  margin-left: -350px;
   margin-bottom: 40px;
   padding: 0;
   width: 140px;
@@ -910,7 +911,8 @@ button {
   height: 1px;
   border: 0;
   border-top: 2px dotted #000000;
-  margin-left: -295px;
+  margin-top: -84px;
+  margin-left: -140px;
   margin-bottom: 40px;
   padding: 0;
   width: 100px;
@@ -930,7 +932,6 @@ button {
 
 .we1 {
   width: 100px;
-  margin-left: -215px;
   color: #43535b;
   cursor: pointer;
 }
@@ -942,7 +943,8 @@ button {
 
 .we2 {
   width: 135px;
-  margin-left: -150px;
+  margin-left: -348px;
+  margin-top: 1px;
   color: #43535b;
   cursor: pointer;
 }
@@ -953,8 +955,8 @@ button {
 }
 
 .we3 {
-  width: 100px;
-  margin-left: -295px;
+  width: 99px;
+  margin-left: -130px;
   color: #43535b;
   cursor: pointer;
 }
@@ -1350,12 +1352,12 @@ li:hover {
   -webkit-transform: rotate(45deg); /* Safari 3-8 */
   transform: rotate(90deg);
   margin-left: 10px;
-  margin-top: 16px;
+  margin-top: 18px;
 }
 
 .line2 {
-  width: 60px;
-  height: 30px;
+  width: 64px;
+  height: 68px;
   border-bottom: 1px solid black;
   position: absolute;
   -ms-transform: rotate(45deg); /* IE 9 */
@@ -1376,6 +1378,7 @@ li:hover {
   margin-right: 295px;
   margin-top: -15px;
   border-radius: 50%;
+  border-width: thin;
   display: inline-block;
   position: absolute;
   z-index: 3;
@@ -1427,6 +1430,7 @@ li:hover {
   margin-top: -15px;
   margin-bottom: 17px;
   border-radius: 50%;
+  border-width: thin;
   display: inline-block;
   position: absolute;
   z-index: 3;
@@ -1478,6 +1482,7 @@ li:hover {
   margin-bottom: 35px;
   padding-right: -80px;
   border-radius: 50%;
+  border-width: thin;
   position: absolute;
   z-index: 3;
   display: inline-block;
@@ -1528,6 +1533,7 @@ li:hover {
   margin-top: 195px;
   margin-bottom: 0px;
   border-radius: 50%;
+  border-width: thin;
   display: inline-block;
   position: absolute;
   z-index: 3;
@@ -1577,6 +1583,7 @@ li:hover {
   margin-top: 195px;
   margin-bottom: 17px;
   border-radius: 50%;
+  border-width: thin;
   display: inline-block;
   position: absolute;
   z-index: 3;
@@ -1627,6 +1634,7 @@ li:hover {
   margin-bottom: 35px;
   padding-right: -80px;
   border-radius: 50%;
+  border-width: thin;
   position: absolute;
   z-index: 3;display: inline-block;
   transition: transform 0.25s ease;
@@ -1665,7 +1673,8 @@ li:hover {
   }
 
 .venn-container {
-  margin-left: -540px;
+  margin-left: -300px;
+  padding-top: 55px;
 }
 
 .overlap1 {
@@ -1739,4 +1748,42 @@ li:hover {
 
 .hr-dot {
  border-top: 2px dotted #000000;
+}
+
+// ----------------------------------------------------------------------------------------------
+// Our work Section
+// ----------------------------------------------------------------------------------------------
+
+
+.work-line1.col-sm-6 {
+ border-top: 2px dotted #000000;
+ max-width: 35%;
+ margin-right: 100px;
+}
+
+.work-line2.col-sm-6 {
+ border-top: 2px dotted #000000;
+ max-width: 35%;
+ margin-right: 100px;
+}
+
+.work-dot.row {
+  margin-left: 230px;
+}
+
+
+.business.row {
+  margin-top: 50px;
+}
+
+.retail.col {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 10px;
+}
+
+.work.row {
+  padding-top: 140px;
+  margin-left: 50px;
+  margin-right: 50px;
 }

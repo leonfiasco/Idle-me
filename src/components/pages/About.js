@@ -25,10 +25,6 @@ class About extends React.Component {
   render() {
     return (
       <main>
-
-
-
-
         <Navbar />
         <br></br>
         <div className="d-flex flex-column bd-highlight mb-3">
@@ -90,78 +86,79 @@ class About extends React.Component {
 
     </div>
 
-        </div>
+    </div>
 
-        <div className="col no-gutters">
-          <hr className="dotted1"/>
-          <p className="hover we1" onClick={this.toggle_visibility.bind(this, 'incometoggle2')}>Who we are</p>
-          <div id="incometoggle2" className="income">
-            <div className="row-fluid">
-          <div className="span9">
+    <div className="col no-gutters">
+      <hr className="dotted1"/>
+      <p className="hover we1" onClick={this.toggle_visibility.bind(this, 'incometoggle2')}>Who we are</p>
+      <div id="incometoggle2" className="income">
+        <div className="row-fluid">
+      <div className="span9">
 
-                  <div className="venn-container">
+              <div className="venn-container">
 
-                           <div className="overlap1">
-                             <p className="overtxt1">Design</p>
-                             <div className="overlap2">
-                               <p className="overtxt2">Tech</p>
-                                 <div id="center"></div>
-                               </div>
+                       <div className="overlap1">
+                         <p className="overtxt1">Design</p>
+                         <div className="overlap2">
+                           <p className="overtxt2">Tech</p>
+                             <div id="center"></div>
+                           </div>
 
-                               <div id="dot-1">
-                                 <div className="cross">
-                                 <div className="line1"></div>
-                                 <div className="line2"></div>
-                               </div>
-                               </div>
-                               
-                               <div id="dot-2">
-                                 <div className="cross">
-                                 <div className="line1"></div>
-                                 <div className="line2"></div>
-                               </div>
-                               </div>
-                               <div id="dot-3">
-                                 <div className="cross">
-                                 <div className="line1"></div>
-                                 <div className="line2"></div>
-                               </div>
-                               </div>
-                               <div id="dot-4">
-                                 <div className="cross">
-                                 <div className="line1"></div>
-                                 <div className="line2"></div>
-                               </div>
-                               </div>
-                               <div id="dot-5">
-                                 <div className="cross">
-                                 <div className="line1"></div>
-                                 <div className="line2"></div>
-                               </div>
-                               </div>
-                               <div id="dot-6">
-                                 <div className="cross">
-                                 <div className="line1"></div>
-                                 <div className="line2"></div>
-                               </div>
-                               </div>
-                  </div>
-          </div>
-  </div>
-        </div>
-      </div>
-</div>
-          {/* </div>
-          <div className="col no-gutters">
-            <hr className="dotted1"/>
-              <p className="hover we1" onClick={this.toglle_visibility.bind(this, 'incometoggle2')}>Who we are</p>
-              <div id="incometoggle2" clas
-          </div> */}
+                           <div id="dot-1">
+                             <div className="cross">
+                             <div className="line1"></div>
+                             <div className="line2"></div>
+                           </div>
+                           </div>
 
-          {/* <div className="col no-gutters">
-            <hr className="dotted2"/>
-            <p className="hover we2">Who we work with</p>
-          </div> */}
+                           <div id="dot-2">
+                             <div className="cross">
+                             <div className="line1"></div>
+                             <div className="line2"></div>
+                           </div>
+                           </div>
+                           <div id="dot-3">
+                             <div className="cross">
+                             <div className="line1"></div>
+                             <div className="line2"></div>
+                           </div>
+                           </div>
+                           <div id="dot-4">
+                             <div className="cross">
+                             <div className="line1"></div>
+                             <div className="line2"></div>
+                           </div>
+                           </div>
+                           <div id="dot-5">
+                             <div className="cross">
+                             <div className="line1"></div>
+                             <div className="line2"></div>
+                           </div>
+                           </div>
+                           <div id="dot-6">
+                             <div className="cross">
+                             <div className="line1"></div>
+                             <div className="line2"></div>
+                           </div>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div className="col no-gutters">
+                 <hr className="dotted2"/>
+                   <p className="hover we2">Who we work with</p>
+                   <div id="incometoggle2" className="">
+               </div>
+
+               <div className="col no-gutters">
+                 <hr className="dotted3"/>
+                 <p className="hover we3">Our Story</p>
+               </div>
+             </div>
+
 
 
           {/* <p className="hover we" onClick={this.toggle_visibility.bind(this, 'incometoggle2')}>What we do</p>

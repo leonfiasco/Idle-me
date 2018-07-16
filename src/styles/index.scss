@@ -1389,7 +1389,9 @@ li:hover {
   }
 
 #dot-1:hover::after {
-  content: "There are lots of companies out there that are
+  content:
+
+  "There are lots of companies out there that are
     talented at design and bring in specialists to do
     technical work, while others are good technicians
     but need assistance with the arty bits.
@@ -1401,18 +1403,17 @@ li:hover {
     publishing and strategic clout";
     white-space: pre-line;
     display: block;
-    position: static;
-    // white-space: pre-line;
-    // display: block;
-    // left: 800px;
-    // bottom: 50px;
-    // top: 100px;
-    // width: 450px;
-    // height: 300px;
-    // border: 25px solid white;
-    // padding: 25px;
-    // margin: 25px;
-    // color:  #43535b;
+    position: relative;
+    font-size: 11px;
+    left: 300px;
+    bottom: 65px;
+    top: 10px;
+    width: 450px;
+    height: 300px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    color:  #43535b;
   }
 
 #dot-2 {
@@ -1437,6 +1438,34 @@ li:hover {
     transform: scale(1.5);
   }
 
+  #dot-2:hover::after {
+    content:
+
+    "There are lots of companies out there that are
+      talented at design and bring in specialists to do
+      technical work, while others are good technicians
+      but need assistance with the arty bits.
+      \A \A
+      From the start, our vision was to cultivate an agency
+      that mixed quality design and leading technology
+      across all media platforms. We bring both together
+      under one roof, along with some communications,
+      publishing and strategic clout";
+      white-space: pre-line;
+      display: block;
+      position: relative;
+      font-size: 11px;
+      left: 200px;
+      bottom: 65px;
+      top: 10px;
+      width: 450px;
+      height: 300px;
+      border: 25px;
+      padding: 25px;
+      margin: 25px;
+      color:  #43535b;
+    }
+
 #dot-3 {
   height: 65px;
   width: 65px;
@@ -1460,6 +1489,34 @@ li:hover {
     transform: scale(1.5);
   }
 
+#dot-3:hover::after {
+  content:
+
+  "There are lots of companies out there that are
+    talented at design and bring in specialists to do
+    technical work, while others are good technicians
+    but need assistance with the arty bits.
+    \A \A
+    From the start, our vision was to cultivate an agency
+    that mixed quality design and leading technology
+    across all media platforms. We bring both together
+    under one roof, along with some communications,
+    publishing and strategic clout";
+    white-space: pre-line;
+    display: block;
+    position: relative;
+    font-size: 11px;
+    left: 100px;
+    bottom: 65px;
+    top: 10px;
+    width: 450px;
+    height: 300px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    color:  #43535b;
+  }
+
 #dot-4 {
   height: 65px;
   width: 65px;
@@ -1481,6 +1538,34 @@ li:hover {
     transform: scale(1.5);
   }
 
+#dot-4:hover::after {
+  content:
+
+  "There are lots of companies out there that are
+    talented at design and bring in specialists to do
+    technical work, while others are good technicians
+    but need assistance with the arty bits.
+    \A \A
+    From the start, our vision was to cultivate an agency
+    that mixed quality design and leading technology
+    across all media platforms. We bring both together
+    under one roof, along with some communications,
+    publishing and strategic clout";
+    white-space: pre-line;
+    display: block;
+    position: relative;
+    font-size: 11px;
+    left: 300px;
+    bottom: 100px;
+    top: -150px;
+    width: 450px;
+    height: 300px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    color:  #43535b;
+  }
+
 #dot-5 {
   height: 65px;
   width: 65px;
@@ -1498,8 +1583,36 @@ li:hover {
   transition: transform 0.25s ease;
   }
 
-  #dot-5:hover {
+#dot-5:hover {
     transform: scale(1.5);
+  }
+
+#dot-5:hover::after {
+  content:
+
+  "There are lots of companies out there that are
+    talented at design and bring in specialists to do
+    technical work, while others are good technicians
+    but need assistance with the arty bits.
+    \A \A
+    From the start, our vision was to cultivate an agency
+    that mixed quality design and leading technology
+    across all media platforms. We bring both together
+    under one roof, along with some communications,
+    publishing and strategic clout";
+    white-space: pre-line;
+    display: block;
+    position: relative;
+    font-size: 11px;
+    left: 200px;
+    bottom: 100px;
+    top: -150px;
+    width: 450px;
+    height: 300px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    color:  #43535b;
   }
 
 #dot-6 {
@@ -1519,8 +1632,36 @@ li:hover {
   transition: transform 0.25s ease;
   }
 
-  #dot-6:hover {
+#dot-6:hover {
     transform: scale(1.5);
+    content: "mr leon boakye"
+  }
+
+#dot-6:hover::after {
+  content:
+  "There are lots of companies out there that are
+    talented at design and bring in specialists to do
+    technical work, while others are good technicians
+    but need assistance with the arty bits.
+    \A \A
+    From the start, our vision was to cultivate an agency
+    that mixed quality design and leading technology
+    across all media platforms. We bring both together
+    under one roof, along with some communications,
+    publishing and strategic clout";
+    white-space: pre-line;
+    display: block;
+    position: relative;
+    font-size: 11px;
+    left: 100px;
+    bottom: 100px;
+    top: -150px;
+    width: 450px;
+    height: 300px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    color:  #43535b;
   }
 
 .venn-container {

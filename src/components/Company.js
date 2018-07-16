@@ -12,7 +12,7 @@ class Company extends React.Component {
             </div>
               <div className="row-9">
                 <div className="circle">
-                  <img className="comp-logo1" src="https://www.dropbox.com/pri/get/on-ilde/virgin-media.svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AADU9oouzFhGMrddXJnduxTyH4D00yBVgH-Yz-stnXNufA" alt="virgin-media" href=""></img>
+                  <img className="comp-logo1" src="./../public/images/virgin-media.svg" alt="virgin-media" href=""></img>
                 </div>
                 <div className="circle">
                   <img className="comp-logo2" src="https://www.dropbox.com/pri/get/on-ilde/four-corners-logo-2.svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AADTj_lhMhisAikqDBVzrm_fiD2BnJPx0j9lCGkroZVOTQ" alt="four-corners" href=""></img>

@@ -6710,6 +6710,7 @@ u {
   margin: 0px 0px 0px 14px;
   padding-top: 30px;
   padding-bottom: 0px;
+  background: url("./../public/images/virgin-media.svg");
   background-repeat: no-repeat;
   filter: gray;
   -webkit-filter: grayscale(100%);
@@ -7035,7 +7036,7 @@ button {
   height: 1px;
   border: 0;
   border-top: 2px dotted #000000;
-  margin-left: 130px;
+  margin-left: -215px;
   margin-bottom: 40px;
   padding: 0;
   width: 90px; }
@@ -7045,17 +7046,17 @@ button {
   height: 1px;
   border: 0;
   border-top: 2px dotted #000000;
-  margin-left: 0px;
+  margin-left: -150px;
   margin-bottom: 40px;
   padding: 0;
-  width: 100px; }
+  width: 140px; }
 
 .dotted3 {
   display: block;
   height: 1px;
   border: 0;
   border-top: 2px dotted #000000;
-  margin-left: -130px;
+  margin-left: -295px;
   margin-bottom: 40px;
   padding: 0;
   width: 100px; }
@@ -7072,7 +7073,7 @@ button {
 
 .we1 {
   width: 100px;
-  margin-left: 130px;
+  margin-left: -215px;
   color: #43535b;
   cursor: pointer; }
 
@@ -7082,7 +7083,7 @@ button {
 
 .we2 {
   width: 135px;
-  margin-left: 0px;
+  margin-left: -150px;
   color: #43535b;
   cursor: pointer; }
 
@@ -7092,7 +7093,7 @@ button {
 
 .we3 {
   width: 100px;
-  margin-left: -120px;
+  margin-left: -295px;
   color: #43535b;
   cursor: pointer; }
 
@@ -7121,11 +7122,23 @@ button {
   transform-origin: bottom left; }
 
 ul {
-  margin: 0px 0px 16px 117px;
+  margin: 0px 0px 100px 360px;
+  margin-bottom: 100px;
   padding-top: 80px;
+  padding-left: 0px;
   list-style-type: none;
   color: #ed2c6c;
-  cursor: pointer; }
+  cursor: pointer;
+  width: 100%; }
+
+.we1-ul {
+  margin: 0px 0px 16px -395px;
+  padding-top: 80px;
+  padding-left: 0px;
+  list-style-type: none;
+  color: #ed2c6c;
+  cursor: pointer;
+  width: 100%; }
 
 li:hover {
   color: #43535b;
@@ -7136,9 +7149,9 @@ li:hover {
   position: absolute;
   white-space: pre-line;
   display: block;
-  left: 500px;
+  left: 650px;
   bottom: 50px;
-  top: 10px;
+  top: 100px;
   width: 450px;
   height: 300px;
   border: 25px solid white;
@@ -7151,9 +7164,9 @@ li:hover {
   position: absolute;
   white-space: pre-line;
   display: block;
-  left: 500px;
+  left: 650px;
   bottom: 50px;
-  top: 10px;
+  top: 100px;
   width: 450px;
   height: 300px;
   border: 25px solid white;
@@ -7166,9 +7179,9 @@ li:hover {
   position: absolute;
   white-space: pre-line;
   display: block;
-  left: 500px;
+  left: 650px;
   bottom: 50px;
-  top: 10px;
+  top: 100px;
   width: 450px;
   height: 300px;
   border: 25px solid white;
@@ -7181,9 +7194,9 @@ li:hover {
   position: absolute;
   white-space: pre-line;
   display: block;
-  left: 500px;
+  left: 650px;
   bottom: 50px;
-  top: 10px;
+  top: 100px;
   width: 450px;
   height: 300px;
   border: 25px solid white;
@@ -7196,9 +7209,9 @@ li:hover {
   position: absolute;
   white-space: pre-line;
   display: block;
-  left: 500px;
+  left: 650px;
   bottom: 50px;
-  top: 10px;
+  top: 100px;
   width: 450px;
   height: 300px;
   border: 25px solid white;
@@ -7211,9 +7224,9 @@ li:hover {
   position: absolute;
   white-space: pre-line;
   display: block;
-  left: 500px;
+  left: 650px;
   bottom: 50px;
-  top: 10px;
+  top: 100px;
   width: 450px;
   height: 300px;
   border: 25px solid white;
@@ -7226,9 +7239,9 @@ li:hover {
   position: absolute;
   white-space: pre-line;
   display: block;
-  left: 500px;
+  left: 650px;
   bottom: 50px;
-  top: 10px;
+  top: 100px;
   width: 450px;
   height: 300px;
   border: 25px solid white;
@@ -7241,9 +7254,9 @@ li:hover {
   position: absolute;
   white-space: pre-line;
   display: block;
-  left: 500px;
+  left: 650px;
   bottom: 50px;
-  top: 10px;
+  top: 100px;
   width: 450px;
   height: 300px;
   border: 25px solid white;
@@ -7256,9 +7269,9 @@ li:hover {
   position: absolute;
   white-space: pre-line;
   display: block;
-  left: 500px;
+  left: 650px;
   bottom: 50px;
-  top: 10px;
+  top: 100px;
   width: 450px;
   height: 300px;
   border: 25px solid white;
@@ -7271,9 +7284,9 @@ li:hover {
   position: absolute;
   white-space: pre-line;
   display: block;
-  left: 500px;
+  left: 650px;
   bottom: 50px;
-  top: 10px;
+  top: 100px;
   width: 450px;
   height: 300px;
   border: 25px solid white;
@@ -7286,9 +7299,9 @@ li:hover {
   position: absolute;
   white-space: pre-line;
   display: block;
-  left: 500px;
+  left: 650px;
   bottom: 50px;
-  top: 10px;
+  top: 100px;
   width: 450px;
   height: 300px;
   border: 25px solid white;
@@ -7301,9 +7314,9 @@ li:hover {
   position: absolute;
   white-space: pre-line;
   display: block;
-  left: 500px;
+  left: 650px;
   bottom: 50px;
-  top: 10px;
+  top: 100px;
   width: 450px;
   height: 300px;
   border: 25px solid white;
@@ -7316,9 +7329,9 @@ li:hover {
   position: absolute;
   white-space: pre-line;
   display: block;
-  left: 500px;
+  left: 650px;
   bottom: 50px;
-  top: 10px;
+  top: 100px;
   width: 450px;
   height: 300px;
   border: 25px solid white;
@@ -7326,9 +7339,214 @@ li:hover {
   margin: 25px;
   color: #43535b; }
 
+.cross {
+  transform: rotate(45deg);
+  margin-left: 25px; }
+
+.line1 {
+  width: 64px;
+  height: 26px;
+  border-bottom: 1px solid black;
+  position: absolute;
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari 3-8 */
+  transform: rotate(90deg);
+  margin-left: 10px;
+  margin-top: 16px; }
+
+.line2 {
+  width: 60px;
+  height: 30px;
+  border-bottom: 1px solid black;
+  position: absolute;
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari 3-8 */
+  transform: rotate(180deg);
+  margin-left: 0px;
+  margin-top: 30px; }
+
+#dot-1 {
+  height: 65px;
+  width: 65px;
+  background-color: #fff;
+  border-style: solid;
+  border-color: black;
+  margin-left: 0px;
+  margin-right: 295px;
+  margin-top: -15px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  z-index: 3;
+  transition: transform 0.25s ease; }
+
+#dot-1:hover {
+  transform: scale(1.5); }
+
+#dot-1:hover::after {
+  content: "There are lots of companies out there that are talented at design and bring in specialists to do technical work, while others are good technicians but need assistance with the arty bits. \A \A From the start, our vision was to cultivate an agency that mixed quality design and leading technology across all media platforms. We bring both together under one roof, along with some communications, publishing and strategic clout";
+  white-space: pre-line;
+  display: block;
+  position: static; }
+
+#dot-2 {
+  height: 65px;
+  width: 65px;
+  background-color: #fff;
+  border-style: solid;
+  border-color: black;
+  margin-left: 160px;
+  margin-right: 145px;
+  margin-top: -15px;
+  margin-bottom: 17px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  z-index: 3;
+  transition: transform 0.25s ease; }
+
+#dot-2:hover {
+  transform: scale(1.5); }
+
+#dot-3 {
+  height: 65px;
+  width: 65px;
+  background-color: #fff;
+  border-style: solid;
+  border-color: black;
+  margin-left: 311px;
+  margin-right: 145px;
+  margin-top: -15px;
+  margin-bottom: 35px;
+  padding-right: -80px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 3;
+  display: inline-block;
+  transition: transform 0.25s ease; }
+
+#dot-3:hover {
+  transform: scale(1.5); }
+
+#dot-4 {
+  height: 65px;
+  width: 65px;
+  background-color: #fff;
+  border-style: solid;
+  border-color: black;
+  margin-left: 0px;
+  margin-right: 295px;
+  margin-top: 195px;
+  margin-bottom: 0px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  z-index: 3;
+  transition: transform 0.25s ease; }
+
+#dot-4:hover {
+  transform: scale(1.5); }
+
+#dot-5 {
+  height: 65px;
+  width: 65px;
+  background-color: #fff;
+  border-style: solid;
+  border-color: black;
+  margin-left: 160px;
+  margin-right: 145px;
+  margin-top: 195px;
+  margin-bottom: 17px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  z-index: 3;
+  transition: transform 0.25s ease; }
+
+#dot-5:hover {
+  transform: scale(1.5); }
+
+#dot-6 {
+  height: 65px;
+  width: 65px;
+  background-color: #fff;
+  border-style: solid;
+  border-color: black;
+  margin-left: 311px;
+  margin-right: 145px;
+  margin-top: 195px;
+  margin-bottom: 35px;
+  padding-right: -80px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 3;
+  display: inline-block;
+  transition: transform 0.25s ease; }
+
+#dot-6:hover {
+  transform: scale(1.5); }
+
+.venn-container {
+  margin-left: -540px; }
+
+.overlap1 {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: #ed2c6c;
+  position: relative;
+  top: 40px;
+  z-index: 1; }
+
+.overtxt1 {
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: .004em;
+  color: #FFFFFF;
+  text-decoration: none;
+  position: absolute;
+  margin-top: 115px;
+  margin-left: 40px;
+  z-index: 2; }
+
+.overlap2 {
+  width: 250px;
+  height: 250px;
+  background: #43535b;
+  border-radius: 50%;
+  position: absolute;
+  left: 75px;
+  top: 50px;
+  overflow: hidden;
+  margin-top: -50px;
+  margin-left: 70px;
+  z-index: 2; }
+
+.overtxt2 {
+  font-size: 19px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  margin-top: 115px;
+  margin-left: 160px;
+  z-index: 3; }
+
+#center {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: white;
+  position: relative;
+  left: -139px;
+  margin-top: 0px; }
+
 .dot-line {
-  margin-top: 100px;
-  border-top: dotted 3px black;
+  margin-top: 250px;
+  border-top: dashed 3px black;
   width: 90%; }
 
 .about-txt {

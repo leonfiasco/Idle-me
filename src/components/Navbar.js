@@ -12,7 +12,7 @@ class Navbar extends React.Component {
           <div className="group1 d-flex justify-content-start">
             <span className="logo-icon d-block p-2">
               <Link className="home-logo" to="/">
-                <img className="idle-logo" alt="logo"></img>
+                <img className="idle-logo" alt="logo" src="https://uc48455ccc83b85f4ba6a1189731.previews.dropboxusercontent.com/p/thumb/AAG3IhsaFGTg66wsmcfzpiV0QXsZ_YwlgqmK2xk-AW4BZ-uxzw-OcIyYcqGYS4M4VJn4g950SsR3OTrhsc5eriP66ScbyahNDXHWtfzuN5XQG4sBMD-bSWXeTTkCgsC3HmP87e5X6unYDf0bnxZsScYWRC_aGbFBX2PDQd4ia6iAJ2GkLbeHcd8KMHf0pjhRQvrZXlPinK4wC-awMklSlmwZRgfgOp5YxS2EoSajMDJ0cw/p.png?preserve_transparency=1&size=1280x960&size_mode=3"></img>
               </Link>
                 <div className="vl">
                     <div className="nav-text text-white ">We are a creative digital and print agency -

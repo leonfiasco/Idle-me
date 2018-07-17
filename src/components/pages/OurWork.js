@@ -13,122 +13,162 @@ class OurWork extends React.Component {
         <br></br>
         <div className="d-flex flex-column bd-highlight mb-3">
           <div className="p-2 bd-highlight"></div>
-            <div className="p-2 bd-highlight"><p className="taster1">I want to know<span className="dots">...</span></p></div>
+            <div className="p-2 bd-highlight"><p className="taster1">Show me<span className="dots">...</span></p></div>
             <div className="p-2 bd-highlight"></div>
         </div>
-        <div class="work-dot row">
-  <div class="work-line1 col-sm-6">
-    <div class="business row">
-      <div class="col">
-        <p>Business</p>
+        <div className="work-dot row">
+  <div className="work-line1 col-sm-6">
+    <div className="business row">
+      <div className="col">
+        <p className="work-hover1">Business</p>
       </div>
-      <div class="col">
-        <p>Media</p>
+      <div className="col">
+        <p className="work-hover2">Media</p>
       </div>
-      <div class="col">
-        <p>Not-for-profit</p>
+      <div className="col">
+        <p className="work-hover3">Not-for-profit</p>
           </div>
-          <div class="w-100 d-none d-md-block"></div>
-      <div class="col">
-        <p>Finance</p>
+          <div className="w-100 d-none d-md-block"></div>
+      <div className="col">
+        <p className="work-hover4">Finance</p>
       </div>
-        <div class="col">
-        <p>Culture</p>
+        <div className="col">
+        <p className="work-hover5">Culture</p>
       </div>
-      <div class="retail col">
-        <p>Retail</p>
+      <div className="retail col">
+        <p className="work-hover6">Retail</p>
         </div>
     </div>
   </div>
-  <div class="work-line2 col-sm-6">
-    <div class="business row ">
-      <div class="col">
-        <p>Web Design</p>
+  <div className="work-line2 col-sm-6">
+    <div className="business row ">
+      <div className="col">
+        <p className="work-hover7">Web Design</p>
       </div>
-      <div class="col">
-        <p>Branding</p>
+      <div className="col">
+        <p className="work-hover8">Branding</p>
       </div>
-      <div class="col">
-        <p>Graphic Design</p>
+      <div className="col">
+        <p className="work-hover9">Graphic Design</p>
           </div>
-          <div class="w-100 d-none d-md-block"></div>
-      <div class="col">
-        <p>Print Design</p>
+          <div className="w-100 d-none d-md-block"></div>
+      <div className="col">
+        <p className="work-hover10">Print Design</p>
       </div>
-        <div class="col">
-        <p>Typography</p>
+        <div className="col">
+        <p className="work-hover11">Typography</p>
       </div>
-      <div class="col">
-        <p>Web Development</p>
+      <div className="col">
+        <p className="work-hover12">Web Development</p>
         </div>
     </div>
   </div>
   </div>
 
 
-        <div class="container-fluid">
-  <div class="work row">
-    <div class="col">
-      <img alt="place" src="https://picsum.photos/400/400/?random"></img>
+        <div className="container-fluid">
+  <div className="work row">
+    <div className="col">
+      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <h6>Title goes here!</h6>
+      <p>Some text goes here!!</p>
+
+
     </div>
     <br></br>
-    <div class="col">
-      <img alt="place" src="https://picsum.photos/400/400/?random"></img>
+    <div className="col">
+      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <h6>Title goes here!</h6>
+      <p>Some text goes here!!</p>
+
     </div>
     <br></br>
-    <div class="col">
-      <img alt="place" src="https://picsum.photos/400/400/?random"></img>
+    <div className="col">
+      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <h6>Title goes here!</h6>
+      <p>Some text goes here!!</p>
+
       <br></br>
     </div>
   </div>
-  <div class="work row">
-    <div class="col">
-      <img alt="place" src="https://picsum.photos/400/400/?random"></img>
+  <div className="work row">
+    <div className="col">
+      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <h6>Title goes here!</h6>
+      <p>Some text goes here!!</p>
+
 
     </div>
-    <div class="col">
-      <img alt="place" src="https://picsum.photos/400/400/?random"></img>
+    <div className="col">
+      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <h6>Title goes here!</h6>
+      <p>Some text goes here!!</p>
+
 
     </div>
-    <div class="col">
-      <img alt="place" src="https://picsum.photos/400/400/?random"></img>
+    <div className="col">
+      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <h6>Title goes here!</h6>
+      <p>Some text goes here!!</p>
 
-    </div>
-  </div>
-  <br></br>
-  <div class="work row">
-    <div class="col">
-      <img alt="place" src="https://picsum.photos/400/400/?random"></img>
-
-    </div>
-    <div class="col">
-      <img alt="place" src="https://picsum.photos/400/400/?random"></img>
-
-    </div>
-    <div class="col">
-      <img alt="place" src="https://picsum.photos/400/400/?random"></img>
 
     </div>
   </div>
   <br></br>
-  <div class="work row">
-    <div class="col">
-      <img alt="place" src="https://picsum.photos/400/400/?random"></img>
+  <div className="work row">
+    <div className="col">
+      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <h6>Title goes here!</h6>
+      <p>Some text goes here!!</p>
+
 
     </div>
-    <div class="col">
-      <img alt="place" src="https://picsum.photos/400/400/?random"></img>
+    <div className="col">
+      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <h6>Title goes here!</h6>
+      <p>Some text goes here!!</p>
+
 
     </div>
-    <div class="col">
-      <img alt="place" src="https://picsum.photos/400/400/?random"></img>
+    <div className="col">
+      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <h6>Title goes here!</h6>
+      <p>Some text goes here!!</p>
+
 
     </div>
   </div>
   <br></br>
-  <div class="work row">
-    <div class="col">
-      <img alt="place" src="https://picsum.photos/400/400/?random"></img>
+  <div className="work row">
+    <div className="col">
+      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <h6>Title goes here!</h6>
+      <p>Some text goes here!!</p>
+
+
+    </div>
+    <div className="col">
+      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <h6>Title goes here!</h6>
+      <p>Some text goes here!!</p>
+
+
+    </div>
+    <div className="col">
+      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <h6>Title goes here!</h6>
+      <p>Some text goes here!!</p>
+
+
+    </div>
+  </div>
+  <br></br>
+  <div className="work row">
+    <div className="col">
+      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <h6>Title goes here!</h6>
+      <p>Some text goes here!!</p>
+
 
     </div>
 

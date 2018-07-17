@@ -48,7 +48,7 @@ html, body {
   height: 67px;
   width: 157px;
   margin-left: 120px;
-  // background: url("./../public/images/on-idle_logo_white.svg");
+  background: url("./../public/images/on-idle_logo_white.svg");
   background-repeat: no-repeat;
 }
 
@@ -522,7 +522,7 @@ u {
   height: 100px;
   width: 100px;
   margin: 25px;
-  background: url("./../public/images/American-Express-logo.svg");
+  background: url("https://www.dropbox.com/s/vrn8yi5e61u0iku/American_Express_logo_%282018%29.svg?dl=0");
   background-repeat: no-repeat;
   filter: gray;
   -webkit-filter: grayscale(100%);
@@ -1774,6 +1774,8 @@ li:hover {
 
 .business.row {
   margin-top: 50px;
+  color: #43535b;
+  cursor: pointer;
 }
 
 .retail.col {
@@ -1786,4 +1788,329 @@ li:hover {
   padding-top: 140px;
   margin-left: 50px;
   margin-right: 50px;
+}
+
+
+.work-hover1:hover {
+  color:  #ed2c6c;
+  text-decoration: none;
+}
+.work-hover2:hover {
+  color:  #ed2c6c;
+  text-decoration: none;
+}
+.work-hover3:hover {
+  color:  #ed2c6c;
+  text-decoration: none;
+}
+.work-hover4:hover {
+  color:  #ed2c6c;
+  text-decoration: none;
+}
+.work-hover5:hover {
+  color:  #ed2c6c;
+  text-decoration: none;
+}
+.work-hover6:hover {
+  color:  #ed2c6c;
+  text-decoration: none;
+}
+.work-hover7:hover {
+  color:  #ed2c6c;
+  text-decoration: none;
+}
+.work-hover8:hover {
+  color:  #ed2c6c;
+  text-decoration: none;
+}
+.work-hover9:hover {
+  color:  #ed2c6c;
+  text-decoration: none;
+}
+.work-hover10:hover {
+  color:  #ed2c6c;
+  text-decoration: none;
+}
+.work-hover11:hover {
+  color:  #ed2c6c;
+  text-decoration: none;
+}
+.work-hover12:hover {
+  color:  #ed2c6c;
+  text-decoration: none;
+}
+
+
+.work-hover1::before {
+  content: '';
+  position: absolute;
+  width: 60%;
+  transform: scaleX(0);
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color:  #ed2c6c;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.work-hover1:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.work-hover2::before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  transform: scaleX(0);
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color:  #ed2c6c;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.work-hover2:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.work-hover3::before {
+  content: '';
+  position: absolute;
+  width: 80%;
+  transform: scaleX(0);
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color:  #ed2c6c;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.work-hover3:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.work-hover4::before {
+  content: '';
+  position: absolute;
+  width: 55%;
+  transform: scaleX(0);
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color:  #ed2c6c;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.work-hover4:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+.work-hover5::before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  transform: scaleX(0);
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color:  #ed2c6c;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.work-hover5:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.work-hover6::before {
+  content: '';
+  position: absolute;
+  width: 40%;
+  transform: scaleX(0);
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color:  #ed2c6c;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.work-hover6:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+.work-hover7::before {
+  content: '';
+  position: absolute;
+  width: 72%;
+  transform: scaleX(0);
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color:  #ed2c6c;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.work-hover7:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.work-hover8::before {
+  content: '';
+  position: absolute;
+  width: 60%;
+  transform: scaleX(0);
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color:  #ed2c6c;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.work-hover8:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.work-hover9::before {
+  content: '';
+  position: absolute;
+  width: 90%;
+  transform: scaleX(0);
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color:  #ed2c6c;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.work-hover9:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+.work-hover10::before {
+  content: '';
+  position: absolute;
+  width: 90%;
+  transform: scaleX(0);
+  height: 5px;
+  // top: 3;
+  bottom: 0;
+  left: 0;
+  background-color:  #ed2c6c;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.work-hover10:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.work-hover11::before {
+  content: '';
+  position: absolute;
+  width: 90%;
+  transform: scaleX(0);
+  height: 5px;
+  top: 3;
+  bottom: 0;
+  left: 0;
+  background-color:  #ed2c6c;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.work-hover11:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.work-hover12 {
+  margin-right: -15px;
+}
+
+.work-hover12::before {
+  content: '';
+  position: absolute;
+  width: 90%;
+  transform: scaleX(0);
+  height: 5px;
+  top: 3;
+  bottom: 0;
+  left: 0;
+  background-color:  #ed2c6c;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.work-hover12:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.place-img:hover {
+  cursor: url("./../public/images/on_pink.svg");
+}
+
+
+
+// ----------------------------------------------------------------------------------------------
+// Contact Section
+// ----------------------------------------------------------------------------------------------
+
+
+.contact-txt.container {
+  margin-left: 300px;
+  margin-right: 0px;
+}
+
+.field-box {
+  border: none;
+  background-color: #EDE9E9;
+  width: 330px;
+  margin-top: 10px;
+}
+
+.field-box1 {
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-left-style: solid;
+  border-color: #b92255;
+  background-color: #EDE9E9;
+  width: 330px;
+  margin-top: 10px;
+}
+
+
+#message {
+  height: 200px;
+  width: 330px;
+  margin-bottom: 200px;
+}
+
+.con-txt {
+  color: #b92255;
+  margin-bottom: 0px;
+}
+
+#con-txt1 {
+  margin-bottom: 0px;
 }

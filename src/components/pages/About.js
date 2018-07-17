@@ -8,8 +8,7 @@ import Company from './../Company1';
 class About extends React.Component {
   toggle_visibility = (id) => {
       var e = document.getElementById(id);
-      var myClasses = document.querySelectorAll('.income')
-      var img2 = document.getElementById('incometoggle2'),
+      var myClasses = document.querySelectorAll('.income'),
       i = 0,
       l = myClasses.length;
 
@@ -157,44 +156,7 @@ class About extends React.Component {
                  <hr className="dotted3"/>
                  <p className="hover we3">Our Story</p>
                </div>
-             </div>
-
-
-
-          {/* <p className="hover we" onClick={this.toggle_visibility.bind(this, 'incometoggle2')}>What we do</p>
-           <div id="incometoggle2" className="income">
-             <ul>
-           <div className="one">
-           <li>Hovno</li>
-         </div>
-           <div className="two">
-           <li>Print Design</li>
-         </div>
-           <div className="three">
-         <li>Print Buying</li>
-         </div>
-
-         </ul>
-     </div> */}
-
-          {/* <div className="col no-gutters">
-            <hr className="dotted3"/>
-            <p className="hover we3" onClick={this.toggle_visibility.bind(this, 'incometoggle2')}>Our Story</p>
-            <div id="incometoggle2" className="income">
-              <ul>
-            <div className="one">
-            <li>Hovno</li>
-          </div>
-            <div className="two">
-            <li>Print Design</li>
-          </div>
-            <div className="three">
-          <li>Print Buying</li>
-          </div>
-
-          </ul>
-          </div>
-        </div> */}
+             </div>      
         </div>
 
 

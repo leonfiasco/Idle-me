@@ -66,10 +66,10 @@ class OurWork extends React.Component {
   </div>
 
 
-        <div className="container-fluid">
+        <div className="work container-fluid">
   <div className="work row">
     <div className="col">
-      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <img className="place-img" alt="place" src="https://picsum.photos/324/237/?random"></img>
       <h6>Title goes here!</h6>
       <p>Some text goes here!!</p>
 
@@ -77,14 +77,14 @@ class OurWork extends React.Component {
     </div>
     <br></br>
     <div className="col">
-      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <img className="place-img" alt="place" src="https://picsum.photos/324/237/?random"></img>
       <h6>Title goes here!</h6>
       <p>Some text goes here!!</p>
 
     </div>
     <br></br>
     <div className="col">
-      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <img className="place-img" alt="place" src="https://picsum.photos/324/237/?random"></img>
       <h6>Title goes here!</h6>
       <p>Some text goes here!!</p>
 
@@ -93,45 +93,21 @@ class OurWork extends React.Component {
   </div>
   <div className="work row">
     <div className="col">
-      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <img className="place-img" alt="place" src="https://picsum.photos/324/237/?random"></img>
       <h6>Title goes here!</h6>
       <p>Some text goes here!!</p>
 
 
     </div>
     <div className="col">
-      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <img className="place-img" alt="place" src="https://picsum.photos/324/237/?random"></img>
       <h6>Title goes here!</h6>
       <p>Some text goes here!!</p>
 
 
     </div>
     <div className="col">
-      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
-      <h6>Title goes here!</h6>
-      <p>Some text goes here!!</p>
-
-
-    </div>
-  </div>
-  <br></br>
-  <div className="work row">
-    <div className="col">
-      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
-      <h6>Title goes here!</h6>
-      <p>Some text goes here!!</p>
-
-
-    </div>
-    <div className="col">
-      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
-      <h6>Title goes here!</h6>
-      <p>Some text goes here!!</p>
-
-
-    </div>
-    <div className="col">
-      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <img className="place-img" alt="place" src="https://picsum.photos/324/237/?random"></img>
       <h6>Title goes here!</h6>
       <p>Some text goes here!!</p>
 
@@ -141,21 +117,21 @@ class OurWork extends React.Component {
   <br></br>
   <div className="work row">
     <div className="col">
-      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <img className="place-img" alt="place" src="https://picsum.photos/324/237/?random"></img>
       <h6>Title goes here!</h6>
       <p>Some text goes here!!</p>
 
 
     </div>
     <div className="col">
-      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <img className="place-img" alt="place" src="https://picsum.photos/324/237/?random"></img>
       <h6>Title goes here!</h6>
       <p>Some text goes here!!</p>
 
 
     </div>
     <div className="col">
-      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <img className="place-img" alt="place" src="https://picsum.photos/324/237/?random"></img>
       <h6>Title goes here!</h6>
       <p>Some text goes here!!</p>
 
@@ -165,7 +141,31 @@ class OurWork extends React.Component {
   <br></br>
   <div className="work row">
     <div className="col">
-      <img className="place-img" alt="place" src="https://picsum.photos/400/400/?random"></img>
+      <img className="place-img" alt="place" src="https://picsum.photos/324/237/?random"></img>
+      <h6>Title goes here!</h6>
+      <p>Some text goes here!!</p>
+
+
+    </div>
+    <div className="col">
+      <img className="place-img" alt="place" src="https://picsum.photos/324/237/?random"></img>
+      <h6>Title goes here!</h6>
+      <p>Some text goes here!!</p>
+
+
+    </div>
+    <div className="col">
+      <img className="place-img" alt="place" src="https://picsum.photos/324/237/?random"></img>
+      <h6>Title goes here!</h6>
+      <p>Some text goes here!!</p>
+
+
+    </div>
+  </div>
+  <br></br>
+  <div className="work row">
+    <div className="col">
+      <img className="place-img" alt="place" src="https://picsum.photos/324/237/?random"></img>
       <h6>Title goes here!</h6>
       <p>Some text goes here!!</p>
 

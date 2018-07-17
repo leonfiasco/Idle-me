@@ -1785,11 +1785,14 @@ li:hover {
 }
 
 .work.row {
-  padding-top: 140px;
+  padding-top: 80px;
   margin-left: 50px;
   margin-right: 50px;
 }
 
+.work.container-fluid {
+  margin-left: 40px;
+}
 
 .work-hover1:hover {
   color:  #ed2c6c;
@@ -2068,6 +2071,27 @@ li:hover {
 .place-img:hover {
   cursor: url("./../public/images/on_pink.svg");
 }
+
+
+
+
+// ----------------------------------------------------------------------------------------------
+// Blog Section
+// ----------------------------------------------------------------------------------------------
+
+  .wrapper {
+    margin-left: 145px;
+    margin-right: 145px;
+  }
+
+  .container-fluid {
+    margin-bottom: 150px;
+  }
+
+
+
+
+
 
 
 

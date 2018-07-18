@@ -6656,7 +6656,7 @@ u {
 .line:hover {
   color: #ed2c6c;
   background-color: #43535b;
-  text-decoration: underline; }
+  text-decoration: none; }
 
 .circle {
   height: 150px;
@@ -7343,9 +7343,7 @@ li:hover {
   border-bottom: 1px solid black;
   position: absolute;
   -ms-transform: rotate(45deg);
-  /* IE 9 */
   -webkit-transform: rotate(45deg);
-  /* Safari 3-8 */
   transform: rotate(90deg);
   margin-left: 10px;
   margin-top: 18px; }
@@ -7356,27 +7354,10 @@ li:hover {
   border-bottom: 1px solid black;
   position: absolute;
   -ms-transform: rotate(45deg);
-  /* IE 9 */
   -webkit-transform: rotate(45deg);
-  /* Safari 3-8 */
   transform: rotate(180deg);
   margin-left: 0px;
   margin-top: 30px; }
-
-#dot-1A {
-  height: 65px;
-  width: 65px;
-  background-color: #fff;
-  border-style: solid;
-  border-color: black;
-  margin-left: 225px;
-  margin-right: 295px;
-  margin-top: -15px;
-  border-radius: 50%;
-  border-width: thin;
-  display: inline-block;
-  position: absolute;
-  z-index: 3; }
 
 #dot-1 {
   height: 65px;
@@ -8019,9 +8000,24 @@ li:hover {
 .container-fluid {
   margin-bottom: 150px; }
 
+#dot-1A {
+  height: 65px;
+  width: 65px;
+  background-color: #fff;
+  border-style: solid;
+  border-color: black;
+  margin-left: 225px;
+  margin-right: 295px;
+  margin-top: 35px;
+  border-radius: 50%;
+  border-width: thin;
+  display: inline-block;
+  position: absolute;
+  z-index: 3; }
+
 .name-txt {
   margin-left: 215px;
-  margin-top: 60px; }
+  margin-top: 100px; }
 
 .share-box {
   margin-left: 220px; }
@@ -8034,17 +8030,46 @@ li:hover {
   margin-bottom: 0px;
   margin-left: 2px; }
 
-.fa-twitter:before {
+#fa-twitter:before {
   color: #ed2c6c;
   font-size: 25px; }
 
-.fa-facebook:before {
+#fa-facebook:before {
   color: #ed2c6c;
   font-size: 25px; }
 
-.fa-envelope:before {
+#fa-envelope:before {
   color: #ed2c6c;
   font-size: 25px; }
+
+.box-1 {
+  margin-left: -240px; }
+
+.box-2 {
+  margin-left: -520px;
+  margin-top: 40px; }
+
+.behance {
+  margin-top: 0px;
+  margin-bottom: 55px; }
+
+.blog-text {
+  margin-left: 465px;
+  margin-right: 465px; }
+
+.vl2 {
+  border-left: thick solid #ed2c6c;
+  height: 50px;
+  margin-left: 0px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.blog-line {
+  border-top: 3px dotted #ed2c6c;
+  width: 50%; }
+
+.line-tag {
+  margin-left: 380px; }
 
 .contact-txt.container {
   margin-left: 300px;

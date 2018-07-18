@@ -442,7 +442,7 @@ u {
 .line:hover {
   color:  #ed2c6c;
   background-color: #43535b;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .circle {
@@ -1341,8 +1341,8 @@ li:hover {
   height: 26px;
   border-bottom: 1px solid black;
   position: absolute;
-  -ms-transform: rotate(45deg); /* IE 9 */
-  -webkit-transform: rotate(45deg); /* Safari 3-8 */
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
   transform: rotate(90deg);
   margin-left: 10px;
   margin-top: 18px;
@@ -1353,17 +1353,14 @@ li:hover {
   height: 68px;
   border-bottom: 1px solid black;
   position: absolute;
-  -ms-transform: rotate(45deg); /* IE 9 */
-  -webkit-transform: rotate(45deg); /* Safari 3-8 */
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
   transform: rotate(180deg);
   margin-left: 0px;
   margin-top: 30px;
-
 }
 
 
-
-  }
 #dot-1 {
   height: 65px;
   width: 65px;
@@ -2194,6 +2191,8 @@ li:hover {
   }
 
 
+
+
   .icons1.text-muted.m-2 {
     margin: 0px;
     padding: 0px;
@@ -2204,21 +2203,59 @@ li:hover {
     margin-left: 2px;
   }
 
-  .fa-twitter:before {
+  #fa-twitter:before {
     color: #ed2c6c;
     font-size: 25px;
   }
-  .fa-facebook:before {
+  #fa-facebook:before {
     color: #ed2c6c;
     font-size: 25px;
   }
-  .fa-envelope:before {
+  #fa-envelope:before {
     color: #ed2c6c;
     font-size: 25px;
   }
 
+  .box-1 {
+    margin-left: -240px;
+  }
+
+  .box-2 {
+    margin-left: -520px;
+    margin-top: 40px;
+  }
+
+  .behance {
+    margin-top: 0px;
+    margin-bottom: 55px;
+  }
 
 
+
+  .blog-text {
+    margin-left: 465px;
+    margin-right: 465px;
+
+  }
+
+
+   .vl2 {
+    border-left: thick solid #ed2c6c;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+
+  .blog-line {
+    border-top: 3px dotted #ed2c6c;
+    width: 50%;
+  }
+
+  .line-tag {
+    margin-left: 380px;
+  }
 
 // ----------------------------------------------------------------------------------------------
 // Contact Section

@@ -501,7 +501,6 @@ u {
   margin: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
-  background: url("./../public/images/virgin-media.svg");
   background-repeat: no-repeat;
   filter: gray;
   -webkit-filter: grayscale(100%);
@@ -511,7 +510,6 @@ u {
   height: 150px;
   width: 150px;
   margin: 0px;
-  background: url("./../public/images/four-corners-logo-2.svg");
   background-repeat: no-repeat;
   filter: gray;
   -webkit-filter: grayscale(100%);
@@ -521,7 +519,6 @@ u {
   height: 150px;
   width: 150px;
   margin: 0px;
-  background: url("https://www.dropbox.com/s/vrn8yi5e61u0iku/American_Express_logo_%282018%29.svg?dl=0");
   background-repeat: no-repeat;
   filter: gray;
   -webkit-filter: grayscale(100%);
@@ -532,7 +529,6 @@ u {
   width: 150px;
   margin: 0px;
   padding-bottom: 0px;
-  background: url("./../public/images/the-foundry-logo.svg");
   background-repeat: no-repeat;
   filter: gray;
   -webkit-filter: grayscale(100%);
@@ -796,11 +792,15 @@ position: relative;
 }
 
 .footer-logo {
-  padding-top: 30px;
   height: 150px;
   width: 150px;
   border-radius: 50%;
   cursor: pointer;
+  background: url("https://uc28b5fd43f453f0d64dfde09cc2.previews.dropboxusercontent.com/p/thumb/AAFfdTfk2GYgHTy9fdsY5TKgL3MAZQxhMfrqNu4vlcIsu63RgSlO2JHqJ-CoHMbcAGd6hxlKeXB5VcPp8wVd7XQjo2Dhmb_VjLyZTFPEZZ5r9n6c0zC6XibiU7z_gei3y1IRejdLv6WUXqG9ref9qwnyJWGT-G4nVUe-iP0K4gtMSb5On5hGPmucMRLd1NqPW8yW-jxc40EL59fsASMEp_GGR-9Ju8oahxENygNfvSORPA/p.png?preserve_transparency=1&size=1280x960&size_mode=3");
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+
 }
 
 button {
@@ -1361,6 +1361,9 @@ li:hover {
 
 }
 
+
+
+  }
 #dot-1 {
   height: 65px;
   width: 65px;
@@ -1743,6 +1746,82 @@ li:hover {
  border-top: 2px dotted #000000;
 }
 
+
+.associate-logo1 {
+  height: 142px;
+  width: 142px;
+  margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-repeat: no-repeat;
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  cursor: pointer;
+}
+.associate-logo2 {
+  height: 142px;
+  width: 142px;
+  margin: 0px;
+  background-repeat: no-repeat;
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  cursor: pointer;
+}
+.associate-logo3 {
+  height: 142px;
+  width: 142px;
+  margin: 0px;
+  background-repeat: no-repeat;
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  cursor: pointer;
+}
+.associate-logo4 {
+  height: 142px;
+  width: 142px;
+  margin: 0px;
+  padding-bottom: 0px;
+  background-repeat: no-repeat;
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  cursor: pointer;
+}
+
+.associate-logo5 {
+  height: 142px;
+  width: 142px;
+  margin-top: 0px;
+  margin-left: 0px;
+  background-repeat: no-repeat;
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  cursor: pointer;
+}
+
+
+
+.associate-logo1:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+.associate-logo2:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+.associate-logo3:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+.associate-logo4:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+.associate-logo5:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+
 // ----------------------------------------------------------------------------------------------
 // Our work Section
 // ----------------------------------------------------------------------------------------------
@@ -2083,7 +2162,60 @@ li:hover {
 
 
 
+// ----------------------------------------------------------------------------------------------
+// Blog1 Section
+// ----------------------------------------------------------------------------------------------
 
+
+
+  #dot-1A {
+    height: 65px;
+    width: 65px;
+    background-color: #fff;
+    border-style: solid;
+    border-color: black;
+    margin-left: 225px;
+    margin-right: 295px;
+    margin-top: 35px;
+    border-radius: 50%;
+    border-width: thin;
+    display: inline-block;
+    position: absolute;
+    z-index: 3;
+  }
+
+  .name-txt {
+    margin-left: 215px;
+    margin-top: 100px;
+  }
+
+  .share-box {
+    margin-left: 220px;
+  }
+
+
+  .icons1.text-muted.m-2 {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .share {
+    margin-bottom: 0px;
+    margin-left: 2px;
+  }
+
+  .fa-twitter:before {
+    color: #ed2c6c;
+    font-size: 25px;
+  }
+  .fa-facebook:before {
+    color: #ed2c6c;
+    font-size: 25px;
+  }
+  .fa-envelope:before {
+    color: #ed2c6c;
+    font-size: 25px;
+  }
 
 
 

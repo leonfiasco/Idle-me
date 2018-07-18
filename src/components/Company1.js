@@ -12,19 +12,19 @@ class Company extends React.Component {
             </div>
               <div className="row-9">
                 <div className="circle1">
-                  <img className="comp-logo1" src="https://uc44b2c114cd977dd72c2cfc04ec.previews.dropboxusercontent.com/p/thumb/AAEbzY34lS6IA9xmcfBzxMQPfmvIE-0aS_EycINyyhvz_4hoCzWvpy3UN3eXNKPn_iaXJEF-Rrqmx-BsmYvJi_w4t2_HCaLVZZaq4p1-2zWe4sdu55mg1ZaTRgzPrMVNCEVlGLqZjBwxdKRvaCrO50OdnOdZaZinilnBOO4Wu3gSMikZTxDdmAuProR5ZIdwb03Elpl_GB2ASknVTdgbWTExvxJ-1wLGVH2BQw4CoXClcw/p.png?preserve_transparency=1&size=1280x960&size_mode=3" alt="virgin-media" href=""></img>
+                  <img className="associate-logo1" src="https://uc4029477e8bed44c12f29dfc361.previews.dropboxusercontent.com/p/thumb/AAFOe_jfhdld20bsvTNHIHCoJbvPTCxzkJoRBOtKw1owQVT9BA0PAl1vDWZVufIjio2DsJuKK0Sa_BGQUQO4shZ4lBEL22Trj4xF_YLkNhLYJ8uSJMI9LY1qRB_Y-2M9cuiL5mjay5jkGuYP844AQUJHAyHIcgY4VBDuItRQC6E1OQrLjByNWIDAy5Hq6Aq59ezhTXfcyAlLnZ-aJvzsWWWlSOQgKvnKm9cM-CldkxnNPw/p.png?preserve_transparency=1&size=1280x960&size_mode=3" alt="virgin-media" href=""></img>
                 </div>
                 <div className="circle1">
-                  <img className="comp-logo2" src="https://ucc097d5cf66fd6c3c9dc6982869.previews.dropboxusercontent.com/p/thumb/AAHq-SjBMshRngkiM8ERR3rnMh5lxBD7CTt8rOB0NjLvYy-dRuKXntVh7ac8i-BSixPZv_pZx_g6ie6O4EAov_W59qAgoJ1hJuA__0gY_whYYQbsxOSFFU1KP_TrUC7dAxFRbkgL5nZeb6YaHx4-BConLxP5buZNhYUTWsNHPpQGi9NPFuUOVfEv6cAP_81dIyLyIDISrQqolx92CRaoFOYIXPJUvFk_emf8E9-0FZeFWw/p.png?preserve_transparency=1&size=1280x960&size_mode=3" alt="four-corners" href=""></img>
+                  <img className="associate-logo2" src="https://uc3d6b3be43e99abf84de3bb42fc.previews.dropboxusercontent.com/p/thumb/AAHCr4x8Jl3PLtI7Hz5sIDLUFOpb5SAiCvfyJ5N0zpuIsg49UlkmKZ9KzQIUcV_HGJIqHWzKazcVaLO8kGlvBHPdGEw-8RCZGlovjR2kqYeRqabuHGM9ps5wCBsz04nUc81WY8608WcQiNG-_YLeSnHLMvA8ASP2GYhQIZjgEtcJp6LHTMacj-5c2-fTgXk0QuTmugTPGx0zA8dVUSyhHsHrYLiYN0n60qpCnlJCdNNOrA/p.png?preserve_transparency=1&size=1280x960&size_mode=3" alt="four-corners" href=""></img>
                 </div>
                 <div className="circle1">
-                  <img className="comp-logo3" src="https://www.dropbox.com/pri/get/on-ilde/American_Express_logo_(2018).svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AADHp3PD9F0rK1_HFXtp_DVsLKmz7LXazZ-Awfb7nOFU4Q" alt="american-express" href=""></img>
+                  <img className="associate-logo3" src="https://uca39d579929d6e02080d33a6cac.previews.dropboxusercontent.com/p/thumb/AAHXP1wE-dp1PE7lr6oxnaWUZwySM4bj_u7LU2PdZE-ag-9bNHtPLb5YlOLxmoYwukv2JcNh4bCFqnFXKkU8V1-GIFds5xqqM1W-gxtjzQrCtlDhFyx6-k1_1Z1t5L0ICho66whU1z1ql7yRK-LVTHTG6u3httmpz5UeX4uhVl6NUcJKTdGgbebXwNmWkwT9xwlqOIuFaZ-iJ-biaWkk-Ble042zpFxL9qa6yufjmlFH5g/p.png?preserve_transparency=1&size=1280x960&size_mode=3" alt="american-express" href=""></img>
                 </div>
                 <div className="circle1">
-                  <img className="comp-logo4" src="https://www.dropbox.com/pri/get/on-ilde/the-foundry-logo.svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AAA0gZnsOKpWioY5DE-0fq93ROMr1FgWdsJxLHeShxiwDg" alt="foundry" href=""></img>
+                  <img className="associate-logo4" src="https://uc58a29f4c086f7a1d8ce19cd631.previews.dropboxusercontent.com/p/thumb/AAF4w2w3P9VNqf3t-wmQurBX8YSlwsDgvl-lVAbIyKe4KUUSZSS-9zNaox88N4i1CWx74_bZ26ldF4PkNFCUps1Rt6Ph5qj45C1WO7PM2FNP1Gs7yC4gwsPvemgHz1XWQYX8JGvV4cNC7vwKfBhZsuhl76x1q7zkL5rMGNj3rx1RBdrYfMjLrKiBoGilBmHgTfTqjmAjRpEYIlbjAZelNBiWbwmJTiF68LfB5ideD1amTg/p.png?preserve_transparency=1&size=1280x960&size_mode=3" alt="foundry" href=""></img>
                 </div>
                 <div className="circle1">
-                  <img className="comp-logo5" src="https://www.dropbox.com/pri/get/on-ilde/TwinSmile-Logo-B2B.svg?_subject_uid=1250722080&raw=1&size=1280x960&size_mode=3&w=AADxqRJZgcccnS2pqNCrstm0tla2CctJ71AUvVCXufqI8A" alt="twin-smile" href=""></img>
+                  <img className="associate-logo5" src="https://ucd4eea495a8089dfa7e4a86c2e0.previews.dropboxusercontent.com/p/thumb/AAHf3QSKzy8WeIXPo52oxWHZ7oZY7Gw2Y4d8O5xKJQAnkkNBjM6fRoZfUY_1pEH66LExs9BOkeezvCDGuGQfbkj1vIBzGiGjsT4eMf3rPCIJKMOLWlQ3RNuNyPLIIz4TzUOQiwp7lh_DbaLI0IZ7xS7tdTAr-TEOER-K3doyXdlm95E2vSxVm8cbtO59QpBjzxfqAJUGDbWdOAJQs5iwF2m1O0HRQ38IkEWyvA29y6KqWg/p.png?preserve_transparency=1&size=1280x960&size_mode=3" alt="twin-smile" href=""></img>
                 </div>
               </div>
 

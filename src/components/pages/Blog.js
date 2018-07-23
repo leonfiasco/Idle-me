@@ -26,25 +26,37 @@ class Blog extends React.Component {
 
     <div className="col">
       <img className="place-img" alt="place" src="https://uc33bbe9ac93e768d7f62a33cff0.previews.dropboxusercontent.com/p/thumb/AALPOxLE5HcvWSNjXt105Hznv-rhPzrLK06GfhFqrv6dZ-BpAwRtHgjGpjv2qKEq9ANacu6Z9HUxx-x8Tb_y3ejJjvMXzevoQB44oss4Z_fkRO03JqwfNlTcsSvh7xuptyTMmvFBCd-NakV-rZH5GIi-t3YpVr81ZCmy08kvcrfyZISIq9bV8buQElwd7oG0EexQV272ucW_FKQ1g0xWzp0ODVd7ikGN3BWlMZzZ8h3hZQ/p.jpeg?size=1280x960&size_mode=3"></img>
-      <h6>Title goes here!</h6>
-      <p>Some text goes here!!</p>
+      <h6>Jost Hochuli
+Rebecca Lydamore | 28. September 2017</h6>
+      <p>A week before starting my placement at on-
+IDLE, I got my hands on a copy of the recently
+republished ‘Detail in typography’ by Jost [...]</p>
     </div>
     <div className="col">
       <a href="http://localhost:3000/blog2"><img className="place-img" alt="place" src="https://uca985bebc58e300c4eeb7e7c933.previews.dropboxusercontent.com/p/thumb/AAKeZh26DcHDnltKdLdDrvSGELwHIMA43I1XDfpOhA57Hq4rx-jrszT0ctey74G00O2VHoL7MXapTkX6K8UQ9KBekBDAG7_IgPYfWePraJ_ZjEw9HqiVuXEkNJXpdHfKx0tvDt9aTNhk8stetWiHVjLlTo-mBXH1NOUl7pbEcjoz8z8qSGgGCsSRNk-oCNOY3uMi9z725hnwbNQTtD8J-BCyE_X8wUDakiq4qY9QYt4ykw/p.png?size=1280x960&size_mode=3"></img></a>
-      <h6>Title goes here!</h6>
-      <p>Some text goes here!!</p>
+      <h6>We win awards for our customers!
+Ane-Mari Peter | 7. September 2017</h6>
+      <p>2017 WEBAWARD FOR OUTSTANDING
+ACHIEVEMENT in Web Development</p>
     </div>
   </div>
   <div className="work row">
     <div className="col">
       <img className="place-img" alt="place" src="https://uc1423bc66760fdb2a51daf27790.previews.dropboxusercontent.com/p/thumb/AALH5ZA3_gGrXbxvQ9Ih3eqZnqZH2CjBRQqJetUNBrE1EPO-YrRgGvHe0xnkTstDeHYC32nK7i7rcdsUlfg-kP7I6OtNlvlxawlSalNngVUPY2JrwKLobWUbh01b4RS_TXq_8BrRu2mXmjwlSwWZMqmaihV79SyN66w7TRg74nU74cQUJrAAeJL5heHvQBKNTv707rt1B9qPWLnYqawnIv8fKNPOs8kPsRYnzo7rNqDQSg/p.jpeg?size=1280x960&size_mode=3"></img>
-      <h6>Title goes here!</h6>
-      <p>Some text goes here!!</p>
+      <h6>Shuffle Festival presents ‘Eat with your<br></br>
+hands’<br></br>
+Rebecca Lydamore | 23. August 2017</h6>
+      <p>Last Thursday, the on-IDLE team attended<br></br>
+the first event of the annual Shuffle festival in<br></br>
+Mile End.</p>
     </div>
     <div className="col">
-      <img className="place-img" alt="place" src="https://uca2e8593d7d3fb0091058697e5e.previews.dropboxusercontent.com/p/thumb/AALk_GCRmlNMVsGI9s6YQvmKu8z4-GrcD1CcUYdhsemCVlhXEGNSp00czY4Y_mje4Gpi5IP17zhpmflgtULOy1lvfTE0CzAdhugxB3aZSmBQGzRpkEe5WOWpKYFGigcOhpKT3qDJkMt4k8Wt5gvm3ZBTOprT2h7_625SdlpNAUI3yG3Y5GXNVR-fw5xvRfWQqfRNmqBtZ4p61sPKEIBJzhLu0RLmoOYou-NY7mGsmBkUUg/p.jpeg?size=1280x960&size_mode=3"></img>
-      <h6>Title goes here!</h6>
-      <p>Some text goes here!!</p>
+      <img className="place-img" id="b-street" alt="place" src="https://uca2e8593d7d3fb0091058697e5e.previews.dropboxusercontent.com/p/thumb/AALk_GCRmlNMVsGI9s6YQvmKu8z4-GrcD1CcUYdhsemCVlhXEGNSp00czY4Y_mje4Gpi5IP17zhpmflgtULOy1lvfTE0CzAdhugxB3aZSmBQGzRpkEe5WOWpKYFGigcOhpKT3qDJkMt4k8Wt5gvm3ZBTOprT2h7_625SdlpNAUI3yG3Y5GXNVR-fw5xvRfWQqfRNmqBtZ4p61sPKEIBJzhLu0RLmoOYou-NY7mGsmBkUUg/p.jpeg?size=1280x960&size_mode=3"></img>
+      <h6 id="b-street">How to be a Graphic Designer<br></br>
+Rebecca Lydamore | 25. July 2017</h6>
+      <p id="b-street">Beginning my fourth week as an intern at<br></br>
+on-IDLE, it is time to reflect on some of the<br></br>
+important lessons that I have learnt so far.</p>
     </div>
   </div>
 </div>

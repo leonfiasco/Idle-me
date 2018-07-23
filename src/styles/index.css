@@ -6566,7 +6566,8 @@ html, body {
   padding-right: 0px;
   margin-top: 180px;
   margin-left: -300px;
-  margin-right: 255px; }
+  margin-right: 255px;
+  text-decoration: none; }
 
 .get-in-touch1 {
   margin: 0px auto;
@@ -6575,7 +6576,8 @@ html, body {
   padding-right: 90px;
   margin-top: 180px;
   margin-left: -300px;
-  margin-right: 255px; }
+  margin-right: 255px;
+  text-decoration: none; }
 
 .more {
   padding-right: 200px;
@@ -8005,6 +8007,9 @@ li:hover {
 
 .container-fluid {
   margin-bottom: 150px; }
+
+#b-street {
+  margin-left: -180px; }
 
 #dot-1A {
   height: 65px;

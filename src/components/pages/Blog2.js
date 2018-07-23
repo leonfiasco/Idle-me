@@ -44,7 +44,7 @@ class Blog2 extends React.Component {
          </div>
       </div>
     <div className="behance d-flex justify-content-center">
-    <img  alt="blog-placeholder" src="https://ucb05fe50717cb1c4de37ffb04e8.previews.dropboxusercontent.com/p/thumb/AAJxzAeMdTabsEyQFzUy7mH7xXBChECVXUj8raT2pr3CiIn4dvcNYZX7Ax857uHv5IouT_81zWIEBIn62a5uUPDaaam0ILLMGBVnoK24LjAhWL-lJsJn_wrw14an2I9Bw_jRK9sivP7KLkwE1p23kSSjfvQzNvCCw9ieMi1uzrJ0z87wQhj8QLwCO_AcifZzKu4Kzvr-_rZzzFhEfeBRmU1BBEwhi2kisi9QRYBzAiKUfw/p.png?size=1280x960&size_mode=3"></img>
+    <img  alt="blog-placeholder" src="https://ucba0dbb0fb81cd57022f34db753.previews.dropboxusercontent.com/p/thumb/AAKApc0jxj6Wi5lznQ4XSaqqhs6LklBP5q3gByLpE666ayJ2y_2KAsdTOtDbWfO1BqQEJIMy2LWo4ElFy0Ob5YL5Zp1xYRCA9lKor-dvgNiFb-TO3rzK3IpFw1xz9J8jwvYTh5z8xbmAFnKYc3x1lsppu774AYs6ZP4RbKZpdCRXXW3hDdO-6U3_eDRq3xeOIq4RY5D7Lx3DlPwbt-Zjci4sWjiAVgPvYzkWUCIbkgDacQ/p.png?size=1280x960&size_mode=3"></img>
   </div>
 </div>
 <div className="blog-text d-flex justify-content-center">

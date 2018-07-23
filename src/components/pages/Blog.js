@@ -30,7 +30,7 @@ class Blog extends React.Component {
       <p>Some text goes here!!</p>
     </div>
     <div className="col">
-      <img className="place-img" alt="place" src="https://uca985bebc58e300c4eeb7e7c933.previews.dropboxusercontent.com/p/thumb/AAKeZh26DcHDnltKdLdDrvSGELwHIMA43I1XDfpOhA57Hq4rx-jrszT0ctey74G00O2VHoL7MXapTkX6K8UQ9KBekBDAG7_IgPYfWePraJ_ZjEw9HqiVuXEkNJXpdHfKx0tvDt9aTNhk8stetWiHVjLlTo-mBXH1NOUl7pbEcjoz8z8qSGgGCsSRNk-oCNOY3uMi9z725hnwbNQTtD8J-BCyE_X8wUDakiq4qY9QYt4ykw/p.png?size=1280x960&size_mode=3"></img>
+      <a href="http://localhost:3000/blog2"><img className="place-img" alt="place" src="https://uca985bebc58e300c4eeb7e7c933.previews.dropboxusercontent.com/p/thumb/AAKeZh26DcHDnltKdLdDrvSGELwHIMA43I1XDfpOhA57Hq4rx-jrszT0ctey74G00O2VHoL7MXapTkX6K8UQ9KBekBDAG7_IgPYfWePraJ_ZjEw9HqiVuXEkNJXpdHfKx0tvDt9aTNhk8stetWiHVjLlTo-mBXH1NOUl7pbEcjoz8z8qSGgGCsSRNk-oCNOY3uMi9z725hnwbNQTtD8J-BCyE_X8wUDakiq4qY9QYt4ykw/p.png?size=1280x960&size_mode=3"></img></a>
       <h6>Title goes here!</h6>
       <p>Some text goes here!!</p>
     </div>

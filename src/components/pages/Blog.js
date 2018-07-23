@@ -19,7 +19,7 @@ class Blog extends React.Component {
         <div className="container-fluid">
   <div className="work row">
     <div className="col">
-      <img className="place-img" alt="place" src="https://uca8664c3cd48c4cde70bb4e7aef.previews.dropboxusercontent.com/p/thumb/AAKN8yn-vQFMLFgjcz1M-wGI0SvKdmjISo254vZmf8GvbflW5fOlmwBAu-LPP9TJKm95KIli4B2dDYeTwHz9AhpqWFZiyDFCLLobkWIB_Iy48RA6JP-3KzrgvtWpGPSJTz95TRR_kqndplnaQRwtRiElgmNzdVxZA2XBe5iuEKApsObAZsjTGM7FQcC5veeiTw-47du9yOqx1_4fPvAKbrYI5PoIfRiR3o0MBQRrFvMAOQ/p.jpeg?size=1280x960&size_mode=3"></img>
+      <a href="http://localhost:3000/blog1"><img className="place-img" alt="place" src="https://uca8664c3cd48c4cde70bb4e7aef.previews.dropboxusercontent.com/p/thumb/AAKN8yn-vQFMLFgjcz1M-wGI0SvKdmjISo254vZmf8GvbflW5fOlmwBAu-LPP9TJKm95KIli4B2dDYeTwHz9AhpqWFZiyDFCLLobkWIB_Iy48RA6JP-3KzrgvtWpGPSJTz95TRR_kqndplnaQRwtRiElgmNzdVxZA2XBe5iuEKApsObAZsjTGM7FQcC5veeiTw-47du9yOqx1_4fPvAKbrYI5PoIfRiR3o0MBQRrFvMAOQ/p.jpeg?size=1280x960&size_mode=3"></img></a>
       <h6>Working with Swiss Standard German text as a British designer</h6>
       <p>A guide to typographic and punctuation rules in Swiss text.</p>
     </div>

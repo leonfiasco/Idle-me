@@ -12,7 +12,7 @@ class Company extends React.Component {
             </div>
               <div className="row-9">
                 <div className="circle1">
-                  <img className="associate-logo1" src="https://uc4276cbdb102dd2696433a6cf3c.previews.dropboxusercontent.com/p/thumb/AAIUQE8ai09PKxr3dl-H9zQBCYDDZALKPWZ5Gf_q5aK71gle2TfI917rUPXjXXpvrFmFEuHLSuZlYA_dhXL8MnjbrJ_KSx63O-dNlDsL4HWKAKHiZK1nSpGpUj_lKly0Vug40wp6jOePf2ROmaWIQnhgpiIjWjy2rSj0f8bHA8Z8BIGAwWRPyz-gy1Loonm84DTfdrd6Jp_8BSvML2eXGVdUQDKZkZxYYIHZSfTQaEhQqw/p.png?size=1280x960&size_mode=3" alt="Bima-logo" href="http://localhost:3000/blog1"></img>
+                  <img className="associate-logo1" src="https://uc4276cbdb102dd2696433a6cf3c.previews.dropboxusercontent.com/p/thumb/AAIUQE8ai09PKxr3dl-H9zQBCYDDZALKPWZ5Gf_q5aK71gle2TfI917rUPXjXXpvrFmFEuHLSuZlYA_dhXL8MnjbrJ_KSx63O-dNlDsL4HWKAKHiZK1nSpGpUj_lKly0Vug40wp6jOePf2ROmaWIQnhgpiIjWjy2rSj0f8bHA8Z8BIGAwWRPyz-gy1Loonm84DTfdrd6Jp_8BSvML2eXGVdUQDKZkZxYYIHZSfTQaEhQqw/p.png?size=1280x960&size_mode=3" alt="Bima-logo" ></img>
                 </div>
                 <div className="circle1">
                   <img className="associate-logo2" src="https://uc80e9fa6892b33df05ebfa51e49.previews.dropboxusercontent.com/p/thumb/AAJwobCrNPjXnHH-CqefDhRWs_IxR17DYg01QHScOywsqkvTJo_XVflrzZQTdyuDXwSCOBcWUx5gj6qRzavuF8E_v0infR7HfXR0Es7XN2TOGTZMIBv-LtcMf3kIohJXAtEf6EJ2oWLdosAPbqcD9Bu8IkH9FEVQ0wJ9MeL36nuLUTxXEvb1RpeEPRXjX5qTKKnFjCJKBr6XGz0TZj9JPWzoGLtCt_xpwfQ1Nvhwbp0ujA/p.png?size=1280x960&size_mode=3" alt="Bdinno" href=""></img>

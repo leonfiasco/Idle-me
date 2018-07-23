@@ -70,7 +70,7 @@ class Blog1 extends React.Component {
 
         </div>
         <div className="behance d-flex justify-content-center">
-        <img  alt="blog-placeholder" src="https://ucfd6b49c1af9e145d252dfa21b9.previews.dropboxusercontent.com/p/thumb/AAIgsYnzXHPkcBc60DtCwnhXG6sGbuwL-fApuIWIl_2-0QuHl8rXZJoP7NqBc1TirHtrRnWn98jxmfee8jrWlpeYkjVWC3XXNdLoGyAGbVZ7zPVK2fNQeweLOjFkSJVu1xzt4xlnX1Os-5m1BvHoiCsBb1YcAVPH6CLlYKszhx6tDcAqsPQ6jGlmtbvoK4Wz0niHFpiZ3O7kgSOAdIvMv7i-_euy9eNM_2CCvW9iW3HCsA/p.png?size=1280x960&size_mode=3"></img>
+        <img  alt="blog-placeholder" src="https://uc1a248674722f1eac247a364efe.previews.dropboxusercontent.com/p/thumb/AAIzQuDpHNnsQjjMsRAO0nZSiF3ygtN5g5QurtqkcJtevVvYgHBUpNX576icOk0SiII69V_ODQexyp7hNx2f5UERaNdRj_t9IJ3inmGzJYF4gvaDr0XUFoidVnzqsTyFiyAgJ0X4zfLM9QKiQZLrWEkLwITK6VtKJASj-UIMggBLw6lue9QF6hkyozm94qlhiFtGkiBLd4RhrhRQEuxc4cfd6NonCxE2kvmcEhhaQBGjew/p.png?size=1280x960&size_mode=3"></img>
       </div>
       <div className="blog-text d-flex justify-content-center">
       <p>
@@ -101,7 +101,7 @@ class Blog1 extends React.Component {
       </div>
       <hr className="blog-line"></hr>
       <div className="behance d-flex justify-content-center">
-      <img  alt="blog-placeholder" src="https://uc551ba566c25f31fc7b14d73e78.previews.dropboxusercontent.com/p/thumb/AALVIVokKFVZpD7rXCYXgSXbxLpRZYjA2tfhJ-izpigQadiVmU0LeAhFKhgddmD2nmxy4ziQicZ8Ppcyrkb2Bk01LBi7gAxPPVGr_B_1vJKkeR2ftQHn9cadMcO-k3_iLN27kwlEv8M0rifELosnS7bJB1M02b33WYq5i4uz-QzyMBS1fxri5Q7oMjEmxDcZ8lkiR3MqPLIwTnBNdIYKknLSUbBgtZND_YT4v3GiAoSTSg/p.png?size=1280x960&size_mode=3"></img>
+      <img  alt="blog-placeholder" src="https://uc46b3840eb811454d5a266eee44.previews.dropboxusercontent.com/p/thumb/AALFpcrLr59JvO4Sj41odyHtJtPnGI1ZBNqU3stbe0nqfnK9Rb5AS5jug0SlosfY9YYnbWVOffqgdZDQWA7nyuVbuMj69rcQYMdC-EwX0DdY4cRfsKgb6d0_lwxmn_mmgboxnjKn1rkoZWIN8ThOz6GVOD7pmv4h4D4YEgqwWt4j7xXIbjJj-VzhN0JCJWVJgNcO4ye2JQXuZxtb3JHeD3iMyMXpnv1NJg5VMNstbtPi6A/p.png?size=1280x960&size_mode=3"></img>
     </div>
     <div className="blog-text d-flex justify-content-center">
     <p>
@@ -126,7 +126,7 @@ class Blog1 extends React.Component {
     </div>
     <hr className="blog-line"></hr>
     <div className="behance d-flex justify-content-center">
-    <img  alt="blog-placeholder" src="https://uc07830d7bdbf1d07e010fa2b0f2.previews.dropboxusercontent.com/p/thumb/AAIYevjsB2IMe5xztPHRq21lKl2kbIAHCxyjqVJWMk7d1-hkiISo3VMFML9lXnG87VGYZOeREj_DyCWLOG7lEC-F54J9ZwwGNCtgSxi29eUjfozB2KB-qyqnxE2SmO4WYDm-Pk3fTbFlWjWhglQ2nypQG4Yak6QHp9QN2CDlvdX3XlnP5ghsSRvdCCc51_lDVzNsKlvurWzrEaVpwDfRbBHjML60p4pzhbvOronGeinf7Q/p.png?size=1280x960&size_mode=3"></img>
+    <img  alt="blog-placeholder" src="https://uc22f39047ab407aa280e3aa271d.previews.dropboxusercontent.com/p/thumb/AAKNRInYEHIhn4ZTLfDqZZHyqKU_Zng44-RutW6ioPy_mD-o7W9zgtIyqKkfMwz8LQW34rYZO-SBsAKX0WMRIHPTB59gpWd_4kxLUk7wNvmg4AzwlhfVD2i7gJJcyI1baLa-tkK39ZrDZ7ujnKF9iZSO1cnl-5ofxwoI_gp7PVP2W6RZLjP7TcgVHS-Z58nk6mPbl-BukYY7gydQ56UExHf82MQUEnHhkXjmb9jcbIcrOg/p.png?size=1280x960&size_mode=3"></img>
   </div>
   <div className="blog-text d-flex justify-content-center">
   <p>
@@ -146,7 +146,7 @@ class Blog1 extends React.Component {
   </div>
   <hr className="blog-line"></hr>
   <div className="behance d-flex justify-content-center">
-  <img  alt="blog-placeholder" src="https://uc4cff95dfa6994912f401a0ba9d.previews.dropboxusercontent.com/p/thumb/AAL_2K5s4Tc6gNS8HBLgckuwSbqPbflw9sPmfL_kYTKqxoW5tiABKVJFpK92J0HRxqJMH0TSo-gegdo0qr61Nql3HjDHXahtO7YI_RpDHgZyaf1qHp5ODfZ0snM93PPHPRlNLAjXLFslmZC26_LAKCuD0XnFFBKutphrEqg88YFXJLzLgU_geN4lxKB1gGyXVa2h52xxhAGyj6EQlpe4jNWBm0BCaWglm7SUQSfEY6tMQg/p.png?size=1280x960&size_mode=3"></img>
+  <img  alt="blog-placeholder" src="https://ucd1203919a23ef287a216b3fd36.previews.dropboxusercontent.com/p/thumb/AAJ6ON-F9x81omQsuZfBAxDJOtiUATzNj_fv-NS5mmodh3BchHLuX_HruRgxpnunuLIpynfJmofzA08QVMc45yjOCI6GqhPwi10jK9_cJWWNyOnV5biIUbfLtTDsl-_7EVdEbBdT-lFR66FyQcHAgPHWAWvXhC1a825gt9K5UPjcppF8XPCsxAufpzkk9vyuQehKPqnZl2a6L3YDctkYZzz0jMxscP5X2J1rQ7C5nh2IXw/p.png?size=1280x960&size_mode=3"></img>
 </div>
 <div className="blog-text d-flex justify-content-center">
 <p>
@@ -171,7 +171,7 @@ nicely done...”
 </div>
 <hr className="blog-line"></hr>
 <div className="behance d-flex justify-content-center">
-<img  alt="blog-placeholder" src="https://ucddf27bc37046dd379221d2d3b8.previews.dropboxusercontent.com/p/thumb/AAIe7icdhgLOMHyAxzP5OLJ75p7FSx_Yn7dAa8EFosNu4Vqas06aKPliLcOHXv8LonXMn7iu8BAbe1pNOS3Z6N6IDWH8S49bUuwflWgdjBwzoa0ys9gZc1TFqr0FKbZViblSJV5FHGlaJr59GdWv64n9b6v5fkVQQDen2ToWxs0VfwL4Cney1VF3oRmn8ogeG8CvutxpeMtSQ6PAF8XGw1-d9xe3vnrJoMd8wVwsU5UizA/p.png?size=1280x960&size_mode=3"></img>
+<img  alt="blog-placeholder" src="https://uc03b8c9dc31c16f1cfb27db4d04.previews.dropboxusercontent.com/p/thumb/AAK9d_DslCiulXX7eOSX_qvo5nhvbI9C7SHh_uUOGx2PphJp75vbhzxl2PogFkRXsRV-_-gE-L_4L3MaFOfGDtp2hFjWOrT0Y3HmfxQHwTfNdFs8FScT50RTF8WuNlACTpkVs7g0VBe0lL3ywLDeoLQcrjoknQrxop6wSmlcZGR2grTNUvq2tYMjZHhlNeC5hNIm12ObUY9aLFcGmhyPTGr7PbjFim6MlKIamiZGZx8sCA/p.png?size=1280x960&size_mode=3"></img>
 </div>
 <div className="blog-text d-flex justify-content-center">
 <p>

@@ -15,11 +15,12 @@ class About extends React.Component {
   for (i; i < l; i++) {
       myClasses[i].style.display = 'none';
   }
-      if (e.style.display === 'none') e.style.display = 'block';
-      // if (img2.style.display === 'block') img2.style.display = 'none';
-
+      if (e.style.display === 'none') e.style.display = 'block'
 
   }
+
+
+
 
   render() {
     return (
@@ -94,7 +95,7 @@ class About extends React.Component {
         <div className="row-fluid">
       <div className="span9">
 
-              <div className="venn-container">
+              <div id="venn-container">
 
                        <div className="overlap1">
                          <p className="overtxt1">Design</p>
@@ -156,7 +157,7 @@ class About extends React.Component {
                  <hr className="dotted3"/>
                  <p className="hover we3">Our Story</p>
                </div>
-             </div>      
+             </div>
         </div>
 
 

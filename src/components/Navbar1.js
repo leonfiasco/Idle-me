@@ -20,10 +20,10 @@ class Navbar extends React.Component {
             </span>
           </div>
             <div className="icon-box1 d-flex flex-row bd-highlight d-inline">
-                <a className="nav-item nav-link m-2" href="localhost:3000/about">ABOUT</a>
-                <a className="nav-item nav-link m-2"  href="">OUR<span className="work">WORK</span></a>
-                <a className="nav-item nav-link m-2"  href="">BLOG</a>
-                <a className="nav-item nav-link m-2"  href="">CONTACT</a>
+              <a className="nav-item nav-link m-2" href="http://localhost:3000/about">ABOUT</a>
+              <a className="nav-item nav-link m-2"  href="http://localhost:3000/ourwork">OUR<span className="work">WORK</span></a>
+              <a className="nav-item nav-link m-2"  href="http://localhost:3000/blog">BLOG</a>
+              <a className="nav-item nav-link m-2"  href="http://localhost:3000/contact">CONTACT</a>
                 <a href="https://www.facebook.com/onanything/"><i className="icons nav-item nav-link text-muted m-2 fa fa-facebook" ></i></a>
                 <a href="https://twitter.com/aneon"><i className="icons nav-item nav-link text-muted m-2 fa fa-twitter"></i></a>
                 <a href="https://www.instagram.com/onidledesign/?hl=en"><i className="icons nav-item nav-link text-muted m-2 fa fa-instagram"></i></a>

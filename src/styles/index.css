@@ -6304,7 +6304,7 @@ html, body {
 
 .icon-box {
   padding-bottom: 275px;
-  padding-left: 60px;
+  padding-left: 190px;
   margin-left: 5px;
   box-sizing: border-box;
   width: 50%;
@@ -6312,7 +6312,7 @@ html, body {
 
 .icon-box1 {
   padding-bottom: 140px;
-  padding-left: 60px;
+  padding-left: 190px;
   margin-left: 5px;
   box-sizing: border-box;
   width: 50%;
@@ -6562,14 +6562,20 @@ html, body {
 .get-in-touch {
   margin: 0px auto;
   width: 183px;
-  padding-top: 297px;
-  padding-right: 0px; }
+  padding-top: 0px;
+  padding-right: 0px;
+  margin-top: 180px;
+  margin-left: -300px;
+  margin-right: 255px; }
 
 .get-in-touch1 {
   margin: 0px auto;
   width: 183px;
-  padding-top: 297px;
-  padding-right: 90px; }
+  padding-top: 0px;
+  padding-right: 90px;
+  margin-top: 180px;
+  margin-left: -300px;
+  margin-right: 255px; }
 
 .more {
   padding-right: 200px;

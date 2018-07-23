@@ -24,9 +24,9 @@ class Navbar extends React.Component {
               <a className="nav-item nav-link m-2"  href="http://localhost:3000/ourwork">OUR<span className="work">WORK</span></a>
               <a className="nav-item nav-link m-2"  href="http://localhost:3000/blog">BLOG</a>
               <a className="nav-item nav-link m-2"  href="http://localhost:3000/contact">CONTACT</a>
-                <a href="https://www.facebook.com/onanything/"><i className="icons nav-item nav-link text-muted m-2 fa fa-facebook" ></i></a>
-                <a href="https://twitter.com/aneon"><i className="icons nav-item nav-link text-muted m-2 fa fa-twitter"></i></a>
-                <a href="https://www.instagram.com/onidledesign/?hl=en"><i className="icons nav-item nav-link text-muted m-2 fa fa-instagram"></i></a>
+                <a href="https://www.facebook.com/onanything/" rel="noopener noreferrer" target="_blank"><i className="icons nav-item nav-link text-muted m-2 fa fa-facebook" ></i></a>
+                <a href="https://twitter.com/aneon" rel="noopener noreferrer" target="_blank"><i className="icons nav-item nav-link text-muted m-2 fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/onidledesign/?hl=en" rel="noopener noreferrer" target="_blank"><i className="icons nav-item nav-link text-muted m-2 fa fa-instagram"></i></a>
             </div>
             <div className="get-box">
                 <p className="get-in-touch1 text-white d-flex justify-content-end">Get in <span className="u-line"> touch</span></p>

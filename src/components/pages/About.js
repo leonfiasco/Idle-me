@@ -6,6 +6,9 @@ import Company from './../Company1';
 
 
 class About extends React.Component {
+
+
+
   toggle_visibility = (id) => {
       var e = document.getElementById(id);
       var myClasses = document.querySelectorAll('.income'),
@@ -19,6 +22,9 @@ class About extends React.Component {
 
   }
 
+
+  // for when you try to hide the dot thingy
+  // var leon = document.querySelector('incometoggle2').style.display = 'none';
 
 
 

@@ -7,35 +7,62 @@ import { Link,  withRouter } from 'react-router-dom';
 class Navbar extends React.Component {
   render() {
     return (
-      <div className="pos-f-t">
-        <nav className="navbar navbar-expand-lg navbar-light">
-          <div className="group1 d-flex justify-content-start">
-            <span className="logo-icon d-block p-2">
-              <Link className="home-logo" to="/">
-                <img className="idle-logo" alt="logo" src="https://uc48455ccc83b85f4ba6a1189731.previews.dropboxusercontent.com/p/thumb/AAG3IhsaFGTg66wsmcfzpiV0QXsZ_YwlgqmK2xk-AW4BZ-uxzw-OcIyYcqGYS4M4VJn4g950SsR3OTrhsc5eriP66ScbyahNDXHWtfzuN5XQG4sBMD-bSWXeTTkCgsC3HmP87e5X6unYDf0bnxZsScYWRC_aGbFBX2PDQd4ia6iAJ2GkLbeHcd8KMHf0pjhRQvrZXlPinK4wC-awMklSlmwZRgfgOp5YxS2EoSajMDJ0cw/p.png?preserve_transparency=1&size=1280x960&size_mode=3"></img>
-              </Link>
-                <div className="vl">
-                    <div className="nav-text text-white ">We are a creative digital and print agency -
-                        experts in <span className="line">branding</span>, <span className="line" href="">graphic design</span>, <span className="line" href="">print</span>, <span className="line" href="">website development</span> & building powerful
-                        <span className="line" href=""> web applications</span>.
-                    </div>
-                </div>
-            </span>
-          </div>
-            <div className="icon-box d-flex flex-row bd-highlight d-inline">
-                <a className="nav-item nav-link m-2" href="http://localhost:3000/about">ABOUT</a>
-                <a className="nav-item nav-link m-2"  href="http://localhost:3000/ourwork">OUR<span className="work">WORK</span></a>
-                <a className="nav-item nav-link m-2"  href="http://localhost:3000/blog">BLOG</a>
-                <a className="nav-item nav-link m-2"  href="http://localhost:3000/contact">CONTACT</a>
-                <a href="https://www.facebook.com/onanything/"><i className="icons nav-item nav-link text-muted m-2 fa fa-facebook" ></i></a>
-                <a href="https://twitter.com/aneon"><i className="icons nav-item nav-link text-muted m-2 fa fa-twitter"></i></a>
-                <a href="https://www.instagram.com/onidledesign/?hl=en"><i className="icons nav-item nav-link text-muted m-2 fa fa-instagram"></i></a>
-            </div>
-            <div className="get-box">
-                <a href="http://localhost:3000/contact"><p className="get-in-touch text-white">Get in <span className="u-line"> touch</span></p></a>
-            </div>
-        </nav>
+
+      <nav className="navbar navbar-expand-xl navbar-light">
+<table>
+    <tr>
+      <div className="section">
+      <td>
+          <a className="navbar-brand" href="/">
+            <img className="idle-logo" id="idle-logo"></img>
+          </a>
+      </td>
+        <td className="divider"></td>
+        <td>
+          <p id="nav-text" className="nav-text">We are a creative digital and print agency -<br></br>
+          experts in <span className="line">branding</span>, <span className="line" href="">graphic design</span>, <span className="line" href="">print</span>,<br></br> <span className="line" href="">website development</span> & building powerful<br></br>
+          <span className="line" href=""> web applications</span>.
+        </p>
+      </td>
+    </div>
+    <td>
+      <div className="touch">
+        <p>Get in <span id="touch-line">touch</span></p>
       </div>
+    </td>
+      <td>
+        <div className="social-icons">
+          <div className="flex-container">
+             <div className="nav-item" id="nav-items">
+               <a className="nav-link text-white" id="touch-line1" href="http://localhost:3000/about">ABOUT</a>
+             </div>
+             <div className="nav-item" id="nav-items">
+               <a className="our-work nav-link text-white" id="touch-line1" href="http://localhost:3000/ourwork">OUR WORK</a>
+             </div>
+           <div className="nav-item" id="nav-items">
+             <a className="nav-link text-white" id="touch-line1" href="http://localhost:3000/blog">BLOG</a>
+           </div>
+           <div className="nav-item" id="nav-items">
+             <a className="nav-link text-white" id="touch-line1" href="http://localhost:3000/contact">CONTACT</a>
+           </div>
+             <div id="icons">
+           <a href="https://www.facebook.com/onanything/"><i className="icons nav-item nav-link text-muted m-2 fa fa-facebook" id="font-icon"></i></a>
+         </div>
+         <div id="icons">
+           <a href="https://twitter.com/aneon"><i className="icons nav-item nav-link text-muted m-2 fa fa-twitter" id="font-icon"></i></a>
+         </div>
+         <div id="icons">
+           <a href="https://www.instagram.com/onidledesign/?hl=en"><i className="icons nav-item nav-link text-muted m-2 fa fa-instagram" id="font-icon"></i></a>
+         </div>
+       </div>
+        </div>
+      </td>
+        <td>
+      </td>
+    </tr>
+    </table>
+  </nav>
+
     );
   }
 }

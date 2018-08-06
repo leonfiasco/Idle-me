@@ -13,7 +13,7 @@ class Company extends React.Component {
 <div className="row">
 <div className="col-sm">
   <div id="circle1">
-    <img id="associate-logo1" src="https://uc4276cbdb102dd2696433a6cf3c.previews.dropboxusercontent.com/p/thumb/AAIUQE8ai09PKxr3dl-H9zQBCYDDZALKPWZ5Gf_q5aK71gle2TfI917rUPXjXXpvrFmFEuHLSuZlYA_dhXL8MnjbrJ_KSx63O-dNlDsL4HWKAKHiZK1nSpGpUj_lKly0Vug40wp6jOePf2ROmaWIQnhgpiIjWjy2rSj0f8bHA8Z8BIGAwWRPyz-gy1Loonm84DTfdrd6Jp_8BSvML2eXGVdUQDKZkZxYYIHZSfTQaEhQqw/p.png?size=1280x960&size_mode=3" alt="Bima-logo" ></img>
+    <img id="associate-logo1" src="" alt="Bima-logo" ></img>
   </div>
 </div>
 <div className="col-sm">
@@ -23,7 +23,7 @@ class Company extends React.Component {
 </div>
 <div className="col-sm">
   <div id="circle1">
-    <img id="associate-logo3" src="https://uc940363fdf721cb284de76bf0e3.previews.dropboxusercontent.com/p/thumb/AAKFiXkqAg76lEKfC3fmRQOoVxbYdT21c7e7SejchLN62F88nswtG6qvwfUDcbjMBMzOXE6scIeVeXtlWL_9f6qKmIFkLHRf_EPSy4SX-4C74ruE5h2pPlskitJ91ahf0yGazMlrXF49u3MMHybhcFpYK67LGmAivR7mMaa1jMpsN11qh06yrC0vAxlSDGaxGzIOsr3tu4sKyOiNOkb2zFU2Kqm4-tINEh4P-L1mz056eQ/p.png?size=1280x960&size_mode=3" alt="istd" href=""></img>
+    <img id="associate-logo3" src="/images/istd_logo.png" alt="istd" href=""></img>
   </div>
 </div>
 <div className="col-sm">
@@ -33,7 +33,7 @@ class Company extends React.Component {
 </div>
 <div className="col-sm">
   <div id="circle1">
-    <img id="associate-logo5" src="https://uc06b06648b5139bc8a1acfa7fe4.previews.dropboxusercontent.com/p/thumb/AAJXh62tUmREGbooO8KZ5fCetr6iENKZhbGgLp_78eaDWTvIgRWe0gfMme0IjL16mgadACbj7vVHhfPYb7cG_4efcmmtOryhCkt_g3qBWqh7Yi8nvZKyKi2fbeqGWdVav_vI867eeyNku2ydBQwdttQkW248YXpx9f5Ar0a7d2LdvaSIrrT9a3dKD6jRx2K9S01fmRxYKgxP7P3WyDVNeKShrTKh_ERcBniyA0cTA2-Dww/p.png?size=1280x960&size_mode=3" alt="chartered" href=""></img>
+    <img id="associate-logo5" src="/images/CRJ-logo.png" alt="chartered" href=""></img>
   </div>
 </div>
 </div>

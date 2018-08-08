@@ -27,6 +27,7 @@ html, body {
   background-repeat: no-repeat;
   margin-top: 0px;
   margin-left: 110px;
+  left: 5%;
   padding: 150px 150px 0px 150px;
 }
 
@@ -68,12 +69,10 @@ html, body {
   margin-top: -180px;
 }
 
-.nav-text {
-  padding-top: 20px;
-  padding-left: 0px;
-  margin-left: 10px;
-  left: 15%;
-  font-size: 20px;
+#nav-text {
+  display: inline-block;
+  margin-left: 300px;
+  font-size: 1.250em;
   font-size: 1.90vw;
   width: 750px;
   letter-spacing: 3px;
@@ -81,15 +80,18 @@ html, body {
   font-family: aktiv-grotesk-extended, sans-serif;
   font-style: normal;
   font-weight: 100;
+  color: #fff;
 }
 
-#nav-text {
-  width: 750px;
-}
+// #nav-text {
+//   width: 750px;
+//   left: 5%;
+// }
 
 
 td.divider {
   margin-top: 10px;
+  // left: 10%;
   margin-left: 230px;
   padding-top: 40px;
   padding-bottom: 70px;
@@ -99,6 +101,62 @@ td.divider {
   border:1px solid #fff;
   background:#fff;
 }
+
+@media only screen and (max-width: 600px) {
+  td.divider {
+    margin-left: 80px;
+    margin-top: -65px;
+    height: 35%;
+  }
+
+  #idle-logo {
+    margin-left: 40px;
+    margin-top: -80px;
+  }
+
+
+  #nav-text {
+    margin-top: -69px;
+    margin-left: 105px;
+    line-height: 30px;
+  }
+
+  .navbar {
+    background-color: #43535b;
+    height: 390px;
+    max-width: none;
+    font-family: aktiv-grotesk-condensed, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+  }
+
+  #flex-container {
+    float: none;
+    margin-left: -600px;
+  }
+
+}
+
+@media only screen and (max-width: 700px;) {
+
+  .touch {
+    width: 200px;
+    color: #fff;
+    font-size: 1.500em;
+    font-size: 1.67vw;
+    position: absolute;
+    border: 25px solid #43535b;
+     margin-top: 110px;
+     margin-left: -530px;
+     font-family: aktiv-grotesk-extended, sans-serif;
+     font-style: normal;
+     font-weight: 100;
+
+  }
+
+}
+
+
 td.divider1 {
   margin-top: -80px;
   margin-left: 230px;
@@ -136,10 +194,11 @@ td.divider3 {
 }
 
 
-.touch {
+#touch {
   width: 200px;
   color: #fff;
-  font-size: 24px;
+  font-size: 1.500em;
+  font-size: 1.67vw;
   position: absolute;
   border: 25px solid #43535b;
    margin-top: 120px;
@@ -147,6 +206,7 @@ td.divider3 {
    font-family: aktiv-grotesk-extended, sans-serif;
    font-style: normal;
    font-weight: 100;
+
 }
 
 
@@ -202,33 +262,25 @@ td.divider3 {
 }
 
 
-
-.nav-text {
-  color: #fff;
-  width: 665px;
-  padding-top: 35px;
-  margin-left: 350px;
-  text-align: left;
-}
-
 .section {
   margin-left: -60px;
   margin-top: 10px;
 }
 
-.flex-container {
-  display: flex;
-  margin-left: -220px;
 
-}
+  .flex-container {
+    display: flex;
+    margin-left: -220px;
+
+  }
+
 
 .flex-container > div {
   margin: 10px;
-
 }
 
-
 .social-icons {
+  position: relative;
   margin-top: -190px;
   margin-left: -60px;
   width: 500px;
@@ -541,10 +593,9 @@ td.divider3 {
 
 
 .more2 {
-  margin-top: 28px;
-  text-align: right;
-  padding-top: 12px;
-  padding-left: 188px;
+  position: absolute;
+  margin-top: 387px;
+  margin-left: -85px;
   font-family: aktiv-grotesk-extended, sans-serif;
   font-style: normal;
   font-weight: 100;
@@ -680,6 +731,15 @@ u {
   letter-spacing: 3px;
 }
 
+.on-logo {
+  margin-bottom: 90px;
+  position: absolute;
+  margin-top: -43px;
+  right: 25px;
+  height: 35px;
+  width: 35px;
+}
+
 .comp-logo1 {
   height: 150px;
   width: 150px;
@@ -766,6 +826,16 @@ u {
   color: #43535b;
   font-size: 15px;
   font-size: 1.04vw;
+}
+.social-h6-1 {
+  font-family: aktiv-grotesk-extended, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  padding-top: 20px;
+  color: #43535b;
+  font-size: 15px;
+  font-size: 1.04vw;
+  width: auto;
 }
 
 .social-p {
@@ -943,64 +1013,30 @@ position: relative;
 
 }
 
-.fb-icon1 {
-  // z-index: 3;
-  position: absolute;
-  margin-top: 165px;
-  right: 25px;
-  height: 35px;
-  width: 35px;
-}
 
-.fb-icon2 {
-  // z-index: 3;
-  position: absolute;
-  margin-top: 165px;
-  right: 25px;
-  height: 35px;
-  width: 35px;
-}
-
-.on-logo1 {
-  margin-bottom: 90px;
-  position: absolute;
-  margin-top: 165px;
-  right: 25px;
-  height: 35px;
-  width: 35px;
-}
-
-
-.on-logo2 {
-  margin-bottom: 90px;
-  position: absolute;
-  margin-top: 165px;
-  right: 25px;
-  height: 35px;
-  width: 35px;
-
-
-}
 
 .footer-logo {
-  height: 159px;
-  width: 159px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   cursor: pointer;
-  background: url("https://uc28b5fd43f453f0d64dfde09cc2.previews.dropboxusercontent.com/p/thumb/AAFfdTfk2GYgHTy9fdsY5TKgL3MAZQxhMfrqNu4vlcIsu63RgSlO2JHqJ-CoHMbcAGd6hxlKeXB5VcPp8wVd7XQjo2Dhmb_VjLyZTFPEZZ5r9n6c0zC6XibiU7z_gei3y1IRejdLv6WUXqG9ref9qwnyJWGT-G4nVUe-iP0K4gtMSb5On5hGPmucMRLd1NqPW8yW-jxc40EL59fsASMEp_GGR-9Ju8oahxENygNfvSORPA/p.png?preserve_transparency=1&size=1280x960&size_mode=3");
+  background-image: url('/images/logo.png');
   background-repeat: no-repeat;
   margin: 0px;
   padding: 0px;
-
 }
 
-button {
+
+.footer-logo:focus {
   outline: none;
 }
 
+
+
+
 .footer-logo:active {
   background-color: #fff;
-  box-shadow: 0 5px #fff;
+  box-shadow: 0 3px #fff;
   transform: translateY(4px);
 }
 
@@ -1022,8 +1058,11 @@ button {
 }
 
 .hr-line {
+  border-top: 2px solid rgba(0,0,0,.1);
   margin-top: 150px;
 }
+
+
 // ----------------------------------------------------------------------------------------------
 // About Section
 // ----------------------------------------------------------------------------------------------

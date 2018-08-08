@@ -14,7 +14,7 @@ class Navbar extends React.Component {
       <div className="section">
       <td>
           <a className="navbar-brand" href="/">
-            <img className="idle-logo" id="idle-logo"></img>
+            <img className="idle-logo img-fluid" id="idle-logo"></img>
           </a>
       </td>
         <td className="divider"></td>
@@ -26,13 +26,13 @@ class Navbar extends React.Component {
       </td>
     </div>
     <td>
-      <div className="touch">
+      <div className="touch" id="touch">
         <p>Get in <span id="touch-line">touch</span></p>
       </div>
     </td>
       <td>
         <div className="social-icons">
-          <div className="flex-container">
+          <div className="flex-container" id="flex-container">
              <div className="nav-item" id="nav-items">
                <a className="nav-link text-white" id="touch-line1" href="http://localhost:3000/about">ABOUT</a>
              </div>

@@ -7,62 +7,47 @@ import { Link,  withRouter } from 'react-router-dom';
 class Navbar extends React.Component {
   render() {
     return (
-
-      <nav className="navbar navbar-expand-xl navbar-light">
-<table>
-    <tr>
-      <div className="section">
-      <td>
-          <a className="navbar-brand" href="/">
-            <img className="idle-logo img-fluid" id="idle-logo"></img>
-          </a>
-      </td>
-        <td className="divider"></td>
-        <td>
-          <p id="nav-text" className="nav-text">We are a creative digital and print agency -<br></br>
-          experts in <span className="line">branding</span>, <span className="line" href="">graphic design</span>, <span className="line" href="">print</span>,<br></br> <span className="line" href="">website development</span> & building powerful<br></br>
-          <span className="line" href=""> web applications</span>.
+      <nav class="navbar navbar-expand-sm navbar-light">
+        <a href="#" class="navbar-brand">
+          <img className="idle-logo" id="idle-logo1"></img>
+        </a>
+        <div class="vl"></div>
+        <p id="nav-text">We are a creative digital and print agency -<br></br>
+          experts in <span class="line">branding</span>, <span class="line" href="">graphic design</span>, <span class="line" href="">print</span>,<br></br> <span class="line" href="">website development</span> & building powerful<br></br>
+          <span class="line" href=""> web applications</span>.
         </p>
-      </td>
-    </div>
-    <td>
-      <div className="touch" id="touch">
-        <p>Get in <span id="touch-line">touch</span></p>
-      </div>
-    </td>
-      <td>
-        <div className="social-icons">
-          <div className="flex-container" id="flex-container">
-             <div className="nav-item" id="nav-items">
-               <a className="nav-link text-white" id="touch-line1" href="http://localhost:3000/about">ABOUT</a>
-             </div>
-             <div className="nav-item" id="nav-items">
-               <a className="our-work nav-link text-white" id="touch-line1" href="http://localhost:3000/ourwork">OUR WORK</a>
-             </div>
-           <div className="nav-item" id="nav-items">
-             <a className="nav-link text-white" id="touch-line1" href="http://localhost:3000/blog">BLOG</a>
-           </div>
-           <div className="nav-item" id="nav-items">
-             <a className="nav-link text-white" id="touch-line1" href="http://localhost:3000/contact">CONTACT</a>
-           </div>
-             <div id="icons">
-           <a href="https://www.facebook.com/onanything/"><i className="icons nav-item nav-link text-muted m-2 fa fa-facebook" id="font-icon"></i></a>
-         </div>
-         <div id="icons">
-           <a href="https://twitter.com/aneon"><i className="icons nav-item nav-link text-muted m-2 fa fa-twitter" id="font-icon"></i></a>
-         </div>
-         <div id="icons">
-           <a href="https://www.instagram.com/onidledesign/?hl=en"><i className="icons nav-item nav-link text-muted m-2 fa fa-instagram" id="font-icon"></i></a>
-         </div>
-       </div>
+        {/* <p>
+          Get in <span>touch</span>
+        </p> */}
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">OUR WORK</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">CONTACT</a>
+            </li>
+            <div id="icons">
+          <a href="https://www.facebook.com/onanything/"><i className="icons nav-item nav-link text-muted m-2 fa fa-facebook" id="font-icon"></i></a>
         </div>
-      </td>
-        <td>
-      </td>
-    </tr>
-    </table>
-  </nav>
-
+        <div id="icons">
+          <a href="https://twitter.com/aneon"><i className="icons nav-item nav-link text-muted m-2 fa fa-twitter" id="font-icon"></i></a>
+        </div>
+        <div id="icons">
+          <a href="https://www.instagram.com/onidledesign/?hl=en"><i className="icons nav-item nav-link text-muted m-2 fa fa-instagram" id="font-icon"></i></a>
+        </div>
+          </ul>
+        </div>
+      </nav>
     );
   }
 }

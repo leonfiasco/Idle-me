@@ -11,7 +11,7 @@ class Main extends React.Component {
       <div className="contain">
       <img className="img-fluid first-img" id="lady-smiling" alt="lady-smiling" src="/images/lady-smiling.jpg"></img>
         <div className="middle">
-          <div id="circle">
+          <div className="circle" id="circle">
             <p className="text">
               Migros aareMAGAZIN<br></br>
               Dezember 2017<br></br>

@@ -7,6 +7,7 @@ import {
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 
 import Home from './components/pages/Home';

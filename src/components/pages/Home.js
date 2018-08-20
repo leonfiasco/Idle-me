@@ -15,7 +15,7 @@ class Home extends React.Component {
         <br></br>
         <div className="d-flex flex-column bd-highlight mb-3">
           <div className="p-2 bd-highlight"></div>
-          <div className="p-2 bd-highlight"><p className="taster">A taster of what we get up to<span className="dots">...</span></p></div>
+          <div className="p-2 bd-highlight"><p className="taster" id="taster">A taster of what we get up to<span className="dots">...</span></p></div>
           <div className="p-2 bd-highlight"></div>
         </div>
         <Main />

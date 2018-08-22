@@ -19,7 +19,7 @@ class Home extends React.Component {
           <div className="p-2 bd-highlight"></div>
         </div>
         <Main />
-        <p className="more">See <u>more</u></p>
+        <p className="more" id="more">See <u>more</u></p>
         <Company />
         <p className="shout">What we shout about<span className="dots">...</span></p>
         <Social />

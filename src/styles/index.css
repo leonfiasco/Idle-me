@@ -6927,7 +6927,7 @@ u {
 .comp-logo1 {
   height: 150px;
   width: 150px;
-  margin: 0px;
+  margin-right: 15px;
   padding-top: 0px;
   padding-bottom: 0px;
   background-repeat: no-repeat;
@@ -6938,7 +6938,7 @@ u {
 .comp-logo2 {
   height: 150px;
   width: 150px;
-  margin: 0px;
+  margin-right: 15px;
   background-repeat: no-repeat;
   filter: gray;
   -webkit-filter: grayscale(100%);
@@ -6947,7 +6947,7 @@ u {
 .comp-logo3 {
   height: 150px;
   width: 150px;
-  margin: 0px;
+  margin-right: 15px;
   background-repeat: no-repeat;
   filter: gray;
   -webkit-filter: grayscale(100%);
@@ -6956,7 +6956,7 @@ u {
 .comp-logo4 {
   height: 150px;
   width: 150px;
-  margin: 0px;
+  margin-right: 15px;
   padding-bottom: 0px;
   background-repeat: no-repeat;
   filter: gray;
@@ -6966,8 +6966,7 @@ u {
 .comp-logo5 {
   height: 150px;
   width: 150px;
-  margin-top: 0px;
-  margin: 0px;
+  margin-right: 15px;
   background-repeat: no-repeat;
   filter: gray;
   -webkit-filter: grayscale(100%);

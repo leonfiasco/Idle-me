@@ -21,7 +21,7 @@ class Home extends React.Component {
         <Main />
         <p className="more" id="more">See <u>more</u></p>
         <Company />
-        <p className="shout">What we shout about<span className="dots">...</span></p>
+        <p className="shout" id="shout">What we shout about<span className="dots">...</span></p>
         <Social />
         <Footer />
       </main>

@@ -7,34 +7,31 @@ import { Link,  withRouter } from 'react-router-dom';
 class Navbar extends React.Component {
   render() {
     return (
-      <nav class="navbar navbar-expand-sm navbar-light">
-        <a href="#" class="navbar-brand">
-          <img className="idle-logo" id="idle-logo1"></img>
+      <nav className="navbar navbar-expand-sm navbar-light">
+        <a href="" className="navbar-brand">
+          <img className="idle-logo" id="idle-logo1" alt=""></img>
         </a>
-        <div class="vl"></div>
+        <div className="vl"></div>
         <p id="nav-text">We are a creative digital and print agency -<br></br>
-          experts in <span class="line">branding</span>, <span class="line" href="">graphic design</span>, <span class="line" href="">print</span>,<br></br> <span class="line" href="">website development</span> & building powerful<br></br>
-          <span class="line" href=""> web applications</span>.
+          experts in <span className="line">branding</span>, <span className="line" href="">graphic design</span>, <span className="line" href="">print</span>,<br></br> <span className="line" href="">website development</span> & building powerful<br></br>
+          <span className="line" href=""> web applications</span>.
         </p>
-        {/* <p>
-          Get in <span>touch</span>
-        </p> */}
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-          <span class="navbar-toggler-icon"></span>
+        <button className="navbar-toggler" data-toggle="collapse" data-target="navbarMenu">
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarMenu">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a href="#" class="nav-link">ABOUT</a>
+        <div className="collapse navbar-collapse" id="navbarMenu">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a href="" className="nav-link" id="nav-link">ABOUT</a>
             </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">OUR WORK</a>
+            <li className="nav-item">
+              <a href="" className="nav-link" id="nav-link">OUR WORK</a>
             </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">BLOG</a>
+            <li className="nav-item">
+              <a href="" className="nav-link" id="nav-link">BLOG</a>
             </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">CONTACT</a>
+            <li className="nav-item">
+              <a href="" className="nav-link" id="nav-link">CONTACT</a>
             </li>
             <div id="icons">
           <a href="https://www.facebook.com/onanything/"><i className="icons nav-item nav-link text-muted m-2 fa fa-facebook" id="font-icon"></i></a>
@@ -47,6 +44,11 @@ class Navbar extends React.Component {
         </div>
           </ul>
         </div>
+        {/* <div className="in-touch">
+          <p>
+            Get in <span>touch</span>
+          </p>
+        </div> */}
       </nav>
     );
   }

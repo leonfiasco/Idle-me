@@ -6383,6 +6383,10 @@ a.nav-link {
   padding-right: 55px !important;
   font-size: 16px; }
 
+a.nav-link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #b92255; }
+
 @media (max-width: 683px) {
   html, body {
     overflow-x: hidden; }
@@ -6439,23 +6443,19 @@ a.nav-link {
     margin-left: 0px; }
   #text {
     color: #43535b;
-    font-size: 15px;
-    font-size: 1.04vw;
+    font-size: 1.77vw;
     padding-top: 45px; }
   #text-1 {
     color: #43535b;
-    font-size: 15px;
-    font-size: 1.04vw;
+    font-size: 1.77vw;
     padding-top: 25px; }
   #text-2 {
     color: #43535b;
-    font-size: 15px;
-    font-size: 1.04vw;
+    font-size: 1.77vw;
     padding-top: 25px; }
   #text-3 {
     color: #43535b;
-    font-size: 15px;
-    font-size: 1.04vw;
+    font-size: 1.77vw;
     padding-top: 25px; }
   #more {
     padding-right: 20px;
@@ -6466,54 +6466,34 @@ a.nav-link {
     font-weight: 100;
     cursor: pointer; }
   #circle {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     margin-top: 25px;
     background-color: #fff;
     border-radius: 50%;
     position: relative;
     z-index: 1; }
   #circle-1 {
-    height: 65px;
-    width: 65px;
+    height: 80px;
+    width: 80px;
     background-color: #fff;
     border-radius: 50%;
     position: relative;
     z-index: 1; }
   #circle-2 {
-    height: 65px;
-    width: 65px;
+    height: 80px;
+    width: 80px;
     background-color: #fff;
     border-radius: 50%;
     position: relative;
     z-index: 1; }
   #circle-3 {
-    height: 65px;
-    width: 65px;
+    height: 80px;
+    width: 80px;
     background-color: #fff;
     border-radius: 50%;
     position: relative;
-    z-index: 1; }
-  .text {
-    color: #43535b;
-    font-size: 15px;
-    font-size: 1.04vw;
-    padding-top: 45px; }
-  .text-1 {
-    color: #43535b;
-    font-size: 15px;
-    font-size: 1.04vw;
-    padding-top: 25px; }
-  .text-2 {
-    color: #43535b;
-    font-size: 15px;
-    font-size: 1.04vw;
-    padding-top: 25px; }
-  .text-3 {
-    color: #43535b;
-    font-size: 15px;
-    font-size: 1.04vw;
-    padding-top: 25px; } }
+    z-index: 1; } }
 
 #lady-smiling {
   background-repeat: no-repeat; }
@@ -6635,7 +6615,7 @@ a.nav-link {
 .contain:hover .middle-3 {
   opacity: 1; }
 
-#circle {
+.circle {
   height: 250px;
   width: 250px;
   margin-top: -10px;
@@ -6644,7 +6624,7 @@ a.nav-link {
   position: relative;
   z-index: 1; }
 
-#circle-1 {
+.circle-1 {
   height: 250px;
   width: 250px;
   background-color: #fff;
@@ -6652,7 +6632,7 @@ a.nav-link {
   position: relative;
   z-index: 1; }
 
-#circle-2 {
+.circle-2 {
   height: 250px;
   width: 250px;
   background-color: #fff;
@@ -6660,7 +6640,7 @@ a.nav-link {
   position: relative;
   z-index: 1; }
 
-#circle-3 {
+.circle-3 {
   height: 250px;
   width: 250px;
   background-color: #fff;
@@ -6686,7 +6666,7 @@ a.nav-link {
   letter-spacing: 3px; }
 
 #container {
-  margin-left: 230px;
+  margin-left: 255px;
   margin-bottom: 70px; }
 
 .comp-logo1 {
@@ -6823,14 +6803,85 @@ a.nav-link {
     right: 45px;
     height: 35px;
     width: 35px; }
-  .more1 {
-    padding-top: 76px;
-    margin-bottom: 0px;
-    text-align: right;
+  #mores-txt {
+    border: 1px solid #fff;
+    position: absolute;
+    display: flex;
+    margin-top: 360px;
+    margin-left: -10px;
+    width: 355px; }
+  #more1 {
     font-family: aktiv-grotesk-extended, sans-serif;
     font-style: normal;
     font-weight: 100;
-    cursor: pointer; } }
+    cursor: pointer; }
+  #more2 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 265px;
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    cursor: pointer;
+    flex-grow: 1; }
+  label {
+    margin-left: -75px; }
+  #o-circle1 {
+    height: 150px;
+    width: 150px;
+    background-color: #fff;
+    border-radius: 50%;
+    border-style: solid;
+    position: relative;
+    border-color: #fff;
+    display: inline-block;
+    margin-left: 13px;
+    margin-top: -30px; }
+  #o-circle2 {
+    height: 150px;
+    width: 150px;
+    background-color: #fff;
+    border-radius: 50%;
+    border-style: solid;
+    position: relative;
+    border-color: #fff;
+    display: inline-block;
+    margin-left: 13px;
+    margin-top: -30px; }
+  #o-circle3 {
+    height: 150px;
+    width: 150px;
+    background-color: #fff;
+    border-radius: 50%;
+    border-style: solid;
+    position: relative;
+    border-color: #fff;
+    display: inline-block;
+    margin-left: 13px;
+    margin-top: -30px; }
+  #o-circle4 {
+    height: 150px;
+    width: 150px;
+    background-color: #fff;
+    border-radius: 50%;
+    border-style: solid;
+    position: relative;
+    border-color: #fff;
+    display: inline-block;
+    margin-left: 13px;
+    margin-top: 15px; }
+  #facebook {
+    font-size: 15.94vw;
+    line-height: 2.5; }
+  #twitter {
+    font-size: 15.94vw;
+    line-height: 2.5; }
+  #instagram {
+    font-size: 15.94vw;
+    line-height: 2.5; }
+  #behance {
+    font-size: 15.94vw;
+    line-height: 2.5; } }
 
 .text {
   color: #43535b;
@@ -6875,8 +6926,9 @@ a.nav-link {
   padding-left: 4px; }
 
 .more {
-  padding-right: 200px;
-  margin-top: 28px;
+  padding-right: 130px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   text-align: right;
   font-family: aktiv-grotesk-extended, sans-serif;
   font-style: normal;
@@ -6886,23 +6938,29 @@ a.nav-link {
 .img-fluid {
   padding-top: 20px; }
 
-.more2 {
+.mores-txt {
+  border: 5px solid #fff;
   position: absolute;
-  margin-top: 387px;
-  margin-left: -85px;
+  display: flex;
+  margin-top: 328px;
+  margin-left: -10px;
+  width: 650px; }
+
+.more1 {
   font-family: aktiv-grotesk-extended, sans-serif;
   font-style: normal;
   font-weight: 100;
   cursor: pointer; }
 
-.more1 {
-  padding-top: 76px;
-  margin-bottom: 150px;
-  text-align: right;
+.more2 {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 505px;
   font-family: aktiv-grotesk-extended, sans-serif;
   font-style: normal;
   font-weight: 100;
-  cursor: pointer; }
+  cursor: pointer;
+  flex-grow: 1; }
 
 .taster {
   margin-left: 103px;
@@ -7005,7 +7063,7 @@ u {
   color: #43535b;
   font-size: 10px;
   font-size: 0.69vw;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   justify-content: flex-end; }
 
 .o-circle1 {
@@ -7015,17 +7073,6 @@ u {
   border-radius: 50%;
   border-style: solid;
   border-color: #fff;
-  display: inline-block;
-  margin-left: 13px; }
-
-.o-circle1:hover {
-  height: 250px;
-  width: 250px;
-  background-color: #b92255;
-  color: #fff;
-  border-radius: 50%;
-  border-style: solid;
-  border-color: #b92255;
   display: inline-block;
   margin-left: 13px; }
 

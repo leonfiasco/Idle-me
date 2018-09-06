@@ -8,7 +8,7 @@ class Social extends React.Component {
       <div className="container">
         <div className="row">
           <div className="col-sm">
-            <img className="img-fluid" src="/images/blog-placeholder-1.jpg" alt=""></img>
+            <img className="img-fluid" id="home-img" src="/images/blog-placeholder-1.jpg" alt=""></img>
             <div>
               <img className="on-logo" id="on-logo" alt="on-logo" src="/images/on_white.svg"></img>
             </div>
@@ -16,7 +16,7 @@ class Social extends React.Component {
             <p className="social-p" id="social-p">Jade Innes | 17.October 2017</p>
           </div>
           <div className="col-sm">
-            <img className="img-fluid" src="/images/blog-placeholder-2.jpg" alt=""></img>
+            <img className="img-fluid" id="home-img" src="/images/blog-placeholder-2.jpg" alt=""></img>
             <div>
               <img className="on-logo" id="on-logo" alt="on-logo" src="/images/on_white.svg"></img>
             </div>
@@ -25,7 +25,7 @@ class Social extends React.Component {
             {/* <p className="more1" id="more1" href="">See <u>more</u></p> */}
           </div>
           <div className="col-sm">
-            <img className="img-fluid" src="/images/facebook-pic1 .jpg" alt=""></img>
+            <img className="img-fluid" id="home-img" src="/images/facebook-pic1 .jpg" alt=""></img>
             <div>
               <img className="on-logo" id="on-logo" alt="on-logo" src="/images/facebook_white.svg"></img>
             </div>
@@ -33,7 +33,7 @@ class Social extends React.Component {
             <p className="social-p" id="social-p">20. December 2017</p>
           </div>
           <div className="col-sm">
-            <img className="img-fluid" src="/images/tobacco.jpg" alt=""></img>
+            <img className="img-fluid" id="home-img" src="/images/tobacco.jpg" alt=""></img>
             <div>
               <img className="on-logo" id="on-logo" alt="on-logo" src="/images/facebook_white.svg"></img>
             </div>

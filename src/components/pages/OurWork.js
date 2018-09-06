@@ -13,10 +13,10 @@ class OurWork extends React.Component {
         <br></br>
         <div className="d-flex flex-column bd-highlight mb-3">
           <div className="p-2 bd-highlight"></div>
-            <div className="p-2 bd-highlight"><p className="taster1">Show me<span className="dots">...</span></p></div>
+            <div className="p-2 bd-highlight"><p className="taster1" id="taster1">Show me<span className="dots">...</span></p></div>
             <div className="p-2 bd-highlight"></div>
         </div>
-        <div className="work-dot row">
+        <div className="work-dot row" id="work-dot">
   <div className="work-line1 col-sm-6">
     <div className="business row">
       <div className="col">
@@ -66,7 +66,7 @@ class OurWork extends React.Component {
   </div>
 
 
-        <div className="work container-fluid">
+        <div className="work container-fluid" id="work-container">
   <div className="work row">
     <div className="col">
       <img className="place-img" alt="place" src="https://picsum.photos/324/237/?random"></img>

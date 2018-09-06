@@ -11,10 +11,10 @@ class Contact extends React.Component {
         <br></br>
         <div className="d-flex flex-column bd-highlight mb-3">
           <div className="p-2 bd-highlight"></div>
-            <div className="p-2 bd-highlight"><p className="taster1">Blah blah blah<span className="dots">...</span></p></div>
+            <div className="p-2 bd-highlight"><p className="taster1" id="taster1">Blah blah blah<span className="dots">...</span></p></div>
             <div className="p-2 bd-highlight"></div>
         </div>
-        <div className="contact-txt container">
+        <div className="contact-txt container" id="contact-txt">
           <div className="row">
             <div className="col">
               <section>
@@ -28,7 +28,7 @@ class Contact extends React.Component {
               <p>London, UK E3 4QJ</p>
             </section>
             <br></br>
-              <p className="con-txt">Foll<u>ow us</u></p>
+              <p className="con-txt" id="con-txt">Foll<u>ow us</u></p>
 
             </div>
             <div className="col">
@@ -41,6 +41,7 @@ class Contact extends React.Component {
               <input className="field-box"  type="text" name="project" placeholder="Your project"></input><br></br>
               <input className="field-box1" id="message" type="text" name="message" placeholder="Your message"></input>
             </form>
+            {/* <button className="submit">Submit</button> */}
             </div>
           </div>
         </div>

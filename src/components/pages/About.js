@@ -1,8 +1,10 @@
+// eslint-disable-next-line
 import React from 'react';
 
 import Navbar from './../Navbar1';
 import Footer from './../Footer';
 import Company from './../Company1';
+import Dropdown from './../Dropdown';
 
 
 class About extends React.Component {
@@ -35,16 +37,18 @@ class About extends React.Component {
         <br></br>
         <div className="d-flex flex-column bd-highlight mb-3">
           <div className="p-2 bd-highlight"></div>
-            <div className="p-2 bd-highlight"><p className="taster1">I want to know<span className="dots">...</span></p></div>
+            <div className="p-2 bd-highlight"><p className="taster1" id="taster1">I want to know<span className="dots">...</span></p></div>
             <div className="p-2 bd-highlight"></div>
         </div>
+
         <div className="row no-gutters">
           <div className="col no-gutters">
-            <hr className="dotted"/>
+            <hr className="dotted" id="dotted"/>
               <div id="income">
-              <p className="hover we" onClick={this.toggle_visibility.bind(this, 'incometoggle')}>What we do</p>
+              <p className="hover we" id="we" onClick={this.toggle_visibility.bind(this, 'incometoggle')}>What we do</p>
                 <div id="incometoggle" className="income">
-                  <ul>
+
+                 <ul>
                 <div className="one">
                 <li>Branding</li>
               </div>
@@ -86,17 +90,15 @@ class About extends React.Component {
               </div>
               </ul>
           </div>
+        </div>
+  </div>
 
 
 
-
-    </div>
-
-    </div>
 
     <div className="col no-gutters">
-      <hr className="dotted1"/>
-      <p className="hover we1" onClick={this.toggle_visibility.bind(this, 'incometoggle2')}>Who we are</p>
+      <hr className="dotted1" id="dotted1"/>
+      <p className="hover-we1" id="we1" onClick={this.toggle_visibility.bind(this, 'incometoggle2')}>Who we are</p>
       <div id="incometoggle2" className="income">
         <div className="row-fluid">
       <div className="span9">
@@ -154,24 +156,19 @@ class About extends React.Component {
                  </div>
                </div>
                <div className="col no-gutters">
-                 <hr className="dotted2"/>
-                   <p className="hover we2">Who we work with</p>
+                 <hr className="dotted2" id="dotted2"/>
+                    <p className="hover-we2" id="we2">Who we work with</p>
                    <div id="incometoggle2" className="">
                </div>
 
                <div className="col no-gutters">
-                 <hr className="dotted3"/>
-                 <p className="hover we3">Our Story</p>
+                  <hr className="dotted3" id="dotted3"/>
+                  <p className="hover-we3" id="we3">Our Story</p>
                </div>
              </div>
         </div>
 
-
-
-
-
-
-<hr className="dot-line" />
+ <hr className="dot-line" />
 <Company />
 
 <Footer />

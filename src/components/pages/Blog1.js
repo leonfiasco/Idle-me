@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Navbar from './../Navbar2';
+import Navbar from './../Navbar1';
 import Footer from './../Footer';
 
 
@@ -14,18 +14,18 @@ class Blog1 extends React.Component {
             <div className="col">
               <div className="box-1">
                   <div className="p-2 bd-highlight">
-                    <div id="dot-1A">
+                    <div className="dot-1A" id="dot-1A">
                      <div className="cross">
                      <div className="line1"></div>
                      <div className="line2"></div>
                    </div>
                    </div>
-                   <p className="name-txt">Jade Innes<br></br>
+                   <p className="name-txt" id="name-txt">Jade Innes<br></br>
                    17.October 2017
                    </p>
                  </div>
                  <div className="share-box">
-                   <p className="share">SHARE</p>
+                   <p className="share" id="share">SHARE</p>
                    <i id="icons1 text-muted m-2 fa fa-twitter"></i>
                    <i id="icons1 text-muted m-2 fa fa-facebook"></i>
                    <i id="icons1 text-muted m-2 fa fa-envelope"></i>
@@ -35,7 +35,7 @@ class Blog1 extends React.Component {
             <div className="col">
               <div className="box-2">
                  <div className="p-2 bd-highlight d-flex justify-content-center">
-             <h1>Working with Swiss Standard German text<br></br>
+             <h1 id="blog1-header">Working with Swiss Standard German text<br></br>
                as a British designer
              </h1>
 
@@ -44,11 +44,11 @@ class Blog1 extends React.Component {
          </div>
             </div>
             <div className="behance d-flex justify-content-center">
-            <img  alt="blog-placeholder" src="https://uc16d8ffc87452479db7ed309552.previews.dropboxusercontent.com/p/thumb/AAKrUKkM4ymZB3mTvOPhKVGBh4PPnU74QekLwDFTY3zdAv088FlDqwtoxXwYxkpYoBVaSUiV0XKXpWca6JL67rjU98GgM-aWDoo6PItoyv1724SzpoyModVBd3iQjYHxfPyr8rwatr2YYZB1yjHhCO_0oYN3GEyOEpIcvZh9M8oWdVHQDUXeBDhzS7esObOZU9db5Cfy2KffwIclSxtdwR0mo18PzzzdtBWbDNL__Eo7Cw/p.png?size=1280x960&size_mode=3"></img>
+            <img id="blog1-img" alt="blog-placeholder" src="/images/behance-banner.png"></img>
           </div>
 
           </div>
-          <div className="blog-text d-flex justify-content-center">
+          <div className="blog-text d-flex justify-content-center" id="blog-text">
           <p>
             My time at on-IDLE so far has not only taught me a lot about working in a
             studio, but also a fair amount about Switzerland and Swiss culture. For instance,
@@ -70,10 +70,10 @@ class Blog1 extends React.Component {
 
         </div>
         <div className="behance d-flex justify-content-center">
-        <img  alt="blog-placeholder" src="https://uc1a248674722f1eac247a364efe.previews.dropboxusercontent.com/p/thumb/AAIzQuDpHNnsQjjMsRAO0nZSiF3ygtN5g5QurtqkcJtevVvYgHBUpNX576icOk0SiII69V_ODQexyp7hNx2f5UERaNdRj_t9IJ3inmGzJYF4gvaDr0XUFoidVnzqsTyFiyAgJ0X4zfLM9QKiQZLrWEkLwITK6VtKJASj-UIMggBLw6lue9QF6hkyozm94qlhiFtGkiBLd4RhrhRQEuxc4cfd6NonCxE2kvmcEhhaQBGjew/p.png?size=1280x960&size_mode=3"></img>
+        <img id="blog1-img" alt="blog-placeholder" src="/images/und.png"></img>
       </div>
       <div className="blog-text d-flex justify-content-center">
-      <p>
+      <p id="blog-p">
         <h6>Dashes</h6>
         <br></br>
         What came to me quite quickly is that if you are working with Swiss Standard
@@ -101,10 +101,10 @@ class Blog1 extends React.Component {
       </div>
       <hr className="blog-line"></hr>
       <div className="behance d-flex justify-content-center">
-      <img  alt="blog-placeholder" src="https://uc46b3840eb811454d5a266eee44.previews.dropboxusercontent.com/p/thumb/AALFpcrLr59JvO4Sj41odyHtJtPnGI1ZBNqU3stbe0nqfnK9Rb5AS5jug0SlosfY9YYnbWVOffqgdZDQWA7nyuVbuMj69rcQYMdC-EwX0DdY4cRfsKgb6d0_lwxmn_mmgboxnjKn1rkoZWIN8ThOz6GVOD7pmv4h4D4YEgqwWt4j7xXIbjJj-VzhN0JCJWVJgNcO4ye2JQXuZxtb3JHeD3iMyMXpnv1NJg5VMNstbtPi6A/p.png?size=1280x960&size_mode=3"></img>
+      <img id="blog1-img" alt="blog-placeholder" src="/images/blog-post3.png"></img>
     </div>
     <div className="blog-text d-flex justify-content-center">
-    <p>
+    <p id="blog-p">
       <h6>Quotation Marks</h6>
       <br></br>
       ‘Guillemets’ (« ») can often be found in Swiss Standard German text, as a
@@ -126,10 +126,10 @@ class Blog1 extends React.Component {
     </div>
     <hr className="blog-line"></hr>
     <div className="behance d-flex justify-content-center">
-    <img  alt="blog-placeholder" src="https://uc22f39047ab407aa280e3aa271d.previews.dropboxusercontent.com/p/thumb/AAKNRInYEHIhn4ZTLfDqZZHyqKU_Zng44-RutW6ioPy_mD-o7W9zgtIyqKkfMwz8LQW34rYZO-SBsAKX0WMRIHPTB59gpWd_4kxLUk7wNvmg4AzwlhfVD2i7gJJcyI1baLa-tkK39ZrDZ7ujnKF9iZSO1cnl-5ofxwoI_gp7PVP2W6RZLjP7TcgVHS-Z58nk6mPbl-BukYY7gydQ56UExHf82MQUEnHhkXjmb9jcbIcrOg/p.png?size=1280x960&size_mode=3"></img>
+    <img id="blog1-img" alt="blog-placeholder" src="/images/blog-post4.png"></img>
   </div>
   <div className="blog-text d-flex justify-content-center">
-  <p>
+  <p id="blog-p">
     <h6>Numbers</h6>
     <br></br>
     The rule in English language when writing numbers consisting of more than
@@ -146,10 +146,10 @@ class Blog1 extends React.Component {
   </div>
   <hr className="blog-line"></hr>
   <div className="behance d-flex justify-content-center">
-  <img  alt="blog-placeholder" src="https://ucd1203919a23ef287a216b3fd36.previews.dropboxusercontent.com/p/thumb/AAJ6ON-F9x81omQsuZfBAxDJOtiUATzNj_fv-NS5mmodh3BchHLuX_HruRgxpnunuLIpynfJmofzA08QVMc45yjOCI6GqhPwi10jK9_cJWWNyOnV5biIUbfLtTDsl-_7EVdEbBdT-lFR66FyQcHAgPHWAWvXhC1a825gt9K5UPjcppF8XPCsxAufpzkk9vyuQehKPqnZl2a6L3YDctkYZzz0jMxscP5X2J1rQ7C5nh2IXw/p.png?size=1280x960&size_mode=3"></img>
+  <img id="blog1-img" alt="blog-placeholder" src="/images/blog-post5.png"></img>
 </div>
 <div className="blog-text d-flex justify-content-center">
-<p>
+<p id="blog-p">
   <h6>Dates</h6>
   <br></br>
 “Great mission, which is prominently featured (What
@@ -171,10 +171,10 @@ nicely done...”
 </div>
 <hr className="blog-line"></hr>
 <div className="behance d-flex justify-content-center">
-<img  alt="blog-placeholder" src="https://uc03b8c9dc31c16f1cfb27db4d04.previews.dropboxusercontent.com/p/thumb/AAK9d_DslCiulXX7eOSX_qvo5nhvbI9C7SHh_uUOGx2PphJp75vbhzxl2PogFkRXsRV-_-gE-L_4L3MaFOfGDtp2hFjWOrT0Y3HmfxQHwTfNdFs8FScT50RTF8WuNlACTpkVs7g0VBe0lL3ywLDeoLQcrjoknQrxop6wSmlcZGR2grTNUvq2tYMjZHhlNeC5hNIm12ObUY9aLFcGmhyPTGr7PbjFim6MlKIamiZGZx8sCA/p.png?size=1280x960&size_mode=3"></img>
+<img id="blog1-img" alt="blog-placeholder" src="/images/blog-post6.png"></img>
 </div>
 <div className="blog-text d-flex justify-content-center">
-<p>
+<p id="blog-p">
   <h6>Eszett(ß)</h6>
   <br></br>
   A big difference between the written language in Germany and Switzerland is
@@ -205,7 +205,7 @@ nicely done...”
 </p>
 </div>
 <hr className="blog-line"></hr>
- <p className="line-tag"><strong>tags:</strong>Jade Innes, Rules, Swiss, Language, typography, Design, Grammar, Culture, Hyphen, Apostrophe, Eszett,<br></br>Typographic Marks, Glyphs, tips, Type
+ <p className="line-tag" id="line-tag"><strong>tags:</strong>Jade Innes, Rules, Swiss, Language, typography, Design, Grammar, Culture, Hyphen, Apostrophe, Eszett,<br></br>Typographic Marks, Glyphs, tips, Type
  <br></br>
  <br></br>
  <br></br>

@@ -10,7 +10,7 @@ class Navbar extends React.Component {
 
       <nav className="navbar navbar-expand-sm navbar-light">
         <a href="" className="navbar-brand">
-          <img className="idle-logo" id="idle-logo1" alt=""></img>
+          <img className="idle-logo" id="idle-logo1" alt="" href="http://localhost:3000/"></img>
         </a>
         <div className="vl"></div>
         <p id="nav-text">We're innately curious.
@@ -21,16 +21,16 @@ class Navbar extends React.Component {
         <div className="collapse navbar-collapse" id="navbarMenu">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a href="" className="nav-link" id="nav-link">ABOUT</a>
+              <a href="http://localhost:3000/about" className="nav-link" id="nav-link">ABOUT</a>
             </li>
             <li className="nav-item">
-              <a href="" className="nav-link" id="nav-link">OUR WORK</a>
+              <a href="http://localhost:3000/ourwork" className="nav-link" id="nav-link">OUR WORK</a>
             </li>
             <li className="nav-item">
-              <a href="" className="nav-link" id="nav-link">BLOG</a>
+              <a href="http://localhost:3000/blog" className="nav-link" id="nav-link">BLOG</a>
             </li>
             <li className="nav-item">
-              <a href="" className="nav-link" id="nav-link">CONTACT</a>
+              <a href="http://localhost:3000/contact" className="nav-link" id="nav-link">CONTACT</a>
             </li>
             <div id="icons">
           <a href="https://www.facebook.com/onanything/"><i className="icons nav-item nav-link text-muted m-2 fa fa-facebook" id="font-icon"></i></a>

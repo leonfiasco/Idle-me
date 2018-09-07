@@ -6493,7 +6493,15 @@ a.nav-link:hover {
     background-color: #fff;
     border-radius: 50%;
     position: relative;
-    z-index: 1; } }
+    z-index: 1; }
+  #comp-logo1 {
+    margin-bottom: 5px; }
+  #comp-logo2 {
+    margin-bottom: 5px; }
+  #comp-logo3 {
+    margin-bottom: 5px; }
+  #comp-logo4 {
+    margin-bottom: 5px; } }
 
 #lady-smiling {
   background-repeat: no-repeat; }
@@ -6881,7 +6889,9 @@ a.nav-link:hover {
     line-height: 2.5; }
   #behance {
     font-size: 15.94vw;
-    line-height: 2.5; } }
+    line-height: 2.5; }
+  #circle1 {
+    margin-bottom: 5px; } }
 
 .text {
   color: #43535b;
@@ -7259,7 +7269,7 @@ u {
   border: 0;
   border-top: 2px dotted #000000;
   margin-bottom: 40px;
-  margin-left: 0px;
+  margin-left: 45px;
   padding: 0;
   width: 90px; }
 
@@ -7269,7 +7279,7 @@ u {
   border: 0;
   border-top: 2px dotted #000000;
   margin-top: 15px;
-  margin-left: -350px;
+  margin-left: -255px;
   margin-bottom: 40px;
   padding: 0;
   width: 140px; }
@@ -7280,7 +7290,7 @@ u {
   border: 0;
   border-top: 2px dotted #000000;
   margin-top: -84px;
-  margin-left: -140px;
+  margin-left: -55px;
   margin-bottom: 40px;
   padding: 0;
   width: 100px; }
@@ -7300,6 +7310,9 @@ u {
   color: #43535b;
   cursor: pointer; }
 
+#we1 {
+  margin-left: 45px; }
+
 .we1:hover {
   color: #ed2c6c;
   text-decoration: none; }
@@ -7311,6 +7324,9 @@ u {
   color: #43535b;
   cursor: pointer; }
 
+#we2 {
+  margin-left: -255px; }
+
 .we2:hover {
   color: #ed2c6c;
   text-decoration: none; }
@@ -7320,6 +7336,9 @@ u {
   margin-left: -130px;
   color: #43535b;
   cursor: pointer; }
+
+#we3 {
+  margin-left: -40px; }
 
 .we3:hover {
   color: #ed2c6c;
@@ -7395,6 +7414,9 @@ u {
     margin-left: 50px; }
   #circle1 {
     margin-left: 85px; } }
+
+.comp-txt {
+  margin-left: 85px; }
 
 ul {
   margin: 0px 0px 100px 360px;
@@ -7925,10 +7947,8 @@ li:hover {
 .hr-dot {
   border-top: 2px dotted #000000; }
 
-#bcomp-box {
-  padding-left: 230px;
-  padding-right: 230px;
-  display: flex; }
+#comp-box {
+  margin-bottom: 50px; }
 
 #associate-logo1 {
   height: 145px;

@@ -47,7 +47,6 @@ class About extends React.Component {
               <div id="income">
               <p className="hover we" id="we" onClick={this.toggle_visibility.bind(this, 'incometoggle')}>What we do</p>
                 <div id="incometoggle" className="income">
-
                  <ul>
                 <div className="one">
                 <li>Branding</li>

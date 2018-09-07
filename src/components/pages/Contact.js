@@ -41,8 +41,7 @@ class Contact extends React.Component {
               <input className="field-box"  type="text" name="project" placeholder="Your project"></input><br></br>
               <input className="field-box1" id="message" type="text" name="message" placeholder="Your message"></input>
             </form>
-            {/* <button className="submit">Submit</button> */}
-            </div>
+            <button id="submit-button" type="button" class="btn btn-danger">Danger</button>            </div>
           </div>
         </div>
         <Footer />
